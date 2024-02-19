@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{ECE0E23B-FE17-4BCB-92C7-19FA9B1E8ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{CDAE8CE9-EFC0-490D-8C4B-37F95B3E5716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{6BDAA6FC-7BBD-4C0E-94EA-151EF509BDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "Creational Patterns\Factory\StructuralCode\StructuralCode.csproj", "{CA12B145-B523-4BFF-A18D-9BE0BABCC626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDevices", "Creational Patterns\Factory\SmartDevices\SmartDevices.csproj", "{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA12B145-B523-4BFF-A18D-9BE0BABCC626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA12B145-B523-4BFF-A18D-9BE0BABCC626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA12B145-B523-4BFF-A18D-9BE0BABCC626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA12B145-B523-4BFF-A18D-9BE0BABCC626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDAE8CE9-EFC0-490D-8C4B-37F95B3E5716} = {ECE0E23B-FE17-4BCB-92C7-19FA9B1E8ED4}
+		{6BDAA6FC-7BBD-4C0E-94EA-151EF509BDAC} = {CDAE8CE9-EFC0-490D-8C4B-37F95B3E5716}
+		{CA12B145-B523-4BFF-A18D-9BE0BABCC626} = {6BDAA6FC-7BBD-4C0E-94EA-151EF509BDAC}
+		{8FCF99C5-6DF4-4C35-BC50-3AAEDE33120F} = {6BDAA6FC-7BBD-4C0E-94EA-151EF509BDAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
+	EndGlobalSection
+EndGlobal
