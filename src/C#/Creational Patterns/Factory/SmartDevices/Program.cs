@@ -134,14 +134,14 @@ namespace SmartDevices
             while (smartDeviceType != "END")
             {
                 ISmartDeviceCreator smartDeviceCreator = smartDeviceCreators
-                    .FirstOrDefault(sdf => sdf.GetType().Name.StartsWith(string.Join(string.Empty, smartDeviceType.Split())));
+                    .FirstOrDefault(sdc => sdc.GetType().Name.StartsWith(string.Join(string.Empty, smartDeviceType.Split())));
 
                 while (smartDeviceCreator == null)
                 {
                     Console.Write("Enter valid smart device type: ");
                     smartDeviceType = Console.ReadLine();
                     smartDeviceCreator = smartDeviceCreators
-                        .FirstOrDefault(sdf => sdf.GetType().Name.StartsWith(string.Join(string.Empty, smartDeviceType.Split())));
+                        .FirstOrDefault(sdc => sdc.GetType().Name.StartsWith(string.Join(string.Empty, smartDeviceType.Split())));
                 }
 
                 Console.Write("Enter Smart Device Brand - Samsung, Xiaomi, or Apple: ");

@@ -350,7 +350,7 @@ class Program {
             String initialSmartDeviceTypeInput = String.join("", smartDeviceType.split("\\s+"));
 
             ISmartDeviceCreator smartDeviceCreator = smartDeviceCreators.stream()
-                    .filter(sdf -> sdf.getClass().getSimpleName().startsWith(initialSmartDeviceTypeInput))
+                    .filter(sdc -> sdc.getClass().getSimpleName().startsWith(initialSmartDeviceTypeInput))
                     .findFirst()
                     .orElse(null);
 
@@ -361,7 +361,7 @@ class Program {
                 String currentSmartDeviceTypeInput = String.join("", smartDeviceType.split("\\s+"));
 
                 smartDeviceCreator = smartDeviceCreators.stream()
-                        .filter(sdf -> sdf.getClass().getSimpleName().startsWith(currentSmartDeviceTypeInput))
+                        .filter(sdc -> sdc.getClass().getSimpleName().startsWith(currentSmartDeviceTypeInput))
                         .findFirst()
                         .orElse(null);
             }
@@ -373,7 +373,7 @@ class Program {
 
             try {
                 smartDeviceBrand = SmartDeviceBrand.valueOf(smartDeviceBrandInput);
-            } catch (IllegalArgumentException e) {
+            } catch (IllegalArgumentException illegalArgumentException) {
                 System.out.print("Enter valid smart device brand: ");
                 smartDeviceBrandInput = scanner.nextLine();
                 smartDeviceBrand = SmartDeviceBrand.valueOf(smartDeviceBrandInput);
