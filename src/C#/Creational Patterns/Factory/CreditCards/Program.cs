@@ -30,7 +30,7 @@ namespace CreditCards
                     Console.WriteLine($"Enter credit card details for type {creditCardTypeFromCreator}: ");
 
                     Console.Write("Enter model: ");
-                    string creditCardModel = Console.ReadLine();
+                    string creditCardModel = Console.ReadLine(); 
                     Console.Write("Enter limit: ");
                     decimal creditCardLimit = decimal.Parse(Console.ReadLine());
                     Console.Write("Enter annual charge: ");
