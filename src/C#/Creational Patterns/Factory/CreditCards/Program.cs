@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace CreditCards
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

@@ -13,7 +13,7 @@ namespace PizzaSimpleFactory
            "the way back to the 18th century in Naples, Italy. ";
     }
 
-    public class Funghi : IPizza 
+    public class Funghi : IPizza
     {
         public string ShowDetails() => "A pizza funghi, or better known as a mushroom pizza is a world famous pizza. " +
            "It doesn't need many ingredients, recipe for 2 pizzas.";
