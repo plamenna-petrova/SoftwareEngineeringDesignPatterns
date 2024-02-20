@@ -1,6 +1,6 @@
 <?php
 
-namespace CreditCards\Extensions;
+namespace CreationalPatterns\Factory\CreditCards\Extensions;
 
 class StringExtensions
 {

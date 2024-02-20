@@ -1,8 +1,8 @@
 <?php
 
-namespace CreditCards\Creators;
+namespace CreationalPatterns\Factory\CreditCards\Creators;
 
-use CreditCards\Products\Platinum;
+use CreationalPatterns\Factory\CreditCards\Products\Platinum;
 
 class PlatinumCreditCardCreator implements ICreditCardCreator
 {

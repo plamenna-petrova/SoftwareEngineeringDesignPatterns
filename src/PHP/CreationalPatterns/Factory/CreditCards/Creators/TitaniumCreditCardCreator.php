@@ -1,8 +1,8 @@
 <?php
 
-namespace CreditCards\Creators;
+namespace CreationalPatterns\Factory\CreditCards\Creators;
 
-use CreditCards\Products\Titanium;
+use CreationalPatterns\Factory\CreditCards\Products\Titanium;
 
 class TitaniumCreditCardCreator implements ICreditCardCreator
 {

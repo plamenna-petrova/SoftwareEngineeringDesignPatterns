@@ -1,8 +1,8 @@
 <?php
 
-namespace CreditCards\Creators;
+namespace CreationalPatterns\Factory\CreditCards\Creators;
 
-use CreditCards\Products\MoneyBack;
+use CreationalPatterns\Factory\CreditCards\Products\MoneyBack;
 
 class MoneyBackCreditCardCreator implements ICreditCardCreator
 {

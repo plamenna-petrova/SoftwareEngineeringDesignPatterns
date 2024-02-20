@@ -1,8 +1,8 @@
 <?php
 
-namespace CreditCards\Products;
+namespace CreationalPatterns\Factory\CreditCards\Products;
 
-class Platinum extends CreditCard
+class Titanium extends CreditCard
 {
     public function __construct($model, $limit, $annualCharge)
     {

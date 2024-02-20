@@ -1,9 +1,11 @@
 <?php
 
-use CreditCards\Creators\MoneyBackCreditCardCreator;
-use CreditCards\Creators\PlatinumCreditCardCreator;
-use CreditCards\Creators\TitaniumCreditCardCreator;
-use CreditCards\Extensions\StringExtensions;
+use CreationalPatterns\Factory\CreditCards\Creators\MoneyBackCreditCardCreator;
+use CreationalPatterns\Factory\CreditCards\Creators\PlatinumCreditCardCreator;
+use CreationalPatterns\Factory\CreditCards\Creators\TitaniumCreditCardCreator;
+use CreationalPatterns\Factory\CreditCards\Extensions\StringExtensions;
+
+require_once 'vendor/autoload.php';
 
 $creditCardCreators = [
     new MoneyBackCreditCardCreator(),

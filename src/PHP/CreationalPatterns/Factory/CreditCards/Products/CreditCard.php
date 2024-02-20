@@ -1,9 +1,9 @@
 <?php
 
-namespace CreditCards\Products;
+namespace CreationalPatterns\Factory\CreditCards\Products;
 
-use CreditCards\Extensions\StringExtensions;
 use InvalidArgumentException;
+use CreationalPatterns\Factory\CreditCards\Extensions\StringExtensions;
 
 class CreditCard
 {

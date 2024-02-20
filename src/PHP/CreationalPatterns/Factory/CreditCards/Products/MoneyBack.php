@@ -1,6 +1,6 @@
 <?php
 
-namespace CreditCards\Products;
+namespace CreationalPatterns\Factory\CreditCards\Products;
 
 class MoneyBack extends CreditCard
 {

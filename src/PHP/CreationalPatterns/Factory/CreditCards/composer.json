@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/credit_cards",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "user",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "CreationalPatterns\\Factory\\CreditCards\\Creators\\": "Creators",
+      "CreationalPatterns\\Factory\\CreditCards\\Products\\": "Products",
+      "CreationalPatterns\\Factory\\CreditCards\\Extensions\\": "Extensions"
+    }
+  }
+}

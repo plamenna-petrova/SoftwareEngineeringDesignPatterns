@@ -1,6 +1,6 @@
 <?php
 
-namespace CreditCards\Creators;
+namespace CreationalPatterns\Factory\CreditCards\Creators;
 
 interface ICreditCardCreator
 {
