@@ -9,7 +9,7 @@ namespace SmartDevices
     {
         public abstract decimal Price { get; set; }
 
-        public List<string> Characteristics { get; set; }
+        public List<string> Characteristics { get; set; } 
 
         public override string ToString()
         {

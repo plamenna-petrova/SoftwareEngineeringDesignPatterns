@@ -14,7 +14,7 @@ namespace CreditCards
             {
                 ICreditCardCreator[] creditCardCreators = new ICreditCardCreator[]
                 {
-                    new MoneyBackCreditCardCreator(),
+                    new MoneyBackCreditCardCreator(), 
                     new TitaniumCreditCardCreator(),
                     new PlatinumCreditCardCreator()
                 };

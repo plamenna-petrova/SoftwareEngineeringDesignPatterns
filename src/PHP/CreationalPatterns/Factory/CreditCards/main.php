@@ -40,5 +40,3 @@ foreach ($creditCardCreators as $creditCardCreator) {
 foreach ($creditCards as $creditCard) {
     echo $creditCard->__toString() . "\n";
 }
-
-
