@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/AirConditioners/AirConditioners.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/AirConditioners/AirConditioners.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/CreditCards/CreditCards.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/Documents/Documents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/GenericFactory/GenericFactory.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/GenericFactory/GenericFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/GenericFactory/GenericFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/GenericFactory/GenericFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/SmartDevices/SmartDevices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory/StructuralCode/StructuralCode.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory/StructuralCode/StructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/StructuralCode/StructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/StructuralCode/StructuralCode.iml" />
     </modules>
   </component>
 </project>

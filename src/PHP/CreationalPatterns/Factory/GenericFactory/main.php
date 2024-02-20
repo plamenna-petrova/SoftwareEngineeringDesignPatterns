@@ -2,12 +2,12 @@
 
 class Alpha
 {
-    public $description;
+    public string $description;
 }
 
 class Bravo
 {
-    public $name;
+    public string $name;
 }
 
 class FactoryBase
