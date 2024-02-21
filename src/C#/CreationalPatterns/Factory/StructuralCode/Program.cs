@@ -13,7 +13,7 @@ namespace StructuralCode
     }
 
     public class ConcreteProductB : Product
-    {
+    { 
 
     }
 
