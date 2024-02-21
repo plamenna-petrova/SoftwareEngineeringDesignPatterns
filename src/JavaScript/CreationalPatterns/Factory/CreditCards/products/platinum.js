@@ -1,5 +1,5 @@
 
-const CreditCard = require('./CreditCard');
+const CreditCard = require('./creditCard');
 
 class Platinum extends CreditCard {
     constructor(model, limit, annualCharge) {

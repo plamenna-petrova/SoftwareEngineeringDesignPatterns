@@ -1,5 +1,5 @@
 
-const CreditCard = require('./CreditCard');
+const CreditCard = require('./creditCard');
 
 class MoneyBack extends CreditCard {
     constructor(model, limit, annualCharge) {
