@@ -49,10 +49,10 @@ enum Action {
     Warming
 }
 
-class AirConditioner {
+class AirConditionersManager {
     private final EnumMap<Action, AirConditionerFactory> airConditionerFactories;
 
-    public AirConditioner() {
+    public AirConditionersManager() {
         airConditionerFactories = new EnumMap<>(Action.class);
 
         for (Action action : Action.values()) {
@@ -60,8 +60,8 @@ class AirConditioner {
                 Class<?> factoryClass = Class.forName(action.name() + "Factory");
                 AirConditionerFactory airConditionerFactory = (AirConditionerFactory) factoryClass.getDeclaredConstructor().newInstance();
                 airConditionerFactories.put(action, airConditionerFactory);
-            } catch (Exception e) {
-                e.printStackTrace();
+            } catch (Exception exception) {
+                System.out.println(exception.getMessage());
             }
         }
     }
@@ -73,12 +73,12 @@ class AirConditioner {
 
 class Program {
     public static void main(String[] args) {
-        AirConditioner airConditioner = new AirConditioner();
+        AirConditionersManager airConditionersManager = new AirConditionersManager();
 
-        IAirConditioner coolingAirConditioner = airConditioner.executeCreation(Action.Cooling, 22.5);
+        IAirConditioner coolingAirConditioner = airConditionersManager.executeCreation(Action.Cooling, 22.5);
         coolingAirConditioner.operate();
 
-        IAirConditioner warmingAirConditioner = airConditioner.executeCreation(Action.Warming, 33.4);
+        IAirConditioner warmingAirConditioner = airConditionersManager.executeCreation(Action.Warming, 33.4);
         warmingAirConditioner.operate();
     }
 }

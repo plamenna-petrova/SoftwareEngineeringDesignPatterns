@@ -1,14 +1,14 @@
 
 class CreditCard {
-    static CreditCardMinimumLimit = 1000;
-    static CreditCardMaximumLimit = 10000000;
-    static CreditCardMinimumAnnualCharge = 1500;
-    static CreditCardMaximumAnnualCharge = 70000;
-    static NullOrWhiteSpaceCreditCardModelErrorMessage = "The {0}'s model cannot be empty!";
-    static CreditCardLimitOutOfRangeErrorMessage = "The credit card's limit must be between {0} and {1}!";
-    static CreditCardAnnualChargeOutOfRangeErrorMessage = "The credit card's annual charge must be between {0} and {1}!";
-    static NonNumericLimitErrorMessage = "The credit card's limit must be a number!";
-    static NonNumericAnnualChargeErrorMessage = "The credit card's annual charge must be a number!";
+    static CREDIT_CARD_MINIMUM_LIMIT = 1000;
+    static CREDIT_CARD_MAXIMUM_LIMIT = 10000000;
+    static CREDIT_CARD_MINIMUM_ANNUAL_CHARGE = 1500;
+    static CREDIT_CARD_MAXIMUM_ANNUAL_CHARGE = 70000;
+    static NULL_OR_WHITESPACE_CREDIT_CARD_MODEL_ERROR_MESSAGE = "The {0}'s model cannot be empty!";
+    static CREDIT_CARD_LIMIT_OUT_OF_RANGE_ERROR_MESSAGE = "The credit card's limit must be between {0} and {1}!";
+    static CREDIT_CARD_ANNUAL_CHARGE_OUT_OF_RANGE_ERROR_MESSAGE = "The credit card's annual charge must be between {0} and {1}!";
+    static NON_NUMERIC_LIMIT_ERROR_MESSAGE = "The credit card's limit must be a number!";
+    static NON_NUMERIC_ANNUAL_CHARGE_ERROR_MESSAGE = "The credit card's annual charge must be a number!";
 
     constructor(model, limit, annualCharge) {
         this.Model = model;
@@ -19,7 +19,7 @@ class CreditCard {
     set Model(value) {
         if (!value || value.trim() === "") {
             throw new Error(
-                CreditCard.NullOrWhiteSpaceCreditCardModelErrorMessage.replace("{0}", this.constructor.name)
+                CreditCard.NULL_OR_WHITESPACE_CREDIT_CARD_MODEL_ERROR_MESSAGE.replace("{0}", this.constructor.name)
             );
         }
         this.model = value;
@@ -31,17 +31,18 @@ class CreditCard {
 
     set Limit(value) {
         if (isNaN(value)) {
-            throw new Error(CreditCard.NonNumericLimitErrorMessage);
+            throw new Error(CreditCard.NON_NUMERIC_LIMIT_ERROR_MESSAGE);
         }
 
         value = parseFloat(value);
 
-        if (value < CreditCard.CreditCardMinimumLimit || value > CreditCard.CreditCardMaximumLimit) {
+        if (value < CreditCard.CREDIT_CARD_MINIMUM_LIMIT || value > CreditCard.CREDIT_CARD_MAXIMUM_LIMIT) {
             throw new Error(
-                CreditCard.CreditCardLimitOutOfRangeErrorMessage.replace("{0}", CreditCard.CreditCardMinimumLimit)
-                    .replace("{1}", CreditCard.CreditCardMaximumLimit)
+                CreditCard.CREDIT_CARD_LIMIT_OUT_OF_RANGE_ERROR_MESSAGE.replace("{0}", CreditCard.CREDIT_CARD_MINIMUM_LIMIT)
+                    .replace("{1}", CreditCard.CREDIT_CARD_MAXIMUM_LIMIT)
             );
         }
+
         this.limit = value;
     }
 
@@ -51,15 +52,15 @@ class CreditCard {
 
     set AnnualCharge(value) {
         if (isNaN(value)) {
-            throw new Error(CreditCard.NonNumericAnnualChargeErrorMessage);
+            throw new Error(CreditCard.NON_NUMERIC_ANNUAL_CHARGE_ERROR_MESSAGE);
         }
 
         value = parseFloat(value);
 
-        if (value < CreditCard.CreditCardMinimumAnnualCharge || value > CreditCard.CreditCardMaximumAnnualCharge) {
+        if (value < CreditCard.CREDIT_CARD_MINIMUM_ANNUAL_CHARGE || value > CreditCard.CREDIT_CARD_MAXIMUM_ANNUAL_CHARGE) {
             throw new Error(
-                CreditCard.CreditCardAnnualChargeOutOfRangeErrorMessage.replace("{0}", CreditCard.CreditCardMinimumAnnualCharge)
-                    .replace("{1}", CreditCard.CreditCardMaximumAnnualCharge)
+                CreditCard.CREDIT_CARD_ANNUAL_CHARGE_OUT_OF_RANGE_ERROR_MESSAGE.replace("{0}", CreditCard.CREDIT_CARD_MINIMUM_ANNUAL_CHARGE)
+                    .replace("{1}", CreditCard.CREDIT_CARD_MAXIMUM_ANNUAL_CHARGE)
             );
         }
         this.annualCharge = value;

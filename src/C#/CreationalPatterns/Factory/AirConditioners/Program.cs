@@ -59,11 +59,11 @@ namespace AirConditioners
         Warming
     }
 
-    public class AirConditioner
+    public class AirConditionersManager
     {
         private readonly Dictionary<Action, AirConditionerFactory> _airConditionerFactories;
 
-        public AirConditioner()
+        public AirConditionersManager()
         {
             _airConditionerFactories = new Dictionary<Action, AirConditionerFactory>();
 
@@ -85,12 +85,12 @@ namespace AirConditioners
     {
         static void Main(string[] args)
         {
-            var airConditioner = new AirConditioner();
+            var airConditionersManager = new AirConditionersManager();
 
-            var coolingAirConditioner = airConditioner.ExecuteCreation(Action.Cooling, 22.5);
+            var coolingAirConditioner = airConditionersManager.ExecuteCreation(Action.Cooling, 22.5);
             coolingAirConditioner.Operate();
 
-            var warmingAirConditioner = airConditioner.ExecuteCreation(Action.Warming, 33.4);
+            var warmingAirConditioner = airConditionersManager.ExecuteCreation(Action.Warming, 33.4);
             warmingAirConditioner.Operate();
         }
     }

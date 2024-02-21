@@ -3,75 +3,75 @@ const prompt = require("prompt-sync")();
 
 class SmartDevice {
     constructor() {
-        this.Price = 0;
-        this.Characteristics = [];
+        this.price = 0;
+        this.characteristics = [];
     }
 
     toString() {
-        return `${this.constructor.name}'s Details:\nPrice: ${this.Price}\nCharacteristics: ${this.Characteristics.join(", ")}`;
+        return `${this.constructor.name}'s Details:\nPrice: ${this.price}\nCharacteristics: ${this.characteristics.join(", ")}`;
     }
 }
 
 class SamsungGalaxyS23Ultra extends SmartDevice {
     constructor() {
         super();
-        this.Price = 1970.00;
+        this.price = 1970.00;
     }
 }
 
 class XiaomiRedmiNote12Pro extends SmartDevice {
     constructor() {
         super();
-        this.Price = 630.00;
+        this.price = 630.00;
     }
 }
 
 class IPhone12ProMax extends SmartDevice {
     constructor() {
         super();
-        this.Price = 1470.00;
+        this.price = 1470.00;
     }
 }
 
 class GalaxyWatchClassic extends SmartDevice {
     constructor() {
         super();
-        this.Price = 760.00;
+        this.price = 760.00;
     }
 }
 
 class XiaomiWatch2Pro extends SmartDevice {
     constructor() {
         super();
-        this.Price = 620.00;
+        this.price = 620.00;
     }
 }
 
 class AppleWatchUltra2 extends SmartDevice {
     constructor() {
         super();
-        this.Price = 830.00;
+        this.price = 830.00;
     }
 }
 
 class GalaxyBuds2Pro extends SmartDevice {
     constructor() {
         super();
-        this.Price = 470.00;
+        this.price = 470.00;
     }
 }
 
 class RedmiAirdotsBasic2 extends SmartDevice {
     constructor() {
         super();
-        this.Price = 267.00;
+        this.price = 267.00;
     }
 }
 
 class AirPods extends SmartDevice {
     constructor() {
         super();
-        this.Price = 950.00;
+        this.price = 950.00;
     }
 }
 
@@ -136,22 +136,20 @@ const smartPhoneCreator = new SmartPhoneCreator();
 const smartWatchCreator = new SmartWatchCreator();
 const earbudsCreator = new EarbudsCreator();
 
-const smartDeviceCreators = [smartPhoneCreator, smartWatchCreator, earbudsCreator];
-
 let smartDeviceType = prompt("Enter Smart Device Type - Smart Phone, Smart Watch or Earbuds:");
 
 while (smartDeviceType.toUpperCase() !== "END") {
-    let smartDeviceCreator = null;
+    let targetSmartDeviceCreator = null;
 
-    switch (smartDeviceType.toUpperCase()) {
-        case "SMART PHONE":
-            smartDeviceCreator = smartPhoneCreator;
+    switch (smartDeviceType) {
+        case "Smart Phone":
+            targetSmartDeviceCreator = smartPhoneCreator;
             break;
-        case "SMART WATCH":
-            smartDeviceCreator = smartWatchCreator;
+        case "Smart Watch":
+            targetSmartDeviceCreator = smartWatchCreator;
             break;
-        case "EARBUDS":
-            smartDeviceCreator = earbudsCreator;
+        case "Earbuds":
+            targetSmartDeviceCreator = earbudsCreator;
             break;
         default:
             smartDeviceType = prompt("Enter valid smart device type: Smart Phone, Smart Watch or Earbuds:");
@@ -159,24 +157,24 @@ while (smartDeviceType.toUpperCase() !== "END") {
     }
 
     const smartDeviceBrandInput = prompt("Enter Smart Device Brand - Samsung, Xiaomi, or Apple:");
-    let smartDeviceBrand;
+    let targetSmartDeviceBrand;
 
-    switch (smartDeviceBrandInput.toUpperCase()) {
-        case "SAMSUNG":
-            smartDeviceBrand = SmartDeviceBrand.Samsung;
+    switch (smartDeviceBrandInput) {
+        case "Samsung":
+            targetSmartDeviceBrand = SmartDeviceBrand.Samsung;
             break;
-        case "XIAOMI":
-            smartDeviceBrand = SmartDeviceBrand.Xiaomi;
+        case "Xiaomi":
+            targetSmartDeviceBrand = SmartDeviceBrand.Xiaomi;
             break;
-        case "APPLE":
-            smartDeviceBrand = SmartDeviceBrand.Apple;
+        case "Apple":
+            targetSmartDeviceBrand = SmartDeviceBrand.Apple;
             break;
         default:
             prompt("Enter valid smart device brand: Samsung, Xiaomi, or Apple:");
             continue;
     }
 
-    const smartDevice = smartDeviceCreator.createSmartDevice(smartDeviceBrand);
+    const smartDevice = targetSmartDeviceCreator.createSmartDevice(targetSmartDeviceBrand);
 
     const smartDeviceCharacteristics = prompt(`Enter device characteristics for ${smartDevice.constructor.name} separated by '|':`)
         .split("|")

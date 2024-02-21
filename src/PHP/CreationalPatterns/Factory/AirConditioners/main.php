@@ -6,30 +6,6 @@ class Action
     const Warming = 1;
 }
 
-class AirConditioner
-{
-    private array $airConditionerFactories = [];
-
-    public function __construct()
-    {
-        $actionReflectionClass = new ReflectionClass(Action::class);
-        $actionReflectionClassConstants = $actionReflectionClass->getConstants();
-        $actionReflectionClassConstantsNames = array_keys($actionReflectionClassConstants);
-
-        foreach ($actionReflectionClassConstantsNames as $actionReflectionClassConstantsName) {
-            $airConditionerFactoryClassName = $actionReflectionClassConstantsName . "Factory";
-            $airConditionerFactory = new $airConditionerFactoryClassName();
-            $actionReflectionClassConstantValue = $actionReflectionClassConstants[$actionReflectionClassConstantsName];
-            $this->airConditionerFactories[$actionReflectionClassConstantValue] = $airConditionerFactory;
-        }
-    }
-
-    public function executeCreation($action, $temperature)
-    {
-        return $this->airConditionerFactories[$action]->createAirConditioner($temperature);
-    }
-}
-
 class CoolingFactory
 {
     public function createAirConditioner($temperature): CoolingManager
@@ -81,10 +57,34 @@ class WarmingManager implements IAirConditioner
     }
 }
 
-$airConditioner = new AirConditioner();
+class AirConditionersManager
+{
+    private array $airConditionerFactories = [];
 
-$coolingAirConditioner = $airConditioner->executeCreation(Action::Cooling, 22.5);
+    public function __construct()
+    {
+        $actionReflectionClass = new ReflectionClass(Action::class);
+        $actionReflectionClassConstants = $actionReflectionClass->getConstants();
+        $actionReflectionClassConstantsNames = array_keys($actionReflectionClassConstants);
+
+        foreach ($actionReflectionClassConstantsNames as $actionReflectionClassConstantsName) {
+            $airConditionerFactoryClassName = $actionReflectionClassConstantsName . "Factory";
+            $airConditionerFactory = new $airConditionerFactoryClassName();
+            $actionReflectionClassConstantValue = $actionReflectionClassConstants[$actionReflectionClassConstantsName];
+            $this->airConditionerFactories[$actionReflectionClassConstantValue] = $airConditionerFactory;
+        }
+    }
+
+    public function executeCreation($action, $temperature)
+    {
+        return $this->airConditionerFactories[$action]->createAirConditioner($temperature);
+    }
+}
+
+$airConditionersManager = new AirConditionersManager();
+
+$coolingAirConditioner = $airConditionersManager->executeCreation(Action::Cooling, 22.5);
 $coolingAirConditioner->operate();
 
-$warmingAirConditioner = $airConditioner->executeCreation(Action::Warming, 33.4);
+$warmingAirConditioner = $airConditionersManager->executeCreation(Action::Warming, 33.4);
 $warmingAirConditioner->operate();
