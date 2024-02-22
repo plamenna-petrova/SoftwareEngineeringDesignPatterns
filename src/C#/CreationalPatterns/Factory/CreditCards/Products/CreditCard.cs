@@ -73,8 +73,8 @@ namespace CreditCards.Products
             {
                 if (value < CreditCardMinimumAnnualCharge || value > CreditCardMaximumAnnualCharge)
                 {
-                    throw new ArgumentException(string.Format(
-                        CreditCardAnnualChargeOutOfRangeErrorMessage, CreditCardMinimumAnnualCharge, CreditCardMaximumAnnualCharge)
+                    throw new ArgumentException(
+                        string.Format(CreditCardAnnualChargeOutOfRangeErrorMessage, CreditCardMinimumAnnualCharge, CreditCardMaximumAnnualCharge)
                     );
                 }
 

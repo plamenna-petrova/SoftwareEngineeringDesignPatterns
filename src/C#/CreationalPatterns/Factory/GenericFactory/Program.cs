@@ -49,13 +49,20 @@ namespace GenericFactory
     {
         static void Main(string[] args)
         {
-            var alphaFactory = ServiceLocator.GetFactory<Alpha>();
-            var alphaObject = alphaFactory.Create();
-            Console.WriteLine($"Description: {alphaObject.Description}");
+            try
+            {
+                var alphaFactory = ServiceLocator.GetFactory<Alpha>();
+                var alphaObject = alphaFactory.Create();
+                Console.WriteLine($"Description: {alphaObject.Description}");
 
-            var bravoFactory = ServiceLocator.GetFactory<Bravo>();
-            var bravoObject = bravoFactory.Create();
-            Console.WriteLine($"Name: {bravoObject.Name}");
+                var bravoFactory = ServiceLocator.GetFactory<Bravo>();
+                var bravoObject = bravoFactory.Create();
+                Console.WriteLine($"Name: {bravoObject.Name}");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
     }
 }

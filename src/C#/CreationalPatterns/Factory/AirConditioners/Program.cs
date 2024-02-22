@@ -8,11 +8,11 @@ namespace AirConditioners
         void Operate();
     }
 
-    public class CoolingManger : IAirConditioner
+    public class CoolingManager : IAirConditioner
     {
         private readonly double temperature;
 
-        public CoolingManger(double temperature)
+        public CoolingManager(double temperature)
         {
             this.temperature = temperature;
         }
@@ -45,7 +45,7 @@ namespace AirConditioners
 
     public class CoolingFactory : AirConditionerFactory
     {
-        public override IAirConditioner CreateAirConditioner(double temperature) => new CoolingManger(temperature);
+        public override IAirConditioner CreateAirConditioner(double temperature) => new CoolingManager(temperature);
     }
 
     public class WarmingFactory : AirConditionerFactory
