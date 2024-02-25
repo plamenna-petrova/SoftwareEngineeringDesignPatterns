@@ -5,6 +5,7 @@ namespace Motorcycles
     public abstract class MotorcyclesFactory
     {
         public abstract Scooter CreateScooter();
+
         public abstract SportsBike CreateSportsBike();
     }
 
@@ -41,7 +42,7 @@ namespace Motorcycles
 
     public abstract class SportsBike
     {
-        public abstract void Overrun(Scooter s);
+        public abstract void Overrun(Scooter scooter);
     }
 
     public class MaxiScooter : Scooter
@@ -51,9 +52,9 @@ namespace Motorcycles
 
     public class SportsTourer : SportsBike
     {
-        public override void Overrun(Scooter s)
+        public override void Overrun(Scooter scooter)
         {
-            Console.WriteLine($"{this.GetType().Name} overruns {s.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} overruns {scooter.GetType().Name}");
         }
     }
 
@@ -64,9 +65,9 @@ namespace Motorcycles
 
     public class TrackMotorbike : SportsBike
     {
-        public override void Overrun(Scooter s)
+        public override void Overrun(Scooter scooter)
         {
-            Console.WriteLine($"{this.GetType().Name} overruns {s.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} overruns {scooter.GetType().Name}");
         }
     }
 

@@ -45,8 +45,6 @@ namespace AnimalWorld
         public abstract void Eat(Herbivore herbivore);
     }
 
-    // products for the concrete Africa factory
-
     public class WildeBeest : Herbivore
     {
 
@@ -59,8 +57,6 @@ namespace AnimalWorld
             Console.WriteLine($"{this.GetType().Name} eats {herbivore.GetType().Name}");
         }
     }
-
-    // products for the concrete America factory
 
     public class Bison : Herbivore
     {
