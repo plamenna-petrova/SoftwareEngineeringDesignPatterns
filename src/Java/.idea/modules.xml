@@ -5,17 +5,23 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AbstractFactoryStructuralCode/AbstractFactoryStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AbstractFactoryStructuralCode/AbstractFactoryStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AnimalWorld/AnimalWorld.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AnimalWorld/AnimalWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Furniture/Furniture.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Furniture/Furniture.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/GenericFactory/GenericFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/GenericFactory/GenericFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" />
     </modules>
   </component>
 </project>

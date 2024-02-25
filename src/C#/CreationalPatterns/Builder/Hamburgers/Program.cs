@@ -1,10 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Hamburgers
 {
-    using System;
-    using System.Collections.Generic;
-
     public class Hamburger
     {
         private string hamburgerName;
@@ -143,7 +141,7 @@ namespace Hamburgers
         }
     }
 
-    public class HamburgerProgram
+    public class Program
     {
         static void Main(string[] args)
         {
