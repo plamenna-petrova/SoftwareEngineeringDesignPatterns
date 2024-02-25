@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/era_styles",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "CreationalPatterns\\AbstractFactory\\EraStyles\\ConcreteFactories\\": "ConcreteFactories",
+      "CreationalPatterns\\AbstractFactory\\EraStyles\\Products\\": "Products",
+      "CreationalPatterns\\AbstractFactory\\EraStyles\\Abstraction\\": "Abstraction",
+      "CreationalPatterns\\AbstractFactory\\EraStyles\\Constants\\": "Constants",
+      "CreationalPatterns\\AbstractFactory\\EraStyles\\Client\\": "Client"
+    }
+  }
+}

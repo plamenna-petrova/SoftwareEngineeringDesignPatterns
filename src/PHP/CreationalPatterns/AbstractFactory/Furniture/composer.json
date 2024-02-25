@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/furniture",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "CreationalPatterns\\AbstractFactory\\Furniture\\ConcreteFactories\\": "ConcreteFactories",
+      "CreationalPatterns\\AbstractFactory\\Furniture\\Products\\": "Products",
+      "CreationalPatterns\\AbstractFactory\\Furniture\\Interfaces\\": "Interfaces"
+    }
+  }
+}
