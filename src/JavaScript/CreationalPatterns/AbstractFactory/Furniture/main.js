@@ -12,7 +12,7 @@ const furnitureStyle = parseInt(prompt("Enter your choice: "));
 const furnitureFactory = getFurnitureFactory(furnitureStyle);
 
 console.log("Please select your furniture type:");
-console.log("[1] Cabinet, [2] Chair, [3] Dining Table");
+console.log("[1] Cabinet, [2] Chair, [3] Dining Table"); 
 
 const furnitureType = parseInt(prompt("Enter your choice: "));
 const furniture = getFurniture(furnitureFactory, furnitureType);
