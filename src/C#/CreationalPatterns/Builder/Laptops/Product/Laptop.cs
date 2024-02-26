@@ -36,7 +36,7 @@ namespace Laptops.Product
             stringBuilder.AppendLine($"RAM Size: {RAMSize} GB");
             stringBuilder.AppendLine($"Display Type: {DisplayType}");
             stringBuilder.AppendLine($"SSD Type: {SSDType}");
-            stringBuilder.AppendLine($"SSD Capacity: {SSDCapacity} TB");
+            stringBuilder.AppendLine($"SSD Capacity: {SSDCapacity} GB");
             stringBuilder.AppendLine($"Extras: ");
             stringBuilder.AppendLine(string.Join('\n', Extras.Select((e, i) => $"Extra #{i + 1}: {e}")));
             stringBuilder.AppendLine(new string('-', 40));

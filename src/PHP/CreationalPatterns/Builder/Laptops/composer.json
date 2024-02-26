@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/laptops",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "CreationalPatterns\\Builder\\Laptops\\Builder\\": "Builder",
+      "CreationalPatterns\\Builder\\Laptops\\ConcreteBuilders\\": "ConcreteBuilders",
+      "CreationalPatterns\\Builder\\Laptops\\Director\\": "Director",
+      "CreationalPatterns\\Builder\\Laptops\\Product\\": "Product"
+    }
+  }
+}

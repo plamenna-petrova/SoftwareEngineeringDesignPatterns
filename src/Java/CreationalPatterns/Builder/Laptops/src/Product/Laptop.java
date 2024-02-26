@@ -96,7 +96,7 @@ public class Laptop {
         stringBuilder.append("RAM Size: ").append(ramSize).append(" GB").append("\n");
         stringBuilder.append("Display Type: ").append(displayType).append("\n");
         stringBuilder.append("SSD Type: ").append(ssdType).append("\n");
-        stringBuilder.append("SSD Capacity: ").append(ssdCapacity).append(" TB").append("\n");
+        stringBuilder.append("SSD Capacity: ").append(ssdCapacity).append(" GB").append("\n");
         stringBuilder.append("Extras: \n");
 
         for (int i = 0; i < extras.size(); i++) {
