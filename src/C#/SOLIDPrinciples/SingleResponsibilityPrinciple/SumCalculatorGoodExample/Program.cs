@@ -63,7 +63,7 @@ namespace SumCalculatorGoodExample
             Console.WriteLine($"The sum of all the even numbers is: {evenNumbersSumCalculator.Calculate()}");
 
             SumCalculator oddNumbersSumCalculator = new OddNumbersSumCalculator(numbers);
-            Console.WriteLine($"The sum of all the odd numbers is: {oddNumbersSumCalculator}");
+            Console.WriteLine($"The sum of all the odd numbers is: {oddNumbersSumCalculator.Calculate()}");
         }
     }
 }

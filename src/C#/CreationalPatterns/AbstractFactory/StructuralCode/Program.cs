@@ -96,8 +96,8 @@ namespace StructuralCode
             Client client1 = new Client(concreteFactory1);
             client1.Run();
 
-            AbstractFactory concreteFactor2 = new ConcreteFactory2();
-            Client client2 = new Client(concreteFactor2);
+            AbstractFactory concreteFactory2 = new ConcreteFactory2();
+            Client client2 = new Client(concreteFactory2);
             client2.Run();
         }
     }
