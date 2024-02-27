@@ -55,27 +55,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingleResponsibilityPrincip
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenClosedPrinciple", "OpenClosedPrinciple", "{B45B024E-C6B5-47AD-B55C-D159C5759406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsBadExample", "SOLIDPrinciples\SingleResponsibilityPrinciple\ReportsBadExample\ReportsBadExample.csproj", "{D67BD403-D46D-468D-B609-6D50E9C01F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportsBadExample", "SOLIDPrinciples\SingleResponsibilityPrinciple\ReportsBadExample\ReportsBadExample.csproj", "{D67BD403-D46D-468D-B609-6D50E9C01F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsGoodExample", "SOLIDPrinciples\SingleResponsibilityPrinciple\ReportsGoodExample\ReportsGoodExample.csproj", "{1BC38D77-7BE3-4BEF-A82F-DCDF875AEA85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportsGoodExample", "SOLIDPrinciples\SingleResponsibilityPrinciple\ReportsGoodExample\ReportsGoodExample.csproj", "{1BC38D77-7BE3-4BEF-A82F-DCDF875AEA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculatorBadExample", "SOLIDPrinciples\OpenClosedPrinciple\SalaryCalculatorBadExample\SalaryCalculatorBadExample.csproj", "{43E33217-07AF-454D-9563-F0BFEB12DB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculatorBadExample", "SOLIDPrinciples\OpenClosedPrinciple\SalaryCalculatorBadExample\SalaryCalculatorBadExample.csproj", "{43E33217-07AF-454D-9563-F0BFEB12DB0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculatorGoodExample", "SOLIDPrinciples\OpenClosedPrinciple\SalaryCalculatorGoodExample\SalaryCalculatorGoodExample.csproj", "{EAF8CCFD-7846-480E-849A-B2C107695776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculatorGoodExample", "SOLIDPrinciples\OpenClosedPrinciple\SalaryCalculatorGoodExample\SalaryCalculatorGoodExample.csproj", "{EAF8CCFD-7846-480E-849A-B2C107695776}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerMonitorsBadExample", "SOLIDPrinciples\OpenClosedPrinciple\ComputerMonitorsBadExample\ComputerMonitorsBadExample.csproj", "{D620244B-46E4-4DCB-9C0B-27BCB81DFE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerMonitorsBadExample", "SOLIDPrinciples\OpenClosedPrinciple\ComputerMonitorsBadExample\ComputerMonitorsBadExample.csproj", "{D620244B-46E4-4DCB-9C0B-27BCB81DFE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerMonitorsGoodExample", "SOLIDPrinciples\OpenClosedPrinciple\ComputerMonitorsGoodExample\ComputerMonitorsGoodExample.csproj", "{8FB35166-F9D4-4338-BAB6-886EBDE42BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerMonitorsGoodExample", "SOLIDPrinciples\OpenClosedPrinciple\ComputerMonitorsGoodExample\ComputerMonitorsGoodExample.csproj", "{8FB35166-F9D4-4338-BAB6-886EBDE42BBD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple", "{773C675D-C8CA-4CB9-A417-39AFBC3845D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesBadExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\ShapesBadExample\ShapesBadExample.csproj", "{BC85182E-516A-4CBF-8770-211D6A4F3AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesBadExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\ShapesBadExample\ShapesBadExample.csproj", "{BC85182E-516A-4CBF-8770-211D6A4F3AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesGoodExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\ShapesGoodExample\ShapesGoodExample.csproj", "{D08389DE-93AA-4C37-9DEC-3329E4643755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesGoodExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\ShapesGoodExample\ShapesGoodExample.csproj", "{D08389DE-93AA-4C37-9DEC-3329E4643755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumCalculatorBadExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\SumCalculatorBadExample\SumCalculatorBadExample.csproj", "{0D1B6C46-0B96-4063-8C1C-9C5521E7076A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumCalculatorBadExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\SumCalculatorBadExample\SumCalculatorBadExample.csproj", "{0D1B6C46-0B96-4063-8C1C-9C5521E7076A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumCalculatorGoodExample", "SOLIDPrinciples\SingleResponsibilityPrinciple\SumCalculatorGoodExample\SumCalculatorGoodExample.csproj", "{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumCalculatorGoodExample", "SOLIDPrinciples\LiskovSubstitutionPrinciple\SumCalculatorGoodExample\SumCalculatorGoodExample.csproj", "{DFB33671-925B-49F6-A29D-2F94FF4A0E2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,10 +195,10 @@ Global
 		{0D1B6C46-0B96-4063-8C1C-9C5521E7076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1B6C46-0B96-4063-8C1C-9C5521E7076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D1B6C46-0B96-4063-8C1C-9C5521E7076A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB33671-925B-49F6-A29D-2F94FF4A0E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB33671-925B-49F6-A29D-2F94FF4A0E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB33671-925B-49F6-A29D-2F94FF4A0E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB33671-925B-49F6-A29D-2F94FF4A0E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,7 +238,7 @@ Global
 		{BC85182E-516A-4CBF-8770-211D6A4F3AFC} = {773C675D-C8CA-4CB9-A417-39AFBC3845D0}
 		{D08389DE-93AA-4C37-9DEC-3329E4643755} = {773C675D-C8CA-4CB9-A417-39AFBC3845D0}
 		{0D1B6C46-0B96-4063-8C1C-9C5521E7076A} = {773C675D-C8CA-4CB9-A417-39AFBC3845D0}
-		{598DEF2B-5719-4A43-9CF3-AB5DA21B4BEF} = {773C675D-C8CA-4CB9-A417-39AFBC3845D0}
+		{DFB33671-925B-49F6-A29D-2F94FF4A0E2C} = {773C675D-C8CA-4CB9-A417-39AFBC3845D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}

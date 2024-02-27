@@ -9,7 +9,7 @@ namespace SumCalculatorGoodExample
 
         public SumCalculator(int[] numbers)
         {
-            _numbers = numbers;       
+            _numbers = numbers;
         }
 
         public abstract int Calculate();
@@ -20,7 +20,7 @@ namespace SumCalculatorGoodExample
         public FullSumCalculator(int[] numbers)
             : base(numbers)
         {
-            
+
         }
 
         public override int Calculate() => _numbers.Sum();
@@ -31,7 +31,7 @@ namespace SumCalculatorGoodExample
         public EvenNumbersSumCalculator(int[] numbers)
             : base(numbers)
         {
-            
+
         }
 
         public override int Calculate() => _numbers.Where(num => num % 2 == 0).Sum();
