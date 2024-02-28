@@ -54,7 +54,7 @@ namespace StructuralCode
     {
         public override void Interact(AbstractProductA abstractProductA)
         {
-            Console.WriteLine($"{this.GetType().Name} interacts with {abstractProductA.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} interacts with {abstractProductA.GetType().Name}");
         }
     }
 
@@ -67,13 +67,14 @@ namespace StructuralCode
     {
         public override void Interact(AbstractProductA abstractProductA)
         {
-            Console.WriteLine($"{this.GetType().Name} interacts with {abstractProductA.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} interacts with {abstractProductA.GetType().Name}");
         }
     }
 
     public class Client
     {
         private AbstractProductA _abstractProductA;
+
         private AbstractProductB _abstractProductB;
 
         public Client(AbstractFactory abstractFactory)

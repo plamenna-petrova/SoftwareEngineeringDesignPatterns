@@ -20,18 +20,18 @@ namespace EraStyles
 
             while (objectType != 'E')
             {
-                EraObjectStylesFactory factory = null;
+                EraObjectStylesFactory eraObjectStylesFactory = null;
 
                 switch (objectType)
                 {
                     case 'H':
-                        factory = new HouseFactory();
+                        eraObjectStylesFactory = new HouseFactory();
                         break;
                     case 'S':
-                        factory = new ShipFactory();
+                        eraObjectStylesFactory = new ShipFactory();
                         break;
                     case 'C':
-                        factory = new ClothingFactory();
+                        eraObjectStylesFactory = new ClothingFactory();
                         break;
                 }
 
@@ -42,7 +42,7 @@ namespace EraStyles
 
                 Console.WriteLine();
 
-                Era era = new Era(factory, eraCharacter);
+                Era era = new Era(eraObjectStylesFactory, eraCharacter);
                 Console.Write($"Object Number #{objectsCount} ");
                 era.Info();
 

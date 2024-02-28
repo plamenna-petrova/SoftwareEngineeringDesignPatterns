@@ -19,17 +19,17 @@ public class Main {
         System.out.println();
 
         while (objectType != 'E') {
-            EraObjectStylesFactory factory = null;
+            EraObjectStylesFactory eraObjectStylesFactory = null;
 
             switch (objectType) {
                 case 'H':
-                    factory = new HouseFactory();
+                    eraObjectStylesFactory = new HouseFactory();
                     break;
                 case 'S':
-                    factory = new ShipFactory();
+                    eraObjectStylesFactory = new ShipFactory();
                     break;
                 case 'C':
-                    factory = new ClothingFactory();
+                    eraObjectStylesFactory = new ClothingFactory();
                     break;
             }
 
@@ -40,7 +40,7 @@ public class Main {
 
             System.out.println();
 
-            Era era = new Era(factory, eraCharacter);
+            Era era = new Era(eraObjectStylesFactory, eraCharacter);
             System.out.print("Object Number #" + objectsCount + " ");
             era.info();
 

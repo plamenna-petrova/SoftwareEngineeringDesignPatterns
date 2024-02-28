@@ -14,15 +14,6 @@ namespace ReportsBadExample
         public int SpentHours { get; set; }
     }
 
-    public class ScheduledTask
-    {
-        public int ID { get; set; }
-
-        public string Content { get; set; }
-
-        public DateTime ExecutedOn { get; set; }
-    }
-
     public class WorkReport
     {
         private readonly List<WorkReportEntry> _workReportEntries;

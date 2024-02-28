@@ -5,7 +5,7 @@ using System.Threading.Channels;
 
 namespace ComputerMonitorsGoodExample
 {
-    public enum MonitorType
+    public enum ComputerMonitorType
     {
         OLED,
         LCD,
@@ -22,7 +22,7 @@ namespace ComputerMonitorsGoodExample
     {
         public string Name { get; set; }
 
-        public MonitorType Type { get; set; }
+        public ComputerMonitorType Type { get; set; }
 
         public ScreenType Screen { get; set; }
 
@@ -36,19 +36,19 @@ namespace ComputerMonitorsGoodExample
 
     public interface IFilter<T>
     {
-        List<T> Filter(IEnumerable<T> monitors, ISpecification<T> specification);
+        List<T> Filter(IEnumerable<T> computerMonitors, ISpecification<T> specification);
     }
 
     public class MonitorTypeSpecification : ISpecification<ComputerMonitor>
     {
-        private readonly MonitorType _monitorType;
+        private readonly ComputerMonitorType _computerMonitorType;
 
-        public MonitorTypeSpecification(MonitorType monitorType)
+        public MonitorTypeSpecification(ComputerMonitorType computerMonitorType)
         {
-            _monitorType = monitorType;
+            _computerMonitorType = computerMonitorType;
         }
 
-        public bool IsSatisfied(ComputerMonitor computerMonitor) => computerMonitor.Type == _monitorType;
+        public bool IsSatisfied(ComputerMonitor computerMonitor) => computerMonitor.Type == _computerMonitorType;
     }
 
     public class ScreenTypeSpecification : ISpecification<ComputerMonitor> 
@@ -63,7 +63,7 @@ namespace ComputerMonitorsGoodExample
         public bool IsSatisfied(ComputerMonitor computerMonitor) => computerMonitor.Screen == _screenType;
     }
     
-    public class MonitorFilter : IFilter<ComputerMonitor>
+    public class ComputerMonitorFilter : IFilter<ComputerMonitor>
     {
         public List<ComputerMonitor> Filter(IEnumerable<ComputerMonitor> computerMonitors, 
             ISpecification<ComputerMonitor> computerMonitorSpecification) => 
@@ -80,46 +80,46 @@ namespace ComputerMonitorsGoodExample
                 {
                     Name = "Samsung S345",
                     Screen = ScreenType.CurvedScreen,
-                    Type = MonitorType.OLED
+                    Type = ComputerMonitorType.OLED
                 },
                 new ComputerMonitor
                 {
                     Name = "Philips P532",
                     Screen = ScreenType.WideScreen,
-                    Type = MonitorType.LCD
+                    Type = ComputerMonitorType.LCD
                 },
                 new ComputerMonitor
                 {
                     Name = "LG L888",
                     Screen = ScreenType.WideScreen,
-                    Type = MonitorType.LED
+                    Type = ComputerMonitorType.LED
                 },
                 new ComputerMonitor
                 {
                     Name = "Samsung S999",
                     Screen = ScreenType.WideScreen,
-                    Type= MonitorType.OLED
+                    Type= ComputerMonitorType.OLED
                 },
                 new ComputerMonitor
                 {
                     Name = "Dell D2J47",
                     Screen = ScreenType.CurvedScreen,
-                    Type = MonitorType.LED
+                    Type = ComputerMonitorType.LED
                 }
             };
 
-            var monitorFilter = new MonitorFilter();
+            var computerMonitorFilter = new ComputerMonitorFilter();
 
-            var ledMonitors = monitorFilter.Filter(computerMonitors, new MonitorTypeSpecification(MonitorType.LED));
+            var ledComputerMonitors = computerMonitorFilter.Filter(computerMonitors, new MonitorTypeSpecification(ComputerMonitorType.LED));
 
-            Console.WriteLine($"All {MonitorType.LED} monitors: ");
-            ledMonitors.ForEach(lm => Console.WriteLine(lm.ToString()));
+            Console.WriteLine($"All {ComputerMonitorType.LED} monitors: ");
+            ledComputerMonitors.ForEach(lm => Console.WriteLine(lm.ToString()));
             Console.WriteLine(Environment.NewLine + new string('=', 60) + Environment.NewLine);
 
-            var wideScreenMonitors = monitorFilter.Filter(computerMonitors, new ScreenTypeSpecification(ScreenType.WideScreen));
+            var wideScreenComputerMonitors = computerMonitorFilter.Filter(computerMonitors, new ScreenTypeSpecification(ScreenType.WideScreen));
 
             Console.WriteLine($"All {ScreenType.WideScreen} monitors: ");
-            wideScreenMonitors.ForEach(wsm => Console.WriteLine(wsm.ToString()));
+            wideScreenComputerMonitors.ForEach(wsm => Console.WriteLine(wsm.ToString()));
         }
     }
 }

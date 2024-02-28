@@ -54,7 +54,7 @@ namespace AnimalWorld
     {
         public override void Eat(Herbivore herbivore)
         {
-            Console.WriteLine($"{this.GetType().Name} eats {herbivore.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} eats {herbivore.GetType().Name}");
         }
     }
 
@@ -67,13 +67,14 @@ namespace AnimalWorld
     {
         public override void Eat(Herbivore herbivore)
         {
-            Console.WriteLine($"{this.GetType().Name} eats {herbivore.GetType().Name}");
+            Console.WriteLine($"{GetType().Name} eats {herbivore.GetType().Name}");
         }
     }
 
     public class AnimalWorld
     {
         private Herbivore _herbivore;
+
         private Carnivore _carnivore;
 
         public AnimalWorld(ContinentFactory continentFactory)

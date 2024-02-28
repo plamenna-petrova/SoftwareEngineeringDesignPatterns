@@ -9,18 +9,18 @@ namespace EraStyles.Client
     {
         private EraObject _eraObject;
 
-        public Era(EraObjectStylesFactory stylesFactory, char era)
+        public Era(EraObjectStylesFactory eraObjectStylesFactory, char era)
         {
             switch (era)
             {
                 case 'M':
-                    _eraObject = stylesFactory.CreateMedievalStyleObject();
+                    _eraObject = eraObjectStylesFactory.CreateMedievalStyleObject();
                     break;
                 case 'R':
-                    _eraObject = stylesFactory.CreateRenaissanceStyleObject();
+                    _eraObject = eraObjectStylesFactory.CreateRenaissanceStyleObject();
                     break;
                 case 'V':
-                    _eraObject = stylesFactory.CreateVictorianEraStyleObject();
+                    _eraObject = eraObjectStylesFactory.CreateVictorianEraStyleObject();
                     break;
             }
         }

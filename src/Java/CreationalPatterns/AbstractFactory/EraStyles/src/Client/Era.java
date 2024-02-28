@@ -6,16 +6,16 @@ import Abstraction.EraObjectStylesFactory;
 public class Era {
     private EraObject eraObject;
 
-    public Era(EraObjectStylesFactory stylesFactory, char era) {
+    public Era(EraObjectStylesFactory eraObjectStylesFactory, char era) {
         switch (era) {
             case 'M':
-                eraObject = stylesFactory.createMedievalStyleObject();
+                eraObject = eraObjectStylesFactory.createMedievalStyleObject();
                 break;
             case 'R':
-                eraObject = stylesFactory.createRenaissanceStyleObject();
+                eraObject = eraObjectStylesFactory.createRenaissanceStyleObject();
                 break;
             case 'V':
-                eraObject = stylesFactory.createVictorianEraStyleObject();
+                eraObject = eraObjectStylesFactory.createVictorianEraStyleObject();
                 break;
         }
     }

@@ -74,15 +74,15 @@ public class Main {
     public static void main(String[] args) {
         Director director = new Director();
 
-        Builder firstBuilder = new ConcreteBuilder1();
-        Builder secondBuilder = new ConcreteBuilder2();
+        Builder concreteBuilder1 = new ConcreteBuilder1();
+        Builder concreteBuilder2 = new ConcreteBuilder2();
 
-        director.construct(firstBuilder);
-        Product firstProduct = firstBuilder.getResult();
+        director.construct(concreteBuilder1);
+        Product firstProduct = concreteBuilder1.getResult();
         firstProduct.show();
 
-        director.construct(secondBuilder);
-        Product secondProduct = secondBuilder.getResult();
+        director.construct(concreteBuilder2);
+        Product secondProduct = concreteBuilder2.getResult();
         secondProduct.show();
     }
 }

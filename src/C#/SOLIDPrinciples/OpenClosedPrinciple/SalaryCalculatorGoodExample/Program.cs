@@ -60,10 +60,7 @@ namespace SalaryCalculatorGoodExample
             _salaryCalculators = salaryCalculators;
         }
 
-        public double CalculateTotalSalaries()
-        {
-            return _salaryCalculators.Sum(sc => sc.CalculateSalary());
-        }
+        public double CalculateTotalSalaries() => _salaryCalculators.Sum(sc => sc.CalculateSalary());
     }
 
     public class Program

@@ -21,14 +21,14 @@ class Hamburger {
     }
 
     public void showIngredients() {
-        System.out.println(String.format("%n%s", new String(new char[40]).replace('\0', '-')));
-        System.out.println(String.format("Hamburger: %s", hamburgerName));
-        System.out.println(String.format(" Bun: %s", ingredients.get("bun")));
-        System.out.println(String.format(" Patty: %s", ingredients.get("patty")));
-        System.out.println(String.format(" Sauce: %s", ingredients.get("sauce")));
-        System.out.println(String.format(" Cheese: %s", ingredients.get("cheese")));
-        System.out.println(String.format(" Veggies: %s", ingredients.get("veggies")));
-        System.out.println(String.format(" Extras: %s", ingredients.get("extras")));
+        System.out.printf("%n%s%n", new String(new char[40]).replace('\0', '-'));
+        System.out.printf("Hamburger: %s%n", hamburgerName);
+        System.out.printf(" Bun: %s%n", ingredients.get("bun"));
+        System.out.printf(" Patty: %s%n", ingredients.get("patty"));
+        System.out.printf(" Sauce: %s%n", ingredients.get("sauce"));
+        System.out.printf(" Cheese: %s%n", ingredients.get("cheese"));
+        System.out.printf(" Veggies: %s%n", ingredients.get("veggies"));
+        System.out.printf(" Extras: %s%n", ingredients.get("extras"));
     }
 }
 

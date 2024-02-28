@@ -16,8 +16,8 @@ namespace Hamburgers
 
         public string this[string key]
         {
-            get { return ingredients[key]; }
-            set { ingredients[key] = value; }
+            get => ingredients[key];
+            set => ingredients.Add(key, value);
         }
 
         public void ShowIngredients()

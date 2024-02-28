@@ -73,18 +73,19 @@ namespace Motorcycles
 
     public class MotorcyclesClient
     {
-        private Scooter scooter;
-        private SportsBike sportsBike;
+        private Scooter _scooter;
+
+        private SportsBike _sportsBike;
 
         public MotorcyclesClient(MotorcyclesFactory motorcyclesFactory)
         {
-            scooter = motorcyclesFactory.CreateScooter();
-            sportsBike = motorcyclesFactory.CreateSportsBike();
+            _scooter = motorcyclesFactory.CreateScooter();
+            _sportsBike = motorcyclesFactory.CreateSportsBike();
         }
 
         public void SetRace()
         {
-            sportsBike.Overrun(scooter);
+            _sportsBike.Overrun(_scooter);
         }
     }
 

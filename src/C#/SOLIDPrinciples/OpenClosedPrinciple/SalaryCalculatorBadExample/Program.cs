@@ -26,10 +26,7 @@ namespace SalaryCalculatorBadExample
             _developerReports = developerReports;
         }
 
-        public double CalculateTotalSalaries()
-        {
-            return _developerReports.Sum(dr => dr.HourlyRate * dr.WorkingHours);
-        }
+        public double CalculateTotalSalaries() => _developerReports.Sum(dr => dr.HourlyRate * dr.WorkingHours);
     }
 
     public class Program
