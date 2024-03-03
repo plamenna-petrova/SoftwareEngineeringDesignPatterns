@@ -63,19 +63,26 @@ namespace PrintersBadExample
     {
         static void Main(string[] args)
         {
-            const string ContentToProcess = "Creativity takes courage";
+            try
+            {
+                const string ContentToProcess = "Creativity takes courage";
 
-            IMultiTaskPrinter liquidInkjetPrinter = new LiquidInkjetPrinter();
-            liquidInkjetPrinter.Print(ContentToProcess);
-            //liquidInkjetPrinter.Scan(ContentToProcess);
-            //liquidInkjetPrinter.Fax(ContentToProcess);
-            liquidInkjetPrinter.PrintDuplex(ContentToProcess);
+                IMultiTaskPrinter liquidInkjetPrinter = new LiquidInkjetPrinter();
+                liquidInkjetPrinter.Print(ContentToProcess);
+                liquidInkjetPrinter.Scan(ContentToProcess);
+                //liquidInkjetPrinter.Fax(ContentToProcess);
+                liquidInkjetPrinter.PrintDuplex(ContentToProcess);
 
-            IMultiTaskPrinter laserJetPrinter = new LaserJetPrinter();
-            laserJetPrinter.Print(ContentToProcess);
-            laserJetPrinter.Scan(ContentToProcess);
-            laserJetPrinter.Fax(ContentToProcess);
-            laserJetPrinter.PrintDuplex(ContentToProcess);
+                IMultiTaskPrinter laserJetPrinter = new LaserJetPrinter();
+                laserJetPrinter.Print(ContentToProcess);
+                laserJetPrinter.Scan(ContentToProcess);
+                laserJetPrinter.Fax(ContentToProcess);
+                laserJetPrinter.PrintDuplex(ContentToProcess);
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
     }
 }

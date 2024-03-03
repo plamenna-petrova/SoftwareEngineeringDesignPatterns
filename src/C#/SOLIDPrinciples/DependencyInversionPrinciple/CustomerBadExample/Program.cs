@@ -19,10 +19,7 @@ namespace CustomerBadExample
 
     public class DataAccessFactory
     {
-        public static ICustomerDataAccess GetCustomerDataAccess()
-        {
-            return new CustomerDataAccess();
-        }
+        public static ICustomerDataAccess GetCustomerDataAccess() => new CustomerDataAccess();
     }
 
     public class CustomerBusinessLogic

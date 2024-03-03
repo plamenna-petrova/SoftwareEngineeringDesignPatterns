@@ -52,17 +52,24 @@ namespace VehiclesBadExample
     {
         static void Main(string[] args)
         {
-            IVehicle car = new Car();
-            car.Drive();
-            //car.Fly();
+            try
+            {
+                IVehicle car = new Car();
+                car.Drive();
+                car.Fly();
 
-            IVehicle airplane = new Airplane();
-            //airplane.Drive();
-            airplane.Fly();
+                IVehicle airplane = new Airplane();
+                //airplane.Drive();
+                airplane.Fly();
 
-            IVehicle futuristicCar = new FuturisticCar();
-            futuristicCar.Drive();
-            futuristicCar.Fly();
+                IVehicle futuristicCar = new FuturisticCar();
+                futuristicCar.Drive();
+                futuristicCar.Fly();
+            }
+            catch (Exception exception) 
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
     }
 }

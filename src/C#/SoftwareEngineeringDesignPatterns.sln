@@ -93,13 +93,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesBadExample", "SOLI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesGoodExample", "SOLIDPrinciples\DependencyInversionPrinciple\EmployeesGoodExample\EmployeesGoodExample.csproj", "{CAEEF008-9A5A-46EB-83BE-2C7CA35032F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerBadExample", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerBadExample\CustomerBadExample.csproj", "{6F960185-B80D-484E-8B14-0FBBA7A40453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerBadExample", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerBadExample\CustomerBadExample.csproj", "{6F960185-B80D-484E-8B14-0FBBA7A40453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerConstructorInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerConstructorInjection\CustomerConstructorInjection.csproj", "{B96B3649-FA8D-4274-9004-3BF8173370D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerConstructorInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerConstructorInjection\CustomerConstructorInjection.csproj", "{B96B3649-FA8D-4274-9004-3BF8173370D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerMethodInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerMethodInjection\CustomerMethodInjection.csproj", "{2E906F5B-04BB-45CD-B874-5703F585B0C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerMethodInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerMethodInjection\CustomerMethodInjection.csproj", "{2E906F5B-04BB-45CD-B874-5703F585B0C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerPropertyInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerPropertyInjection\CustomerPropertyInjection.csproj", "{A7D97B25-EC19-4C32-8633-02AF836EAC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerPropertyInjection", "SOLIDPrinciples\DependencyInversionPrinciple\CustomerPropertyInjection\CustomerPropertyInjection.csproj", "{A7D97B25-EC19-4C32-8633-02AF836EAC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{2FAD5843-2886-4427-BB56-800C2E1B00A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "CreationalPatterns\Singleton\StructuralCode\StructuralCode.csproj", "{9AE986EE-0D70-4706-9681-43F0FD2E316E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadBalancer", "CreationalPatterns\Singleton\LoadBalancer\LoadBalancer.csproj", "{CC667BD9-572B-4802-B846-7BB485ADC848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadBalancerOptimized", "CreationalPatterns\Singleton\LoadBalancerOptimized\LoadBalancerOptimized.csproj", "{B085C444-8745-4345-A875-749CD93457D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingMachine", "CreationalPatterns\Singleton\VotingMachine\VotingMachine.csproj", "{D2F932DA-4876-4E42-9420-594CE1B13300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "CreationalPatterns\Singleton\Logger\Logger.csproj", "{8C821824-060B-401B-AD9B-5B6A2D66E415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +275,26 @@ Global
 		{A7D97B25-EC19-4C32-8633-02AF836EAC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7D97B25-EC19-4C32-8633-02AF836EAC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7D97B25-EC19-4C32-8633-02AF836EAC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE986EE-0D70-4706-9681-43F0FD2E316E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE986EE-0D70-4706-9681-43F0FD2E316E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE986EE-0D70-4706-9681-43F0FD2E316E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE986EE-0D70-4706-9681-43F0FD2E316E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC667BD9-572B-4802-B846-7BB485ADC848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC667BD9-572B-4802-B846-7BB485ADC848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC667BD9-572B-4802-B846-7BB485ADC848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC667BD9-572B-4802-B846-7BB485ADC848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B085C444-8745-4345-A875-749CD93457D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B085C444-8745-4345-A875-749CD93457D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B085C444-8745-4345-A875-749CD93457D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B085C444-8745-4345-A875-749CD93457D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F932DA-4876-4E42-9420-594CE1B13300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F932DA-4876-4E42-9420-594CE1B13300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F932DA-4876-4E42-9420-594CE1B13300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F932DA-4876-4E42-9420-594CE1B13300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C821824-060B-401B-AD9B-5B6A2D66E415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C821824-060B-401B-AD9B-5B6A2D66E415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C821824-060B-401B-AD9B-5B6A2D66E415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C821824-060B-401B-AD9B-5B6A2D66E415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +347,12 @@ Global
 		{B96B3649-FA8D-4274-9004-3BF8173370D9} = {2E5DD293-9471-4157-A277-1804E3ACB10D}
 		{2E906F5B-04BB-45CD-B874-5703F585B0C5} = {2E5DD293-9471-4157-A277-1804E3ACB10D}
 		{A7D97B25-EC19-4C32-8633-02AF836EAC0C} = {2E5DD293-9471-4157-A277-1804E3ACB10D}
+		{2FAD5843-2886-4427-BB56-800C2E1B00A3} = {392F4DD3-2A9B-4BA6-AA08-FA1F78C05404}
+		{9AE986EE-0D70-4706-9681-43F0FD2E316E} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
+		{CC667BD9-572B-4802-B846-7BB485ADC848} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
+		{B085C444-8745-4345-A875-749CD93457D9} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
+		{D2F932DA-4876-4E42-9420-594CE1B13300} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
+		{8C821824-060B-401B-AD9B-5B6A2D66E415} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}

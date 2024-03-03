@@ -72,10 +72,7 @@ namespace ProductsStockReport
             return this;
         }
 
-        public ProductsStockReport GetProductsStockReport()
-        {
-            return productsStockReport;
-        }
+        public ProductsStockReport GetProductsStockReport() => productsStockReport;
     }
 
     public class ProductsStockReportDirector

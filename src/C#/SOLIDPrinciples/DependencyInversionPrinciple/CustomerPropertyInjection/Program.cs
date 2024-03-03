@@ -24,7 +24,7 @@ namespace CustomerPropertyInjection
 
         }
 
-        public CustomerDataAccess CustomerDataAccess { get; set; }
+        public ICustomerDataAccess CustomerDataAccess { get; set; }
 
         public string ProcessCustomerData(int id) => CustomerDataAccess.GetCustomerName(id);
     }
