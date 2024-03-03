@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace Logger
 {
-    public class Logger
+    public class NonSingletonLogger
     {
         private static int loggerInstancesCounter = 0;
 
-        public Logger()
+        public NonSingletonLogger()
         {
             loggerInstancesCounter++;
             Console.WriteLine($"Created instances: {loggerInstancesCounter}");
@@ -179,10 +179,10 @@ namespace Logger
     {
         static void Main(string[] args)
         {
-            Logger managerLogger = new Logger();
+            NonSingletonLogger managerLogger = new NonSingletonLogger();
             managerLogger.LogMessage("Request message from Manager");
 
-            Logger employeeLogger = new Logger();
+            NonSingletonLogger employeeLogger = new NonSingletonLogger();
             employeeLogger.LogMessage("Request message from Employee");
 
             Console.WriteLine(new string('-', 50));
