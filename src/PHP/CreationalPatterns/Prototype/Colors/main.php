@@ -21,7 +21,7 @@ class ColorConcretePrototype extends ColorPrototype {
     }
 
     public function __toString() {
-        return sprintf("Cloning color RGB: %3d,%3d,%3d", $this->red, $this->green, $this->blue);
+        return sprintf("Cloned color RGB: %3d,%3d,%3d", $this->red, $this->green, $this->blue);
     }
 }
 

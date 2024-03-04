@@ -25,7 +25,7 @@ namespace Colors
 
         public override ColorPrototype Clone() => MemberwiseClone() as ColorPrototype;
 
-        public override string ToString() => string.Format("Cloning color RGB: {0,3},{1,3},{2,3}", Red, Green, Blue);
+        public override string ToString() => string.Format("Cloned color RGB: {0,3},{1,3},{2,3}", Red, Green, Blue);
     }
 
     public class ColorManager

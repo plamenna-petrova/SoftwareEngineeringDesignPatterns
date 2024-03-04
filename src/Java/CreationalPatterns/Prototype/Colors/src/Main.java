@@ -24,7 +24,7 @@ class ColorConcretePrototype extends ColorPrototype {
 
     @Override
     public String toString() {
-        return String.format("Cloning color RGB: %3d,%3d,%3d", red, green, blue);
+        return String.format("Cloned color RGB: %3d,%3d,%3d", red, green, blue);
     }
 }
 
