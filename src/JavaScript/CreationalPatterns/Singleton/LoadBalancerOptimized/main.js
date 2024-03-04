@@ -1,8 +1,8 @@
 
 class Server {
     constructor(name, ipAddress) {
-        this.name = name; // Use lowercase 'name'
-        this.ipAddress = ipAddress; // Use lowercase 'ipAddress'
+        this.name = name;
+        this.ipAddress = ipAddress;
     }
 }
 
