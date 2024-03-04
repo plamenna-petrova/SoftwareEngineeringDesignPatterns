@@ -60,8 +60,6 @@ namespace Colors
             Console.WriteLine(redColor.ToString());
             Console.WriteLine(peaceColor.ToString());
             Console.WriteLine(flameColor.ToString());
-
-            Console.ReadKey();
         }
     }
 }
