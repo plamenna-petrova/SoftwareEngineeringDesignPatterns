@@ -4,9 +4,9 @@ class Server {
     public $name;
     public $ipAddress;
 
-    public function __construct($server) {
-        $this->name = $server['name'];
-        $this->ipAddress = $server['ipAddress'];
+    public function __construct($servers) {
+        $this->name = $servers['name'];
+        $this->ipAddress = $servers['ipAddress'];
     }
 }
 
