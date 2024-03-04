@@ -4,16 +4,24 @@ namespace PeopleIdentification
 {
     public class IDInfo
     {
-        public int IDNumber { get; set; }
-
         public IDInfo(int idNumber)
         {
             IDNumber = idNumber;
         }
+
+        public int IDNumber { get; set; }
     }
 
     public abstract class Person
     {
+        public Person(int age, DateTime birthDate, string name, IDInfo idInfo)
+        {
+            Age = age;
+            BirthDate = birthDate;
+            Name = name;
+            IDInfo = idInfo;
+        }
+
         public int Age { get; set; }
 
         public DateTime BirthDate { get; set; }
@@ -22,13 +30,6 @@ namespace PeopleIdentification
 
         public IDInfo IDInfo { get; set; }
 
-        public Person(int age, DateTime birthDate, string name, IDInfo idInfo)
-        {
-            Age = age;
-            BirthDate = birthDate;
-            Name = name;
-            IDInfo = idInfo;
-        }
 
         public abstract Person ShallowCopy();
 
@@ -43,11 +44,11 @@ namespace PeopleIdentification
 
         }
 
-        public override Person ShallowCopy() => MemberwiseClone() as Person;
+        public override Person ShallowCopy() => (Person) MemberwiseClone();
 
         public override Person DeepCopy()
         {
-            Person clonedPerson = (Person)MemberwiseClone();
+            Person clonedPerson = ShallowCopy();
             clonedPerson.IDInfo = new IDInfo(IDInfo.IDNumber);
             return clonedPerson;
         }
@@ -85,7 +86,7 @@ namespace PeopleIdentification
             DisplayValues(thirdTraveler);
         }
 
-        public static void DisplayValues(Person person)
+        private static void DisplayValues(Person person)
         {
             Console.WriteLine(new string(' ', 10) + "Name: {0:s}, Age: {1:d}, BirthDate: {2:MM/dd/yy}",
                 person.Name, person.Age, person.BirthDate);
