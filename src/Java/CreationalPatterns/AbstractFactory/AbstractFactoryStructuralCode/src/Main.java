@@ -55,7 +55,6 @@ class ProductB2 extends AbstractProductB {
     }
 }
 
-// Client
 class Client {
     private AbstractProductA abstractProductA;
     private AbstractProductB abstractProductB;

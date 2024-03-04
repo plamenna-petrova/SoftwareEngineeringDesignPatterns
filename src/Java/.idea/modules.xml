@@ -16,12 +16,16 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancer/LoadBalancer.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancer/LoadBalancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancerOptimized/LoadBalancerOptimized.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancerOptimized/LoadBalancerOptimized.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" />
     </modules>
   </component>
 </project>
