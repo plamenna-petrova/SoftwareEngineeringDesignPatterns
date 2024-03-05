@@ -1,18 +1,18 @@
-﻿using CsvHelper;
-using CsvHelper.Configuration;
-using CsvHelper.Configuration.Attributes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Linq;
-using Newtonsoft.Json;
 using System.Xml.Linq;
-using System.Reflection.Metadata;
-using iTextSharp.text.pdf;
-using iTextSharp.text;
+using System.Linq;
+using CsvHelper.Configuration;
+using CsvHelper;
+using CsvHelper.Configuration.Attributes;
+using Newtonsoft.Json;
+using iText.Kernel.Pdf;
+using iText.Layout.Element;
+using iText.Layout;
 
-namespace CSVAdapter
+namespace FileAdapter
 {
     public enum FileType
     {
@@ -38,8 +38,8 @@ namespace CSVAdapter
         public DateTime DateOfBirth { get; set; }
     }
 
-    public interface IFileSaverTarget 
-    { 
+    public interface IFileSaverTarget
+    {
         void SaveToFile(List<Person> people);
     }
 
@@ -75,7 +75,7 @@ namespace CSVAdapter
                             var personPropertiesValues = person.GetType().GetProperties().Select(prop => prop.GetValue(person));
                             txtStreamWriter.WriteLine(string.Join("\t", personPropertiesValues));
                         }
-                        
+
                         txtStreamWriter.Close();
                     }
                     break;
@@ -92,7 +92,7 @@ namespace CSVAdapter
                     }
                     break;
                 case FileType.JSON:
-                    string serializedPeopleJSONString = JsonConvert.SerializeObject(people, Formatting.Indented);
+                    string serializedPeopleJSONString = JsonConvert.SerializeObject(people, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText("people.json", serializedPeopleJSONString);
                     break;
                 case FileType.XML:
@@ -127,26 +127,34 @@ namespace CSVAdapter
                 case FileType.PDF:
                     var pdfFilePath = "people.pdf";
 
-                    //var pdfFilePath = "people.pdf";
+                    using (var stream = new FileStream(pdfFilePath, FileMode.Create))
+                    {
+                        using (var pdfWriter = new PdfWriter(stream))
+                        {
+                            using (var pdfDocument = new PdfDocument(pdfWriter))
+                            {
+                                var document = new Document(pdfDocument);
 
-                    //using (var stream = new FileStream(pdfFilePath, FileMode.Create))
-                    //{
-                    //    using (var pdfWriter = new PdfWriter(stream))
-                    //    {
-                    //        using (var pdfDocument = new PdfDocument(pdfWriter))
-                    //        {
-                    //            var document = new Document(pdfDocument);
+                                var table = new Table(typeof(Person).GetProperties().Length); // 4 columns
 
-                    //            foreach (var person in people)
-                    //            {
-                    //                document.Add(new Paragraph($"ID: {person.Id}, Name: {person.Name}, " +
-                    //                    $"Date of Birth: {person.DateOfBirth.ToShortDateString()}, Is Living: {person.IsLiving}"));
-                    //            }
-                    //        }
-                    //    }
-                    //}
+                                table.AddCell(nameof(Person.Id));
+                                table.AddCell(nameof(Person.Name));
+                                table.AddCell(nameof(Person.DateOfBirth));
+                                table.AddCell(nameof(Person.IsLiving));
 
-                    Console.WriteLine("PDF file successfully saved!");
+                                foreach (var person in people)
+                                {
+
+                                    table.AddCell(person.Id.ToString());
+                                    table.AddCell(person.Name);
+                                    table.AddCell(person.DateOfBirth.ToShortDateString());
+                                    table.AddCell(person.IsLiving.ToString());
+                                }
+
+                                document.Add(table);
+                            }
+                        }
+                    }
                     break;
                 default:
                     Console.WriteLine("Invalid file type!");
