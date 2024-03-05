@@ -115,31 +115,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "CreationalPattern
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{1651B968-B8AB-4F6C-9334-DB58EA986A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "CreationalPatterns\Prototype\StructuralCode\StructuralCode.csproj", "{ECC1C094-C61A-45B2-A554-19A633796AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "CreationalPatterns\Prototype\StructuralCode\StructuralCode.csproj", "{ECC1C094-C61A-45B2-A554-19A633796AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colors", "CreationalPatterns\Prototype\Colors\Colors.csproj", "{3865D48E-FF2C-4D82-9AAA-61CD3FA421FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colors", "CreationalPatterns\Prototype\Colors\Colors.csproj", "{3865D48E-FF2C-4D82-9AAA-61CD3FA421FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleIdentification", "CreationalPatterns\Prototype\PeopleIdentification\PeopleIdentification.csproj", "{C8FA5B80-546D-4E64-AB55-15A68E49D361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleIdentification", "CreationalPatterns\Prototype\PeopleIdentification\PeopleIdentification.csproj", "{C8FA5B80-546D-4E64-AB55-15A68E49D361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "CreationalPatterns\Prototype\Employees\Employees.csproj", "{0DB0B890-3C18-4870-ADB2-5D0CC1F0230E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees", "CreationalPatterns\Prototype\Employees\Employees.csproj", "{0DB0B890-3C18-4870-ADB2-5D0CC1F0230E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneablePrototype", "CreationalPatterns\Prototype\CloneablePrototype\CloneablePrototype.csproj", "{77B4BEAF-A048-40C1-A854-F869EA5A8CA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneablePrototype", "CreationalPatterns\Prototype\CloneablePrototype\CloneablePrototype.csproj", "{77B4BEAF-A048-40C1-A854-F869EA5A8CA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSerializablePrototype", "CreationalPatterns\Prototype\GenericSerializablePrototype\GenericSerializablePrototype.csproj", "{C377D875-C97D-4687-97D6-359E3FC15EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericSerializablePrototype", "CreationalPatterns\Prototype\GenericSerializablePrototype\GenericSerializablePrototype.csproj", "{C377D875-C97D-4687-97D6-359E3FC15EF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{03E03A2F-3C18-4BE6-A904-358F3C76A6D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "StructuralPatterns\Adapter\StructuralCode\StructuralCode.csproj", "{8563BC14-C80E-44D6-9ACF-3CF1986452C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "StructuralPatterns\Adapter\StructuralCode\StructuralCode.csproj", "{8563BC14-C80E-44D6-9ACF-3CF1986452C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemicalDatabank", "StructuralPatterns\Adapter\ChemicalDatabank\ChemicalDatabank.csproj", "{7E9C7E63-C346-49B1-89FE-F8FF2E263D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemicalDatabank", "StructuralPatterns\Adapter\ChemicalDatabank\ChemicalDatabank.csproj", "{7E9C7E63-C346-49B1-89FE-F8FF2E263D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeatCooking", "StructuralPatterns\Adapter\MeatCooking\MeatCooking.csproj", "{AE3F3DFB-4471-43A7-B5EC-FC04D3A25C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeatCooking", "StructuralPatterns\Adapter\MeatCooking\MeatCooking.csproj", "{AE3F3DFB-4471-43A7-B5EC-FC04D3A25C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyBillingSystem", "StructuralPatterns\Adapter\ThirdPartyBillingSystem\ThirdPartyBillingSystem.csproj", "{6D57DCFB-AFE4-45BB-AFE6-CCB3BD728B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyBillingSystem", "StructuralPatterns\Adapter\ThirdPartyBillingSystem\ThirdPartyBillingSystem.csproj", "{6D57DCFB-AFE4-45BB-AFE6-CCB3BD728B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturers", "StructuralPatterns\Adapter\CarManufacturers\CarManufacturers.csproj", "{AC50C09B-935F-4D5F-95B0-9160B9E9042D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManufacturers", "StructuralPatterns\Adapter\CarManufacturers\CarManufacturers.csproj", "{AC50C09B-935F-4D5F-95B0-9160B9E9042D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWayAdapter", "StructuralPatterns\Adapter\TwoWayAdapter\TwoWayAdapter.csproj", "{888EE616-4A0F-4A29-A3BE-426C44B8976F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVAdapter", "StructuralPatterns\Adapter\CSVAdapter\CSVAdapter.csproj", "{667FC4A3-436F-41BA-92BD-AB66DD6B4E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -367,6 +371,14 @@ Global
 		{AC50C09B-935F-4D5F-95B0-9160B9E9042D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC50C09B-935F-4D5F-95B0-9160B9E9042D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC50C09B-935F-4D5F-95B0-9160B9E9042D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888EE616-4A0F-4A29-A3BE-426C44B8976F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888EE616-4A0F-4A29-A3BE-426C44B8976F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888EE616-4A0F-4A29-A3BE-426C44B8976F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888EE616-4A0F-4A29-A3BE-426C44B8976F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667FC4A3-436F-41BA-92BD-AB66DD6B4E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667FC4A3-436F-41BA-92BD-AB66DD6B4E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667FC4A3-436F-41BA-92BD-AB66DD6B4E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667FC4A3-436F-41BA-92BD-AB66DD6B4E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -438,6 +450,8 @@ Global
 		{AE3F3DFB-4471-43A7-B5EC-FC04D3A25C8F} = {F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}
 		{6D57DCFB-AFE4-45BB-AFE6-CCB3BD728B61} = {F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}
 		{AC50C09B-935F-4D5F-95B0-9160B9E9042D} = {F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}
+		{888EE616-4A0F-4A29-A3BE-426C44B8976F} = {F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}
+		{667FC4A3-436F-41BA-92BD-AB66DD6B4E94} = {F4246C8A-3FB9-4DA0-8062-F53D4C4B7513}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
