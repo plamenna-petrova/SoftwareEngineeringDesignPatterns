@@ -101,6 +101,7 @@ namespace TwoWayAdapter
             Console.WriteLine("The Seabird took off");
 
             Console.WriteLine("\nExperiment 3: Increase the speed of the Seabird:");
+
             (seabird as ISeacraft).IncreaseRevs();
             (seabird as ISeacraft).IncreaseRevs();
 

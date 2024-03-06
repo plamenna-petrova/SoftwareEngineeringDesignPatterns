@@ -9,8 +9,8 @@ using CsvHelper;
 using CsvHelper.Configuration.Attributes;
 using Newtonsoft.Json;
 using iText.Kernel.Pdf;
-using iText.Layout.Element;
 using iText.Layout;
+using iText.Layout.Element;
 
 namespace FileAdapter
 {
@@ -92,7 +92,7 @@ namespace FileAdapter
                     }
                     break;
                 case FileType.JSON:
-                    string serializedPeopleJSONString = JsonConvert.SerializeObject(people, Newtonsoft.Json.Formatting.Indented);
+                    string serializedPeopleJSONString = JsonConvert.SerializeObject(people, Formatting.Indented);
                     File.WriteAllText("people.json", serializedPeopleJSONString);
                     break;
                 case FileType.XML:
@@ -127,33 +127,29 @@ namespace FileAdapter
                 case FileType.PDF:
                     var pdfFilePath = "people.pdf";
 
-                    using (var stream = new FileStream(pdfFilePath, FileMode.Create))
+                    using (var fileStream = new FileStream(pdfFilePath, FileMode.Create))
                     {
-                        using (var pdfWriter = new PdfWriter(stream))
+                        using var pdfWriter = new PdfWriter(fileStream);
+                        using var pdfDocument = new PdfDocument(pdfWriter);
+
+                        var document = new Document(pdfDocument);
+
+                        var pdfDocumentTable = new Table(typeof(Person).GetProperties().Length);
+
+                        pdfDocumentTable.AddCell(nameof(Person.Id));
+                        pdfDocumentTable.AddCell(nameof(Person.Name));
+                        pdfDocumentTable.AddCell(nameof(Person.DateOfBirth));
+                        pdfDocumentTable.AddCell(nameof(Person.IsLiving));
+
+                        foreach (var person in people)
                         {
-                            using (var pdfDocument = new PdfDocument(pdfWriter))
-                            {
-                                var document = new Document(pdfDocument);
-
-                                var table = new Table(typeof(Person).GetProperties().Length); // 4 columns
-
-                                table.AddCell(nameof(Person.Id));
-                                table.AddCell(nameof(Person.Name));
-                                table.AddCell(nameof(Person.DateOfBirth));
-                                table.AddCell(nameof(Person.IsLiving));
-
-                                foreach (var person in people)
-                                {
-
-                                    table.AddCell(person.Id.ToString());
-                                    table.AddCell(person.Name);
-                                    table.AddCell(person.DateOfBirth.ToShortDateString());
-                                    table.AddCell(person.IsLiving.ToString());
-                                }
-
-                                document.Add(table);
-                            }
+                            pdfDocumentTable.AddCell(person.Id.ToString());
+                            pdfDocumentTable.AddCell(person.Name);
+                            pdfDocumentTable.AddCell(person.DateOfBirth.ToShortDateString());
+                            pdfDocumentTable.AddCell(person.IsLiving.ToString());
                         }
+
+                        document.Add(pdfDocumentTable);
                     }
                     break;
                 default:

@@ -9,10 +9,13 @@ namespace CarManufacturers
 {
     public class Manufacturer
     {
+        [JsonProperty("name")]
         public string Name { get; set; }
 
+        [JsonProperty("city")]
         public string City { get; set; }
 
+        [JsonProperty("year")]
         public int Year { get; set; }
     }
 
@@ -34,39 +37,21 @@ namespace CarManufacturers
         public XDocument GetXML()
         {
             XDocument xDocument = new XDocument();
-            XElement xElement = new XElement("Manufacturers");
+            XElement manufacturersRootXElement = new XElement("Manufacturers");
 
-            IEnumerable<XElement> xElements = ManufacturerDataProvider.GetManufacturers()
-                .Select(m => new XElement("Manufacturer",
-                    new XAttribute("City", m.City),
-                    new XAttribute("Name", m.Name),
-                    new XAttribute("Year", m.Year)
-                 ));
+            IEnumerable<XElement> manufacturersXElements = ManufacturerDataProvider.GetManufacturers()
+                .Select(m => new XElement(nameof(Manufacturer),
+                    new XAttribute(nameof(Manufacturer.City), m.City),
+                    new XAttribute(nameof(Manufacturer.Name), m.Name),
+                    new XAttribute(nameof(Manufacturer.Year), m.Year)
+                ));
 
-            xElement.Add(xElements);
-            xDocument.Add(xElement);
+            manufacturersRootXElement.Add(manufacturersXElements);
+            xDocument.Add(manufacturersRootXElement);
 
             Console.WriteLine(xDocument);
 
             return xDocument;
-        }
-    }
-
-    public class JsonConverter
-    {
-        private IEnumerable<Manufacturer> manufacturers;
-
-        public JsonConverter(IEnumerable<Manufacturer> manufacturers)
-        {
-            this.manufacturers = manufacturers;
-        }
-
-        public void ConvertToJson()
-        {
-            string jsonManufacturers = JsonConvert.SerializeObject(manufacturers, Newtonsoft.Json.Formatting.Indented);
-
-            Console.WriteLine("\nPrinting JSON array\n");
-            Console.WriteLine(jsonManufacturers);
         }
     }
 
@@ -86,7 +71,7 @@ namespace CarManufacturers
 
         public void ConvertXMLToJson()
         {
-            IEnumerable<Manufacturer> manufacturers = xmlConverter.GetXML()
+            IEnumerable<Manufacturer> manufacturersToConvertToJSON = xmlConverter.GetXML()
                 .Elements("Manufacturers")
                 .Elements("Manufacturer")
                 .Select(m => new Manufacturer
@@ -96,7 +81,24 @@ namespace CarManufacturers
                     Year = Convert.ToInt32(m.Attribute("Year").Value)
                 });
 
-            new JsonConverter(manufacturers).ConvertToJson();
+            new JsonConverterAdaptee(manufacturersToConvertToJSON).ConvertToJson();
+        }
+    }
+
+    public class JsonConverterAdaptee
+    {
+        private IEnumerable<Manufacturer> manufacturers;
+
+        public JsonConverterAdaptee(IEnumerable<Manufacturer> manufacturers)
+        {
+            this.manufacturers = manufacturers;
+        }
+
+        public void ConvertToJson()
+        {
+            string serializedManufacturersJSONString = JsonConvert.SerializeObject(manufacturers, Newtonsoft.Json.Formatting.Indented);
+            Console.WriteLine("\nPrinting JSON array\n");
+            Console.WriteLine(serializedManufacturersJSONString);
         }
     }
 
