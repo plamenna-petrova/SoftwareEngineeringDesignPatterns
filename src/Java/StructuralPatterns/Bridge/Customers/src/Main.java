@@ -67,7 +67,7 @@ abstract class DataObject {
 class CustomersData extends DataObject {
     private final List<String> customers = new ArrayList<>();
     private int currentCustomerIndex = 0;
-    private String city;
+    private final String city;
 
     public CustomersData(String city) {
         this.city = city;

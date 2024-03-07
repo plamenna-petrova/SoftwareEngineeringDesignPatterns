@@ -41,8 +41,8 @@ class PlayStation implements IGamingConsole {
 }
 
 class Game {
-    private String name;
-    private String studio;
+    private final String name;
+    private final String studio;
 
     public Game(String name, String studio) {
         this.name = name;
