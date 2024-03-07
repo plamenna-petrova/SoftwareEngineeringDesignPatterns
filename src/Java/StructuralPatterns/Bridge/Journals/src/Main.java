@@ -49,9 +49,9 @@ class DailyJournal implements IJournal {
 
     private String pages = "";
 
-    private String name;
+    private final String name;
 
-    private static SortedMap<String, DailyJournal> community = new TreeMap<>();
+    private static final SortedMap<String, DailyJournal> community = new TreeMap<>();
 
     public DailyJournal(String name) {
         this.name = name;
@@ -78,9 +78,9 @@ class DailyJournal implements IJournal {
 }
 
 class SharedJournal implements IJournal {
-    private DailyJournal dailyJournal;
+    private final DailyJournal dailyJournal;
 
-    private String name;
+    private final String name;
 
     public SharedJournal(String name) {
         this.name = name;

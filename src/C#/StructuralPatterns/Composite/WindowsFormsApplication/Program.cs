@@ -14,15 +14,15 @@ namespace WindowsFormsApplication
 
             Control contentWrapperPanel = new Panel("contentWrapperPanel", 900, 900, Color.FromArgb(0, 0, 0), Color.FromArgb(255, 255, 255));
 
-            Control employeesCRUDOperationsGroupBox = new GroupBox("employeesCRUDOperationsGroupBox", 300, 300, new Color(), new Color());
+            Control employeesCRUDOperationsGroupBox = new GroupBox("employeesCRUDOperationsGroupBox", 300, 300, Color.FromArgb(0, 0, 0), Color.FromArgb(255, 255, 255));
 
             Control employeeNameTextBox = new TextBox("employeeNameTextBox", 50, 20, Color.FromArgb(0, 0, 0), Color.FromArgb(255, 255, 255));
             Control employeePositionRadioButton = new RadioButton("employeePositionRadioButton", 50, 20, Color.FromArgb(0, 0, 0), Color.FromArgb(31, 71, 136));
             Control employeeSalaryTextBox = new TextBox("employeeSalaryTextBox", 50, 20, Color.FromArgb(0, 0, 0), Color.FromArgb(255, 255, 255));
             Control isEmployeePromotedCheckBox = new CheckBox("isEmployeePromotedCheckBox", 10, 10, Color.FromArgb(0, 0, 0), Color.FromArgb(31, 71, 136));
-            Control createEmployeeButton = new Button("createmployeesButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
-            Control editEmployeeButton = new Button("editEmployeesButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
-            Control deleteEmployeeButton = new Button("deleteEmployeesButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
+            Control createEmployeeButton = new Button("createEmployeeButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
+            Control editEmployeeButton = new Button("editEmployeeButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
+            Control deleteEmployeeButton = new Button("deleteEmployeeButton", 32, 32, Color.FromArgb(255, 255, 255), Color.FromArgb(31, 71, 136));
 
             employeesCRUDOperationsGroupBox.Controls.Add(employeeNameTextBox);
             employeesCRUDOperationsGroupBox.Controls.Add(employeePositionRadioButton);
