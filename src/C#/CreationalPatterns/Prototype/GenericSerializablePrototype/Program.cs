@@ -13,7 +13,7 @@ namespace GenericSerializablePrototype
     [Serializable()]
     public abstract class Prototype<T>
     {
-        public T Clone() => (T) MemberwiseClone();
+        public T ShallowCopy() => (T) MemberwiseClone();
 
         public T DeepCopy()
         {
@@ -47,7 +47,7 @@ namespace GenericSerializablePrototype
                 DummyReference = new ReferenceTypeClass() { ID = "1" }
             };
 
-            ConcretePrototype secondConcretePrototype = firstConcretePrototype.Clone();
+            ConcretePrototype secondConcretePrototype = firstConcretePrototype.ShallowCopy();
             ConcretePrototype thirdConcretePrototype = firstConcretePrototype.DeepCopy();
 
             secondConcretePrototype.ValueType = "2";

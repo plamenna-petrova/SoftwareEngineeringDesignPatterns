@@ -207,19 +207,19 @@ namespace Logger
 
             const int ParallelTasksIterations = 5000;
 
-            Console.WriteLine($"With lock");
+            Console.WriteLine($"Singleton with lock");
             RunParallelTask(ParallelTasksIterations, LogManagerRequestWithLock);
             Console.WriteLine(new string('-', 50));
 
-            Console.WriteLine($"With double checked locking");
+            Console.WriteLine($"Singleton with double checked locking");
             RunParallelTask(ParallelTasksIterations, LogManagerRequestWithDoubleCheckedLocking);
             Console.WriteLine(new string('-', 50));
 
-            Console.WriteLine($"With readonly");
+            Console.WriteLine($"Singleton with readonly");
             RunParallelTask(ParallelTasksIterations, LogManagerRequestWithReadonly);
             Console.WriteLine(new string('-', 50));
 
-            Console.WriteLine($"With lazy initialization");
+            Console.WriteLine($"Singleton with lazy initialization");
             RunParallelTask(ParallelTasksIterations, LogManagerRequestWithLazyInitialization);
             Console.WriteLine(new string('-', 50));
 
