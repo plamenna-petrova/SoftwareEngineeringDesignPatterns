@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/PrototypeStructuralCode/PrototypeStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/PrototypeStructuralCode/PrototypeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" />
