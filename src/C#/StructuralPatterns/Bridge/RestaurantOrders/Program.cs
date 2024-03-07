@@ -9,17 +9,17 @@ namespace RestaurantOrders
 
     public class MiddleClassRestaurant : IRestaurant
     {
-        public void PlaceOrder(string order)
+        public void PlaceOrder(string orderName)
         {
-            Console.WriteLine($"Placing order for {order} at {GetType().Name}");
+            Console.WriteLine($"Placing order for {orderName} at {GetType().Name}");
         }
     }
 
     public class FancyRestaurant : IRestaurant
     {
-        public void PlaceOrder(string order)
+        public void PlaceOrder(string orderName)
         {
-            Console.WriteLine($"Placing order for {order} at {GetType().Name}");
+            Console.WriteLine($"Placing order for {orderName} at {GetType().Name}");
         }
     }
 

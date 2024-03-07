@@ -6,15 +6,15 @@ interface IRestaurant {
 
 class MiddleClassRestaurant implements IRestaurant {
     @Override
-    public void placeOrder(String order) {
-        System.out.println("Placing order for " + order + " at " + getClass().getSimpleName());
+    public void placeOrder(String orderName) {
+        System.out.println("Placing order for " + orderName + " at " + getClass().getSimpleName());
     }
 }
 
 class FancyRestaurant implements IRestaurant {
     @Override
-    public void placeOrder(String order) {
-        System.out.println("Placing order for " + order + " at " + getClass().getSimpleName());
+    public void placeOrder(String orderName) {
+        System.out.println("Placing order for " + orderName + " at " + getClass().getSimpleName());
     }
 }
 

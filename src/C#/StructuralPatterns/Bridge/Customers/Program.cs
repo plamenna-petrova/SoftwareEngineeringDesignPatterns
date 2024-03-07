@@ -85,9 +85,9 @@ namespace Customers
             }
         }
 
-        public override void AddRecord(string customer) => customers.Add(customer);
+        public override void AddRecord(string record) => customers.Add(record);
 
-        public override void RemoveRecord(string customer) => customers.Remove(customer);
+        public override void RemoveRecord(string record) => customers.Remove(record);
 
         public override string GetCurrentRecord() => customers[currentCustomerIndex];
 
@@ -103,22 +103,22 @@ namespace Customers
     {
         static void Main(string[] args)
         {
-            CustomersBase refinedCustomers = new RefinedCustomers
+            CustomersBase customers = new RefinedCustomers
             {
                 DataObject = new CustomersData("Chicago")
             };
 
-            refinedCustomers.Show();
-            refinedCustomers.Next();
-            refinedCustomers.Show();
-            refinedCustomers.Next();
-            refinedCustomers.Show();
-            refinedCustomers.Previous();
-            refinedCustomers.Show();
-            refinedCustomers.Add("Henry Velasquez");
-            refinedCustomers.ShowAll();
-            refinedCustomers.Remove("Allen Good");
-            refinedCustomers.ShowAll();
+            customers.Show();
+            customers.Next();
+            customers.Show();
+            customers.Next();
+            customers.Show();
+            customers.Previous();
+            customers.Show();
+            customers.Add("Henry Velasquez");
+            customers.ShowAll();
+            customers.Remove("Allen Good");
+            customers.ShowAll();
         }
     }
 }

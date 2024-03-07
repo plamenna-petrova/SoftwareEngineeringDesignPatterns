@@ -98,13 +98,13 @@ class CustomersData extends DataObject {
     }
 
     @Override
-    public void addRecord(String customer) {
-        customers.add(customer);
+    public void addRecord(String record) {
+        customers.add(record);
     }
 
     @Override
-    public void removeRecord(String customer) {
-        customers.remove(customer);
+    public void removeRecord(String record) {
+        customers.remove(record);
     }
 
     @Override
@@ -128,19 +128,19 @@ class CustomersData extends DataObject {
 
 public class Main {
     public static void main(String[] args) {
-        CustomersBase refinedCustomers = new RefinedCustomers();
-        refinedCustomers.setDataObject(new CustomersData("Chicago"));
+        CustomersBase customers = new RefinedCustomers();
+        customers .setDataObject(new CustomersData("Chicago"));
 
-        refinedCustomers.show();
-        refinedCustomers.next();
-        refinedCustomers.show();
-        refinedCustomers.next();
-        refinedCustomers.show();
-        refinedCustomers.previous();
-        refinedCustomers.show();
-        refinedCustomers.add("Henry Velasquez");
-        refinedCustomers.showAll();
-        refinedCustomers.remove("Allen Good");
-        refinedCustomers.showAll();
+        customers.show();
+        customers.next();
+        customers.show();
+        customers.next();
+        customers.show();
+        customers.previous();
+        customers.show();
+        customers.add("Henry Velasquez");
+        customers.showAll();
+        customers.remove("Allen Good");
+        customers.showAll();
     }
 }
