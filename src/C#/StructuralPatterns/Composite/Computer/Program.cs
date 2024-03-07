@@ -10,15 +10,15 @@ namespace Computer
 
     public class Part : IComponent
     {
-        public string Name { get; set; }
-
-        public double Price { get; set; }
-
         public Part(string name, double price)
         {
             Name = name;
             Price = price;
         }
+
+        public string Name { get; set; }
+
+        public double Price { get; set; }
 
         public void DisplayPrice()
         {

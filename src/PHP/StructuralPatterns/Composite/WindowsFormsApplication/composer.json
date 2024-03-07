@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/windows_forms_application",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "user",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "StructuralPatterns\\Composite\\WindowsFormsApplication\\Component\\": "Component",
+      "StructuralPatterns\\Composite\\WindowsFormsApplication\\Composites\\": "Composites",
+      "StructuralPatterns\\Composite\\WindowsFormsApplication\\Leaves\\": "Leaves"
+    }
+  }
+}

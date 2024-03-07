@@ -93,8 +93,6 @@ namespace GraphicalTreeStructure
             canvas.Remove(primitiveElement);
 
             canvas.Display(1);
-
-            Console.ReadKey();
         }
     }
 }

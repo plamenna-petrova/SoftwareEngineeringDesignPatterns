@@ -5,18 +5,18 @@ namespace SoftwareCompany
 {
     public abstract class Employee
     {
-        protected string Name { get; set; }
-
-        protected double Salary { get; set; }
-
-        protected string Designation { get; set; }
-
         public Employee(string name, double salary, string designation)
         {
             Name = name;
             Salary = salary;
             Designation = designation;
         }
+
+        protected string Name { get; set; }
+
+        protected double Salary { get; set; }
+
+        protected string Designation { get; set; }
 
         public abstract void Add(Employee employee);
 
@@ -74,9 +74,9 @@ namespace SoftwareCompany
             Console.WriteLine("Cannot remove from a developer");
         }
 
-        public override void GetHierarchicalLevel(int indent)
+        public override void GetHierarchicalLevel(int level)
         {
-            Console.WriteLine($"{new string('-', indent)} {Name} [{Designation}] [${Salary}]");
+            Console.WriteLine($"{new string('-', level)} {Name} [{Designation}] [${Salary}]");
         }
     }
 

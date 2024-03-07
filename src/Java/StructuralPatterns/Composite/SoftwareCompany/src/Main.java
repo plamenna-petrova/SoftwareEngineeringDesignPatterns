@@ -20,7 +20,7 @@ abstract class Employee {
 }
 
 class TeamLead extends Employee {
-    private List<Employee> employees = new ArrayList<>();
+    private final List<Employee> employees = new ArrayList<>();
 
     public TeamLead(String name, double salary, String designation) {
         super(name, salary, designation);
@@ -62,8 +62,8 @@ class Developer extends Employee {
     }
 
     @Override
-    public void getHierarchicalLevel(int indent) {
-        System.out.printf("%s %s [%s] [$%.2f]%n", "-".repeat(indent), name, designation, salary);
+    public void getHierarchicalLevel(int level) {
+        System.out.printf("%s %s [%s] [$%.2f]%n", "-".repeat(level), name, designation, salary);
     }
 }
 
