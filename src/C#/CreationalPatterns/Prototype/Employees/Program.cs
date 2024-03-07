@@ -63,8 +63,6 @@ namespace Employees
             secondSoftwareDeveloper.Name = "James";
             secondSoftwareDeveloper.Address.Name = "New York, USA";
 
-            thirdSoftwareDeveloper.Address.Name = "Barcelona, Spain";
-
             Console.WriteLine("After applying changes: \r\n");
 
             firstSoftwareDeveloper.GetDetails();

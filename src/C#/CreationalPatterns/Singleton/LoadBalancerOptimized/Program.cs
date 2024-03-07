@@ -64,8 +64,6 @@ namespace LoadBalancerOptimized
                 Server randomServer = fifthLoadBalancer.NextServer;
                 Console.WriteLine($"Dispatch Request to: {randomServer.Name} at IP address: {randomServer.IPAddress}");
             }
-
-            Console.ReadKey();
         }
     }
 }

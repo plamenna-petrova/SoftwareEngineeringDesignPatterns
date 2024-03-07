@@ -28,7 +28,10 @@ namespace LoadBalancer
             {
                 lock (lockObject)
                 {
-                    loadBalancerInstance ??= new LoadBalancer();
+                    if (loadBalancerInstance == null)
+                    {
+                        loadBalancerInstance = new LoadBalancer();
+                    }
                 }
             }
 
@@ -67,8 +70,6 @@ namespace LoadBalancer
                 string randomServer = fifthLoadBalancer.NextServer;
                 Console.WriteLine("Dispatch Request to: " + randomServer);
             }
-
-            Console.ReadKey();
         }
     }
 }

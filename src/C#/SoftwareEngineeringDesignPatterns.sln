@@ -147,17 +147,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAdapter", "StructuralPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{C8EBC6AB-D084-4EC6-8A84-6BBB8FC229D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "StructuralPatterns\Bridge\StructuralCode\StructuralCode.csproj", "{DD24F802-CE4D-4CA4-8208-AFFA965C3B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "StructuralPatterns\Bridge\StructuralCode\StructuralCode.csproj", "{DD24F802-CE4D-4CA4-8208-AFFA965C3B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers", "StructuralPatterns\Bridge\Customers\Customers.csproj", "{7B01E71C-E8B9-4508-BFB2-CBBA54C314E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers", "StructuralPatterns\Bridge\Customers\Customers.csproj", "{7B01E71C-E8B9-4508-BFB2-CBBA54C314E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVs", "StructuralPatterns\Bridge\TVs\TVs.csproj", "{B5E60BD5-AF0A-460C-97EA-94248D3B4FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVs", "StructuralPatterns\Bridge\TVs\TVs.csproj", "{B5E60BD5-AF0A-460C-97EA-94248D3B4FDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journals", "StructuralPatterns\Bridge\Journals\Journals.csproj", "{DAB7CE1C-CC83-4654-8CB9-8BBFCA9CF080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journals", "StructuralPatterns\Bridge\Journals\Journals.csproj", "{DAB7CE1C-CC83-4654-8CB9-8BBFCA9CF080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantOrders", "StructuralPatterns\Bridge\RestaurantOrders\RestaurantOrders.csproj", "{D226DAC0-8B9B-4223-A877-C544C898D7B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantOrders", "StructuralPatterns\Bridge\RestaurantOrders\RestaurantOrders.csproj", "{D226DAC0-8B9B-4223-A877-C544C898D7B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingConsoles", "StructuralPatterns\Bridge\GamingConsoles\GamingConsoles.csproj", "{55E3848F-E528-41B9-B6EC-852A0C40D570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamingConsoles", "StructuralPatterns\Bridge\GamingConsoles\GamingConsoles.csproj", "{55E3848F-E528-41B9-B6EC-852A0C40D570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLock", "CreationalPatterns\Singleton\DeadLock\DeadLock.csproj", "{363D6CF7-DE2D-43C3-8E12-75176058DFAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{55E3848F-E528-41B9-B6EC-852A0C40D570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E3848F-E528-41B9-B6EC-852A0C40D570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E3848F-E528-41B9-B6EC-852A0C40D570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363D6CF7-DE2D-43C3-8E12-75176058DFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363D6CF7-DE2D-43C3-8E12-75176058DFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363D6CF7-DE2D-43C3-8E12-75176058DFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363D6CF7-DE2D-43C3-8E12-75176058DFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -497,6 +503,7 @@ Global
 		{DAB7CE1C-CC83-4654-8CB9-8BBFCA9CF080} = {C8EBC6AB-D084-4EC6-8A84-6BBB8FC229D7}
 		{D226DAC0-8B9B-4223-A877-C544C898D7B0} = {C8EBC6AB-D084-4EC6-8A84-6BBB8FC229D7}
 		{55E3848F-E528-41B9-B6EC-852A0C40D570} = {C8EBC6AB-D084-4EC6-8A84-6BBB8FC229D7}
+		{363D6CF7-DE2D-43C3-8E12-75176058DFAA} = {2FAD5843-2886-4427-BB56-800C2E1B00A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}

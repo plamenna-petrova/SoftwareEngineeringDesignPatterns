@@ -30,7 +30,6 @@ namespace PeopleIdentification
 
         public IDInfo IDInfo { get; set; }
 
-
         public abstract Person ShallowCopy();
 
         public abstract Person DeepCopy();
