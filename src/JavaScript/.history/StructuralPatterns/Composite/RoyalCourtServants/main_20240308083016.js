@@ -1,5 +1,5 @@
 
-class Servant {
+class IServant {
     constructor(name, wage, role, productivity, reliability) {
         this.name = name;
         this.wage = wage;
@@ -9,13 +9,13 @@ class Servant {
     }
 }
 
-class Housemaid extends Servant {
+class Housemaid extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
 }
 
-class Cook extends Servant {
+class Cook extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
@@ -75,7 +75,7 @@ class RoyalCourt {
         for (const servant of this.servants) {
             if (servant.productivity >= 60) {
                 const newWage = servant.wage + 50;
-                promotionList += `${servant.name} with role ${servant.role} will be promoted with new wage of ${newWage}\n`;
+                promotionList += `${servant.name} with role ${servant.Role} will be promoted with new wage of ${newWage}\n`;
             }
         }
 
@@ -83,11 +83,15 @@ class RoyalCourt {
     }
 }
 
+// Arrange Servants, Royal Court, and add servants
+
+// housemaids
 const firstHouseMaid = new Housemaid("Emma", 150, "cleans the hall", 65, 70);
 const secondHouseMaid = new Housemaid("Isabella", 180, "cleans the kitchen", 70, 30);
 const thirdHouseMaid = new Housemaid("Gilda", 200, "cleans the guest rooms", 50, 90);
 const fourthHouseMaid = new Housemaid("Grace", 260, "cleans the bedrooms", 70, 80);
 
+// cooks
 const firstCook = new Cook("Norman", 300, "prepares breakfast Mondays and Fridays", 80, 90);
 const secondCook = new Cook("Ray", 280, "prepares dinner Wednesdays and Saturdays", 75, 40);
 const thirdCook = new Cook("Don", 250, "prepares desserts", 60, 95);

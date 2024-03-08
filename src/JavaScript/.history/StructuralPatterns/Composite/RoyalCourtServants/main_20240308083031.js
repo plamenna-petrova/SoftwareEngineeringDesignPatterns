@@ -1,5 +1,5 @@
 
-class Servant {
+class IServant {
     constructor(name, wage, role, productivity, reliability) {
         this.name = name;
         this.wage = wage;
@@ -9,13 +9,13 @@ class Servant {
     }
 }
 
-class Housemaid extends Servant {
+class Housemaid extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
 }
 
-class Cook extends Servant {
+class Cook extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
@@ -83,6 +83,9 @@ class RoyalCourt {
     }
 }
 
+// Arrange Servants, Royal Court, and add servants
+
+// housemaids
 const firstHouseMaid = new Housemaid("Emma", 150, "cleans the hall", 65, 70);
 const secondHouseMaid = new Housemaid("Isabella", 180, "cleans the kitchen", 70, 30);
 const thirdHouseMaid = new Housemaid("Gilda", 200, "cleans the guest rooms", 50, 90);

@@ -15,7 +15,7 @@ class Housemaid extends Servant {
     }
 }
 
-class Cook extends Servant {
+class Cook extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }

@@ -145,15 +145,11 @@ namespace RoyalCourtServants
     {
         static void Main(string[] args)
         {
-            // Arrange Servants, Royal Court and add servants
-
-            // housemaids
             var firstHouseMaid = new Housemaid("Emma", 150, "cleans the hall", 65, 70);
             var secondHouseMaid = new Housemaid("Isabella", 180, "cleans the kitchen", 70, 30);
             var thirdHouseMaid = new Housemaid("Gilda", 200, "cleans the guest rooms", 50, 90);
             var fourthHouseMaid = new Housemaid("Grace", 260, "cleans the bedrooms", 70, 80);
 
-            // cooks
             var firstCook = new Cook("Norman", 300, "prepares the breakfast Mondays and Fridays", 80, 90);
             var secondCook = new Cook("Ray", 280, "prepares the dinner Wednesdays and Saturdays", 75, 40);
             var thirdCook = new Cook("Don", 250, "prepares the desserts", 60, 95);

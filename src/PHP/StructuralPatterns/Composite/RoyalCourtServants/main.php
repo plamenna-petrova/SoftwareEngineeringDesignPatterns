@@ -183,15 +183,11 @@ class RoyalCourt {
     }
 }
 
-// Arrange Servants, Royal Court, and add servants
-
-// housemaids
 $firstHouseMaid = new Housemaid("Emma", 150, "cleans the hall", 65, 70);
 $secondHouseMaid = new Housemaid("Isabella", 180, "cleans the kitchen", 70, 30);
 $thirdHouseMaid = new Housemaid("Gilda", 200, "cleans the guest rooms", 50, 90);
 $fourthHouseMaid = new Housemaid("Grace", 260, "cleans the bedrooms", 70, 80);
 
-// cooks
 $firstCook = new Cook("Norman", 300, "prepares breakfast Mondays and Fridays", 80, 90);
 $secondCook = new Cook("Ray", 280, "prepares dinner Wednesdays and Saturdays", 75, 40);
 $thirdCook = new Cook("Don", 250, "prepares desserts", 60, 95);

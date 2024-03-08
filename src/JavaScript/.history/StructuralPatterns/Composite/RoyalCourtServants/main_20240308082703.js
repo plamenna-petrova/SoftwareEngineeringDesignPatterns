@@ -1,4 +1,3 @@
-
 class Servant {
     constructor(name, wage, role, productivity, reliability) {
         this.name = name;
@@ -59,14 +58,14 @@ class RoyalCourt {
         const servantWithMinReliability = this.servants.reduce((minReliabilityServant, servant) =>
             (servant.reliability < minReliabilityServant.reliability) ? servant : minReliabilityServant, this.servants[0]);
 
-        return `The servant ${servantWithMinReliability.name} with role -- ${servantWithMinReliability.role} -- has the minimum reliability of ${servantWithMinReliability.Reliability} %`;
+        return `The servant ${servantWithMinReliability.name} with role -- ${servantWithMinReliability.role} -- has the minimum reliability of ${servantWithMinReliability.reliability} %`;
     }
 
     getMaximumReliability() {
         const servantWithMaxReliability = this.servants.reduce((maxReliabilityServant, servant) =>
             (servant.reliability > maxReliabilityServant.reliability) ? servant : maxReliabilityServant, this.servants[0]);
 
-        return `The servant ${servantWithMaxReliability.Name} with role -- ${servantWithMaxReliability.Role} -- has the maximum reliability of ${servantWithMaxReliability.Reliability} %`;
+        return `The servant ${servantWithMaxReliability.name} with role -- ${servantWithMaxReliability.role} -- has the maximum reliability of ${servantWithMaxReliability.reliability} %`;
     }
 
     toBePromoted() {
@@ -105,16 +104,3 @@ royalCourt.addServant(thirdCook);
 royalCourt.addServant(fourthCook);
 
 royalCourt.removeServant(firstHouseMaid);
-royalCourt.removeServant(secondHouseMaid);
-royalCourt.removeServant(thirdHouseMaid);
-royalCourt.removeServant(fourthHouseMaid);
-royalCourt.removeServant(firstCook);
-royalCourt.removeServant(secondCook);
-royalCourt.removeServant(thirdCook);
-royalCourt.removeServant(fourthCook);
-
-console.log(`The sum of servants' wages for all servants is: ${royalCourt.getServantsWages()}`);
-console.log(`The average productivity for all servants is: ${royalCourt.getAverageProductivity().toFixed(2)}`);
-console.log(`The minimum reliability among all servants is: ${royalCourt.getMinimumReliability()}`);
-console.log(`The maximum reliability among all servants is: ${royalCourt.getMaximumReliability()}`);
-console.log(`Servants to be promoted:\n${royalCourt.toBePromoted()}`);

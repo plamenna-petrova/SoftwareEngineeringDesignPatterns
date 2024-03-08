@@ -9,13 +9,13 @@ class Servant {
     }
 }
 
-class Housemaid extends Servant {
+class Housemaid extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
 }
 
-class Cook extends Servant {
+class Cook extends IServant {
     constructor(name, wage, role, productivity, reliability) {
         super(name, wage, role, productivity, reliability);
     }
