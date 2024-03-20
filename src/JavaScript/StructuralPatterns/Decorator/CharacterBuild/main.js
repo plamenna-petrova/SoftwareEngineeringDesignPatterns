@@ -93,6 +93,7 @@ class DexterityBuild extends CharacterBuildDecorator {
 class MagicKnightBuild extends CharacterBuildDecorator {
     constructor(characterBuild) {
         super(characterBuild);
+        
         if (characterBuild instanceof CharacterBuildDecorator) {
             characterBuild.increaseAttunement(15);
         } else {

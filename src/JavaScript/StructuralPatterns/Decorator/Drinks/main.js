@@ -22,9 +22,11 @@ class CocaCola extends IColdDrink {
 class ColdDrinkDecorator extends IColdDrink {
     constructor(coldDrink) {
         super();
+
         if (!coldDrink) {
             throw new Error("Cold drink should not be null.");
         }
+        
         this.coldDrink = coldDrink;
     }
 
