@@ -165,9 +165,27 @@ namespace FileAdapter
         {
             var people = new List<Person>
             {
-                new Person { Id = 1, IsLiving = true, Name = "John", DateOfBirth = Convert.ToDateTime("03/05/2006") },
-                new Person { Id = 2, IsLiving = true, Name = "Steve", DateOfBirth = Convert.ToDateTime("03/09/1998") },
-                new Person { Id = 3, IsLiving = true, Name = "James", DateOfBirth = Convert.ToDateTime("03/08/1994") }
+                new Person 
+                { 
+                    Id = 1, 
+                    IsLiving = true, 
+                    Name = "John", 
+                    DateOfBirth = Convert.ToDateTime("03/05/2006") 
+                },
+                new Person 
+                { 
+                    Id = 2, 
+                    IsLiving = true, 
+                    Name = "Steve", 
+                    DateOfBirth = Convert.ToDateTime("03/09/1998") 
+                },
+                new Person 
+                { 
+                    Id = 3, 
+                    IsLiving = true, 
+                    Name = "James", 
+                    DateOfBirth = Convert.ToDateTime("03/08/1994") 
+                }
             };
 
             IFileSaverTarget fileSaverTarget = new FileSaverAdapter(FileType.TXT);

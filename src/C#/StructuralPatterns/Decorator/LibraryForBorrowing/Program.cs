@@ -115,6 +115,7 @@ namespace LibraryForBorrowing
             video.Display();
 
             Console.WriteLine("\nMaking videos borrowable: ");
+
             BorrowableItemConcreteDecorator borrowableItemConcreteDecorator = new BorrowableItemConcreteDecorator(video);
             borrowableItemConcreteDecorator.BorrowItem("Customer #1");
             borrowableItemConcreteDecorator.BorrowItem("Customer #2");
