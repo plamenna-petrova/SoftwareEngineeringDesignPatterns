@@ -62,6 +62,7 @@ namespace StructuralCode
         static void Main(string[] args)
         {
             ConcreteComponent concreteComponent = new ConcreteComponent();
+
             ConcreteDecoratorA concreteDecoratorA = new ConcreteDecoratorA();
             ConcreteDecoratorB concreteDecoratorB = new ConcreteDecoratorB();
 

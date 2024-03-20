@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/BridgeStructuralCode/BridgeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/BridgeStructuralCode/BridgeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Cars/Cars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Cars/Cars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/CharacterBuild/CharacterBuild.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/CharacterBuild/CharacterBuild.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ChemicalDatabank/ChemicalDatabank.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ChemicalDatabank/ChemicalDatabank.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/CloneablePrototype/CloneablePrototype.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/CloneablePrototype/CloneablePrototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/Colors/Colors.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/Colors/Colors.iml" />
@@ -16,7 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" />
@@ -29,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/LibraryForBorrowing/LibraryForBorrowing.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/LibraryForBorrowing/LibraryForBorrowing.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancer/LoadBalancer.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancer/LoadBalancer.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancerOptimized/LoadBalancerOptimized.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/LoadBalancerOptimized/LoadBalancerOptimized.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" />
