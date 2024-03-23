@@ -104,7 +104,7 @@ namespace Drinks
 
             var colaMilkShake = new ColaMilkshake(iceCola);
             Console.WriteLine(drinkInfo);
-            Console.WriteLine($"Price : {string.Format(cultureInfo, "{0:C}", colaMilkShake)}");
+            Console.WriteLine($"Price : {string.Format(cultureInfo, "{0:C}", colaMilkShake.GetPrice())}");
             Console.WriteLine($"Description : {colaMilkShake.GetDescription()}");
         }
     }
