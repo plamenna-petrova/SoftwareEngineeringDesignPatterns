@@ -201,15 +201,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multimedia", "StructuralPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{8B660831-B49C-4AB2-8AB0-1333CF718B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "StructuralPatterns\Flyweight\StructuralCode\StructuralCode.csproj", "{A051C43C-DE31-4BDC-83A0-774830D6F1C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "StructuralPatterns\Flyweight\StructuralCode\StructuralCode.csproj", "{A051C43C-DE31-4BDC-83A0-774830D6F1C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Characters", "StructuralPatterns\Flyweight\Characters\Characters.csproj", "{939598AF-4244-40D8-9246-7BF603A65239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Characters", "StructuralPatterns\Flyweight\Characters\Characters.csproj", "{939598AF-4244-40D8-9246-7BF603A65239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliceCars", "StructuralPatterns\Flyweight\PoliceCars\PoliceCars.csproj", "{B5DB719B-A739-4F49-A4CD-635E68C05907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoliceCars", "StructuralPatterns\Flyweight\PoliceCars\PoliceCars.csproj", "{B5DB719B-A739-4F49-A4CD-635E68C05907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "StructuralPatterns\Flyweight\Shapes\Shapes.csproj", "{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "StructuralPatterns\Flyweight\Shapes\Shapes.csproj", "{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stars", "StructuralPatterns\Flyweight\Stars\Stars.csproj", "{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stars", "StructuralPatterns\Flyweight\Stars\Stars.csproj", "{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{7D529801-26A7-428F-9ED5-4B69554228D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "StructuralPatterns\Proxy\StructuralCode\StructuralCode.csproj", "{296E4009-1213-424A-984E-85B7E76078D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathProxy", "StructuralPatterns\Proxy\MathProxy\MathProxy.csproj", "{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Folder", "StructuralPatterns\Proxy\Folder\Folder.csproj", "{5091A3EA-CE0F-4778-9336-48892FDDE768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "StructuralPatterns\Proxy\Server\Server.csproj", "{508CBFB4-359E-4909-B366-10C139E99B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisPlayers", "StructuralPatterns\Proxy\TennisPlayers\TennisPlayers.csproj", "{2D5627D3-358F-4D65-B658-5B9B02772EED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -557,6 +569,26 @@ Global
 		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296E4009-1213-424A-984E-85B7E76078D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296E4009-1213-424A-984E-85B7E76078D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296E4009-1213-424A-984E-85B7E76078D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296E4009-1213-424A-984E-85B7E76078D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5091A3EA-CE0F-4778-9336-48892FDDE768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5091A3EA-CE0F-4778-9336-48892FDDE768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5091A3EA-CE0F-4778-9336-48892FDDE768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5091A3EA-CE0F-4778-9336-48892FDDE768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508CBFB4-359E-4909-B366-10C139E99B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508CBFB4-359E-4909-B366-10C139E99B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508CBFB4-359E-4909-B366-10C139E99B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508CBFB4-359E-4909-B366-10C139E99B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5627D3-358F-4D65-B658-5B9B02772EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5627D3-358F-4D65-B658-5B9B02772EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5627D3-358F-4D65-B658-5B9B02772EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5627D3-358F-4D65-B658-5B9B02772EED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -663,6 +695,12 @@ Global
 		{B5DB719B-A739-4F49-A4CD-635E68C05907} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
 		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
 		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
+		{7D529801-26A7-428F-9ED5-4B69554228D9} = {03E03A2F-3C18-4BE6-A904-358F3C76A6D5}
+		{296E4009-1213-424A-984E-85B7E76078D7} = {7D529801-26A7-428F-9ED5-4B69554228D9}
+		{D6B7D2D5-ACE9-44AE-9EDB-00DB79858B9E} = {7D529801-26A7-428F-9ED5-4B69554228D9}
+		{5091A3EA-CE0F-4778-9336-48892FDDE768} = {7D529801-26A7-428F-9ED5-4B69554228D9}
+		{508CBFB4-359E-4909-B366-10C139E99B72} = {7D529801-26A7-428F-9ED5-4B69554228D9}
+		{2D5627D3-358F-4D65-B658-5B9B02772EED} = {7D529801-26A7-428F-9ED5-4B69554228D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
