@@ -77,7 +77,7 @@ namespace Stars
             star = starsFactory.GetStar("Red Giant");
             star.Print();
 
-            Console.WriteLine($"Get shapes count : {starsFactory.StarsCount}");
+            Console.WriteLine($"Get stars count : {starsFactory.StarsCount}");
         }
     }
 }

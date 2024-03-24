@@ -62,6 +62,6 @@ public class Main {
         star = starsFactory.getStar("Red Giant");
         star.print();
 
-        System.out.println("Get shapes count : " + starsFactory.getStarsCount());
+        System.out.println("Get stars count : " + starsFactory.getStarsCount());
     }
 }

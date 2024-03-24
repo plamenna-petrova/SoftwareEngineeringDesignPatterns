@@ -61,4 +61,4 @@ $star->printStar();
 $star = $starsFactory->getStar("Red Giant");
 $star->printStar();
 
-echo "Get shapes count : " . $starsFactory->getStarsCount() . "\n";
+echo "Get stars count : " . $starsFactory->getStarsCount() . "\n";
