@@ -14,7 +14,7 @@ namespace Shapes
 
         private int yCoordinate = 20;
 
-        private int Radius = 30;
+        private int radius = 30;
 
         public void SetColor(string color)
         {
@@ -25,7 +25,7 @@ namespace Shapes
 
         public void Draw()
         {
-            Console.WriteLine($" Circle: Draw() [Color : {Color}, X Coordinate : {xCoordinate} Y Coordinate : {yCoordinate}, Radius : {Radius} ]");
+            Console.WriteLine($" Circle: Draw() [Color : {Color}, X Coordinate : {xCoordinate} Y Coordinate : {yCoordinate}, Radius : {radius} ]");
         }
     }
 
