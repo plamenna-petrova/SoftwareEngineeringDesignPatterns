@@ -61,6 +61,7 @@ namespace Stars
         static void Main(string[] args)
         {
             StarsFactory starsFactory = new StarsFactory();
+
             IStar star = starsFactory.GetStar("White Dwarf");
             star.Print();
             star = starsFactory.GetStar("White Dwarf");
