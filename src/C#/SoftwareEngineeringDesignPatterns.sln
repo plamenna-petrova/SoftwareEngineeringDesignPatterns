@@ -189,15 +189,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterBuild", "Structura
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{33FE3F83-4D8A-4EF4-9423-980FD5794DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "StructuralPatterns\Facade\StructuralCode\StructuralCode.csproj", "{FA197839-1292-49A7-873F-BE33AD8A52BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "StructuralPatterns\Facade\StructuralCode\StructuralCode.csproj", "{FA197839-1292-49A7-873F-BE33AD8A52BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mortgage", "StructuralPatterns\Facade\Mortgage\Mortgage.csproj", "{A421A019-D0D5-4649-8818-57DB276C2765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mortgage", "StructuralPatterns\Facade\Mortgage\Mortgage.csproj", "{A421A019-D0D5-4649-8818-57DB276C2765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "StructuralPatterns\Facade\Orders\Orders.csproj", "{351DB347-1A3A-4FDB-B901-6E802ED626BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "StructuralPatterns\Facade\Orders\Orders.csproj", "{351DB347-1A3A-4FDB-B901-6E802ED626BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerSystem", "StructuralPatterns\Facade\ComputerSystem\ComputerSystem.csproj", "{EF5DCAA5-FA68-4EF2-8493-D27E5475034F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerSystem", "StructuralPatterns\Facade\ComputerSystem\ComputerSystem.csproj", "{EF5DCAA5-FA68-4EF2-8493-D27E5475034F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multimedia", "StructuralPatterns\Facade\Multimedia\Multimedia.csproj", "{19682EE5-3C4D-4117-A983-23A5FDB1402C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multimedia", "StructuralPatterns\Facade\Multimedia\Multimedia.csproj", "{19682EE5-3C4D-4117-A983-23A5FDB1402C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{8B660831-B49C-4AB2-8AB0-1333CF718B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "StructuralPatterns\Flyweight\StructuralCode\StructuralCode.csproj", "{A051C43C-DE31-4BDC-83A0-774830D6F1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Characters", "StructuralPatterns\Flyweight\Characters\Characters.csproj", "{939598AF-4244-40D8-9246-7BF603A65239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliceCars", "StructuralPatterns\Flyweight\PoliceCars\PoliceCars.csproj", "{B5DB719B-A739-4F49-A4CD-635E68C05907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "StructuralPatterns\Flyweight\Shapes\Shapes.csproj", "{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stars", "StructuralPatterns\Flyweight\Stars\Stars.csproj", "{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +537,26 @@ Global
 		{19682EE5-3C4D-4117-A983-23A5FDB1402C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19682EE5-3C4D-4117-A983-23A5FDB1402C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19682EE5-3C4D-4117-A983-23A5FDB1402C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A051C43C-DE31-4BDC-83A0-774830D6F1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A051C43C-DE31-4BDC-83A0-774830D6F1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A051C43C-DE31-4BDC-83A0-774830D6F1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A051C43C-DE31-4BDC-83A0-774830D6F1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939598AF-4244-40D8-9246-7BF603A65239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939598AF-4244-40D8-9246-7BF603A65239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939598AF-4244-40D8-9246-7BF603A65239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939598AF-4244-40D8-9246-7BF603A65239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DB719B-A739-4F49-A4CD-635E68C05907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DB719B-A739-4F49-A4CD-635E68C05907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DB719B-A739-4F49-A4CD-635E68C05907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DB719B-A739-4F49-A4CD-635E68C05907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -625,6 +657,12 @@ Global
 		{351DB347-1A3A-4FDB-B901-6E802ED626BC} = {33FE3F83-4D8A-4EF4-9423-980FD5794DF4}
 		{EF5DCAA5-FA68-4EF2-8493-D27E5475034F} = {33FE3F83-4D8A-4EF4-9423-980FD5794DF4}
 		{19682EE5-3C4D-4117-A983-23A5FDB1402C} = {33FE3F83-4D8A-4EF4-9423-980FD5794DF4}
+		{8B660831-B49C-4AB2-8AB0-1333CF718B84} = {03E03A2F-3C18-4BE6-A904-358F3C76A6D5}
+		{A051C43C-DE31-4BDC-83A0-774830D6F1C1} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
+		{939598AF-4244-40D8-9246-7BF603A65239} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
+		{B5DB719B-A739-4F49-A4CD-635E68C05907} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
+		{DC26E1C0-F182-41C6-8A32-FB293DFAB3AF} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
+		{7DC57B80-37F5-4C84-B6AD-C7F5AF5E6F05} = {8B660831-B49C-4AB2-8AB0-1333CF718B84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
