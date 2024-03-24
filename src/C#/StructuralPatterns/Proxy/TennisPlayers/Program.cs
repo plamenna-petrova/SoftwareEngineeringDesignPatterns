@@ -23,7 +23,7 @@ namespace TennisPlayers
 
     public class ProxyTennisPlayer : ITennisPlayer
     {
-        private ATPPlayer atpPlayer = new ATPPlayer();
+        private readonly ATPPlayer atpPlayer = new ATPPlayer();
 
         public string GetPlayerInfo() => atpPlayer.GetPlayerInfo();
 
