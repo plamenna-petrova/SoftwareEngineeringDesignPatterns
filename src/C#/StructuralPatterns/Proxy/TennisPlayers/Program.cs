@@ -21,7 +21,7 @@ namespace TennisPlayers
         }
     }
 
-    public class ProxyPlayer : ITennisPlayer
+    public class ProxyTennisPlayer : ITennisPlayer
     {
         private ATPPlayer atpPlayer = new ATPPlayer();
 
@@ -34,10 +34,10 @@ namespace TennisPlayers
     {
         static void Main(string[] args)
         {
-            ProxyPlayer proxyPlayer = new ProxyPlayer();
-            proxyPlayer.SetPlayerInfo("Ranking up with 20 positions");
+            ProxyTennisPlayer proxyTennisPlayer = new ProxyTennisPlayer();
+            proxyTennisPlayer.SetPlayerInfo("Ranking up with 20 positions");
 
-            Console.WriteLine(proxyPlayer.GetPlayerInfo());
+            Console.WriteLine(proxyTennisPlayer.GetPlayerInfo());
         }
     }
 }
