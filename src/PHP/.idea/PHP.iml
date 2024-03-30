@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CreationalPatterns" isTestSource="false" packagePrefix="CreationalPatterns" />
       <sourceFolder url="file://$MODULE_DIR$/StructuralPatterns" isTestSource="false" packagePrefix="StructuralPatterns" />
+      <sourceFolder url="file://$MODULE_DIR$/BehavioralPatterns" isTestSource="false" packagePrefix="BehavioralPatterns" />
       <excludeFolder url="file://$MODULE_DIR$/CreationalPatterns/Factory/CreditCards/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
