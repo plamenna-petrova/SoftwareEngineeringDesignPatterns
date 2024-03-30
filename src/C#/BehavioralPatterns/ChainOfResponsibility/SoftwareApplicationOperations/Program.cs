@@ -16,18 +16,18 @@ namespace SoftwareApplicationOperations
 
     public abstract class BaseRequestHandler : IRequestHandler
     {
-        private IRequestHandler _nextRequestHandler;
+        private IRequestHandler nextRequestHandler;
 
         public void SetNextHandler(IRequestHandler nextRequestHandler)
         {
-            _nextRequestHandler = nextRequestHandler;
+            this.nextRequestHandler = nextRequestHandler;
         }
 
         public void HandleRequest(Request request)
         {
             ProcessRequest(request);
 
-            _nextRequestHandler?.HandleRequest(request);
+            nextRequestHandler?.HandleRequest(request);
         }
 
         protected abstract void ProcessRequest(Request request);

@@ -18,11 +18,11 @@ namespace OrdersApproval
 
     public abstract class BaseOrderHandler : IOrderHandler
     {
-        private IOrderHandler _nextOrderHandler;
+        private IOrderHandler nextOrderHandler;
 
         public void SetNextHandler(IOrderHandler nextOrderHandler)
         {
-            _nextOrderHandler = nextOrderHandler;
+            this.nextOrderHandler = nextOrderHandler;
         }
 
         public virtual void DistributeOrderProcessing(Order order)
@@ -31,9 +31,9 @@ namespace OrdersApproval
             {
                 ProcessOrder(order);
             }
-            else if (_nextOrderHandler != null)
+            else if (nextOrderHandler != null)
             {
-                _nextOrderHandler.DistributeOrderProcessing(order);
+                nextOrderHandler.DistributeOrderProcessing(order);
             }
             else
             {

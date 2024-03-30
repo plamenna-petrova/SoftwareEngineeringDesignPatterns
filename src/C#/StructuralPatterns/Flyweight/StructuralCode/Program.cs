@@ -26,7 +26,7 @@ namespace StructuralCode
 
     public class FlyweightFactory
     {
-        private Dictionary<string, Flyweight> flyweights { get; set; } = new Dictionary<string, Flyweight>();
+        private readonly Dictionary<string, Flyweight> flyweights = new Dictionary<string, Flyweight>();
 
         public FlyweightFactory()
         {

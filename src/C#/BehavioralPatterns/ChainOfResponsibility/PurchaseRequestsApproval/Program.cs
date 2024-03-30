@@ -4,54 +4,18 @@ namespace PurchaseRequestsApproval
 {
     public class Purchase
     {
-        private int number;
-
-        private double amount;
-
-        private string purpose;
-
         public Purchase(int number, double amount, string purpose)
         {
-            this.number = number;
-            this.amount = amount;
-            this.purpose = purpose;
+            Number = number;
+            Amount = amount;
+            Purpose = purpose;
         }
 
-        public int Number
-        {
-            get
-            {
-                return number;
-            }
-            set
-            {
-                number = value;
-            }
-        }
+        public int Number { get; set; }
 
-        public double Amount
-        {
-            get
-            {
-                return amount;
-            }
-            set
-            {
-                amount = value;
-            }
-        }
+        public double Amount { get; set; }
 
-        public string Purpose
-        {
-            get
-            {
-                return purpose;
-            }
-            set
-            {
-                purpose = value;
-            }
-        }
+        public string Purpose { get; set; }
     }
 
     public abstract class Approver
@@ -76,9 +40,9 @@ namespace PurchaseRequestsApproval
             {
                 Console.WriteLine("{0} approved request# {1}", GetType().Name, purchase.Number);
             }
-            else if (successor != null)
+            else
             {
-                successor.ProcessRequest(purchase);
+                successor?.ProcessRequest(purchase);
             }
         }
     }
@@ -91,9 +55,9 @@ namespace PurchaseRequestsApproval
             {
                 Console.WriteLine("{0} approved request# {1}", GetType().Name, purchase.Number);
             }
-            else if (successor != null)
+            else
             {
-                successor.ProcessRequest(purchase);
+                successor?.ProcessRequest(purchase);
             }
         }
     }

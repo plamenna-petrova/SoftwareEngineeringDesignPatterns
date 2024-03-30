@@ -14,7 +14,7 @@ namespace StructuralCode
         public abstract void HandleRequest(int request);
     }
 
-    public class ConcreteHandler1 : Handler
+    public class FirstConcreteHandler : Handler
     {
         public override void HandleRequest(int request)
         {
@@ -29,7 +29,7 @@ namespace StructuralCode
         }
     }
 
-    public class ConcreteHandler2 : Handler
+    public class SecondConcreteHandler : Handler
     {
         public override void HandleRequest(int request)
         {
@@ -44,7 +44,7 @@ namespace StructuralCode
         }
     }
 
-    public class ConcreteHandler3 : Handler
+    public class ThirdConcreteHandler : Handler
     {
         public override void HandleRequest(int request)
         {
@@ -63,9 +63,9 @@ namespace StructuralCode
     {
         static void Main(string[] args)
         {
-            Handler firstConcreteHandler = new ConcreteHandler1();
-            Handler secondConcreteHandler = new ConcreteHandler2();
-            Handler thirdConcreteHandler = new ConcreteHandler3();
+            Handler firstConcreteHandler = new FirstConcreteHandler();
+            Handler secondConcreteHandler = new SecondConcreteHandler();
+            Handler thirdConcreteHandler = new ThirdConcreteHandler();
 
             firstConcreteHandler.SetSuccessor(secondConcreteHandler);
             secondConcreteHandler.SetSuccessor(thirdConcreteHandler);

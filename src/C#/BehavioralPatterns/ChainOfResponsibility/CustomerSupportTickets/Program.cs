@@ -24,11 +24,11 @@ namespace CustomerSupportTickets
 
     public abstract class BaseSupportHandler : ISupportHandler
     {
-        private ISupportHandler _nextSupportHandler;
+        private ISupportHandler nextSupportHandler;
 
         public void SetNextHandler(ISupportHandler nextSupportHandler)
         {
-            _nextSupportHandler = nextSupportHandler;
+            this.nextSupportHandler = nextSupportHandler;
         }
 
         public virtual void DistributeTicketHandling(Ticket ticket)
@@ -37,9 +37,9 @@ namespace CustomerSupportTickets
             {
                 HandleTicket(ticket);
             }
-            else if (_nextSupportHandler != null)
+            else if (nextSupportHandler != null)
             {
-                _nextSupportHandler.DistributeTicketHandling(ticket);
+                nextSupportHandler.DistributeTicketHandling(ticket);
             }
             else
             {

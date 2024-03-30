@@ -29,7 +29,7 @@ namespace Server
         }
     }
 
-    public class ServerProxy : IServer
+    public class ProxyServer : IServer
     {
         private string order;
 
@@ -54,10 +54,10 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            ServerProxy serverProxy = new ServerProxy();
-            serverProxy.TakeOrder("Order #1");
-            serverProxy.ProcessPayment("via Credit Card");
-            Console.WriteLine($"{serverProxy.DeliverOrder()} delivered successfully.");
+            ProxyServer proxyServer = new ProxyServer();
+            proxyServer.TakeOrder("Order #1");
+            proxyServer.ProcessPayment("via Credit Card");
+            Console.WriteLine($"{proxyServer.DeliverOrder()} delivered successfully.");
         }
     }
 }

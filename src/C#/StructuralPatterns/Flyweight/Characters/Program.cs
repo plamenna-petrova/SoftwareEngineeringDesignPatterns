@@ -34,7 +34,7 @@ namespace Characters
         public override void Display(int pointSize)
         {
             this.pointSize = pointSize;
-            Console.WriteLine($"symbol (pointsize {this.pointSize})");
+            Console.WriteLine($"symbol (point size {this.pointSize})");
         }
     }
 
@@ -52,7 +52,7 @@ namespace Characters
         public override void Display(int pointSize)
         {
             this.pointSize = pointSize;
-            Console.WriteLine($"symbol (pointsize {this.pointSize})");
+            Console.WriteLine($"symbol (point size {this.pointSize})");
         }
     }
 
@@ -76,7 +76,7 @@ namespace Characters
 
     public class CharacterFactory
     {
-        private Dictionary<char, Character> characters = new Dictionary<char, Character>();
+        private readonly Dictionary<char, Character> characters = new Dictionary<char, Character>();
 
         public Character GetCharacter(char key)
         {

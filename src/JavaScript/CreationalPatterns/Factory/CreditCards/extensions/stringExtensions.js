@@ -1,5 +1,4 @@
 
-
 const splitPascalCaseString = (pascalCaseString) => {
     const modifiedCharacters = pascalCaseString
         .split('')
