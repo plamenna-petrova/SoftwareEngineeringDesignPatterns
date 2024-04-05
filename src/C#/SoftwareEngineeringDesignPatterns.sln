@@ -219,25 +219,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathProxy", "StructuralPatt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Folder", "StructuralPatterns\Proxy\Folder\Folder.csproj", "{5091A3EA-CE0F-4778-9336-48892FDDE768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "StructuralPatterns\Proxy\Server\Server.csproj", "{508CBFB4-359E-4909-B366-10C139E99B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "StructuralPatterns\Proxy\Server\Server.csproj", "{508CBFB4-359E-4909-B366-10C139E99B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisPlayers", "StructuralPatterns\Proxy\TennisPlayers\TennisPlayers.csproj", "{2D5627D3-358F-4D65-B658-5B9B02772EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TennisPlayers", "StructuralPatterns\Proxy\TennisPlayers\TennisPlayers.csproj", "{2D5627D3-358F-4D65-B658-5B9B02772EED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{DAF92B57-0D67-4B08-9221-650763F7C8C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{49B9AA6E-EC48-4B3B-A10E-8BB68B8F23B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\ChainOfResponsibility\StructuralCode\StructuralCode.csproj", "{2D9B8B8E-F090-463C-B099-322E8CB27939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\ChainOfResponsibility\StructuralCode\StructuralCode.csproj", "{2D9B8B8E-F090-463C-B099-322E8CB27939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareApplicationOperations", "BehavioralPatterns\ChainOfResponsibility\SoftwareApplicationOperations\SoftwareApplicationOperations.csproj", "{02732DDC-EB71-4976-A5F1-19C22817F7DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareApplicationOperations", "BehavioralPatterns\ChainOfResponsibility\SoftwareApplicationOperations\SoftwareApplicationOperations.csproj", "{02732DDC-EB71-4976-A5F1-19C22817F7DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurchaseRequestsApproval", "BehavioralPatterns\ChainOfResponsibility\PurchaseRequestsApproval\PurchaseRequestsApproval.csproj", "{046412C6-4998-48BB-B29E-45B23E0E9375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurchaseRequestsApproval", "BehavioralPatterns\ChainOfResponsibility\PurchaseRequestsApproval\PurchaseRequestsApproval.csproj", "{046412C6-4998-48BB-B29E-45B23E0E9375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersApproval", "BehavioralPatterns\ChainOfResponsibility\OrdersApproval\OrdersApproval.csproj", "{77D20BB6-3713-4D04-B867-03911069C25A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersApproval", "BehavioralPatterns\ChainOfResponsibility\OrdersApproval\OrdersApproval.csproj", "{77D20BB6-3713-4D04-B867-03911069C25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggers", "BehavioralPatterns\ChainOfResponsibility\Loggers\Loggers.csproj", "{8EDA45F9-1D37-4312-B46C-B368B11A9250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggers", "BehavioralPatterns\ChainOfResponsibility\Loggers\Loggers.csproj", "{8EDA45F9-1D37-4312-B46C-B368B11A9250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSupportTickets", "BehavioralPatterns\ChainOfResponsibility\CustomerSupportTickets\CustomerSupportTickets.csproj", "{B11DF39A-B24A-4FD7-B5F7-E73635A5510C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerSupportTickets", "BehavioralPatterns\ChainOfResponsibility\CustomerSupportTickets\CustomerSupportTickets.csproj", "{B11DF39A-B24A-4FD7-B5F7-E73635A5510C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{A416FD52-B243-4149-82D0-507696363919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Command\StructuralCode\StructuralCode.csproj", "{16F4D179-DCBA-4A3D-8C95-D3CF05382580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "BehavioralPatterns\Command\Calculator\Calculator.csproj", "{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPrices", "BehavioralPatterns\Command\ProductPrices\ProductPrices.csproj", "{F8D6F6D3-670A-4880-A0CE-FF015AD7950A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightsSwitch", "BehavioralPatterns\Command\LightsSwitch\LightsSwitch.csproj", "{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodRestaurant", "BehavioralPatterns\Command\FastFoodRestaurant\FastFoodRestaurant.csproj", "{2FC1AB94-00C5-4251-A8BB-5A707918B490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -629,6 +641,26 @@ Global
 		{B11DF39A-B24A-4FD7-B5F7-E73635A5510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11DF39A-B24A-4FD7-B5F7-E73635A5510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11DF39A-B24A-4FD7-B5F7-E73635A5510C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F4D179-DCBA-4A3D-8C95-D3CF05382580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F4D179-DCBA-4A3D-8C95-D3CF05382580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F4D179-DCBA-4A3D-8C95-D3CF05382580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F4D179-DCBA-4A3D-8C95-D3CF05382580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D6F6D3-670A-4880-A0CE-FF015AD7950A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D6F6D3-670A-4880-A0CE-FF015AD7950A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D6F6D3-670A-4880-A0CE-FF015AD7950A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D6F6D3-670A-4880-A0CE-FF015AD7950A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC1AB94-00C5-4251-A8BB-5A707918B490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC1AB94-00C5-4251-A8BB-5A707918B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC1AB94-00C5-4251-A8BB-5A707918B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC1AB94-00C5-4251-A8BB-5A707918B490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -748,6 +780,12 @@ Global
 		{77D20BB6-3713-4D04-B867-03911069C25A} = {49B9AA6E-EC48-4B3B-A10E-8BB68B8F23B4}
 		{8EDA45F9-1D37-4312-B46C-B368B11A9250} = {49B9AA6E-EC48-4B3B-A10E-8BB68B8F23B4}
 		{B11DF39A-B24A-4FD7-B5F7-E73635A5510C} = {49B9AA6E-EC48-4B3B-A10E-8BB68B8F23B4}
+		{A416FD52-B243-4149-82D0-507696363919} = {DAF92B57-0D67-4B08-9221-650763F7C8C9}
+		{16F4D179-DCBA-4A3D-8C95-D3CF05382580} = {A416FD52-B243-4149-82D0-507696363919}
+		{A921DE3D-054A-4DEC-9E97-5AE7DDFA4474} = {A416FD52-B243-4149-82D0-507696363919}
+		{F8D6F6D3-670A-4880-A0CE-FF015AD7950A} = {A416FD52-B243-4149-82D0-507696363919}
+		{5B5DD1D7-85BC-443B-B4E3-CF03D769FD5A} = {A416FD52-B243-4149-82D0-507696363919}
+		{2FC1AB94-00C5-4251-A8BB-5A707918B490} = {A416FD52-B243-4149-82D0-507696363919}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
