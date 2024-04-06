@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/fast_food_restaurant",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BehavioralPatterns\\Command\\FastFoodRestaurant\\Models\\": "Models",
+      "BehavioralPatterns\\Command\\FastFoodRestaurant\\Commands\\": "Commands",
+      "BehavioralPatterns\\Command\\FastFoodRestaurant\\": ""
+    }
+  }
+}
