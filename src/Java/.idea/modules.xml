@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/CustomerSupportTickets/CustomerSupportTickets.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/CustomerSupportTickets/CustomerSupportTickets.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/DateExpressions/DateExpressions.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/DateExpressions/DateExpressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" />
@@ -53,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/NumbersTranslations/NumbersTranslations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/NumbersTranslations/NumbersTranslations.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Orders/Orders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Orders/Orders.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/OrdersApproval/OrdersApproval.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/OrdersApproval/OrdersApproval.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/PeopleIdentification/PeopleIdentification.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/PeopleIdentification/PeopleIdentification.iml" />
@@ -65,7 +67,9 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/PurchaseRequestsApproval/PurchaseRequestsApproval.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/PurchaseRequestsApproval/PurchaseRequestsApproval.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" />
@@ -73,6 +77,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/StructuralCode/StructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/StructuralCode/StructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" />
