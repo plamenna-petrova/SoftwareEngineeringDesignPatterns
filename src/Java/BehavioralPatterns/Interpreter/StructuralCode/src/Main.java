@@ -12,14 +12,14 @@ abstract class AbstractExpression {
 class TerminalExpression extends AbstractExpression {
     @Override
     public void Interpret(Context context) {
-        System.out.println("Called Terminal.Interpret()");
+        System.out.println("Called TerminalExpression.Interpret()");
     }
 }
 
 class NonterminalExpression extends AbstractExpression {
     @Override
     public void Interpret(Context context) {
-        System.out.println("Called Nonterminal.Interpret()");
+        System.out.println("Called NonterminalExpression.Interpret()");
     }
 }
 

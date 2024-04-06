@@ -17,7 +17,7 @@ namespace StructuralCode
     {
         public override void Interpret(Context context)
         {
-            Console.WriteLine("Called Terminal.Interpret()");
+            Console.WriteLine("Called TerminalExpression.Interpret()");
         }
     }
 
@@ -25,7 +25,7 @@ namespace StructuralCode
     {
         public override void Interpret(Context context)
         {
-            Console.WriteLine("Called Nonterminal.Interpret()");
+            Console.WriteLine("Called NonterminalExpression.Interpret()");
         }
     }
 

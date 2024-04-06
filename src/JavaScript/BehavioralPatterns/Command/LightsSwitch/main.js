@@ -1,6 +1,4 @@
 
-const prompt = require('prompt-sync')();
-
 class Light {
     turnOn() {
         console.log("The light is on");
@@ -47,6 +45,8 @@ class Switch {
         command.execute();
     }
 }
+
+const prompt = require('prompt-sync')();
 
 console.log("Enter commands (ON/OFF) : ");
 const input = prompt();
