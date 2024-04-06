@@ -14,7 +14,7 @@ namespace StructuralCode
     {
         protected Receiver receiver;
 
-        public Command(Receiver receiver)
+        public Command(Receiver receiver) 
         {
             this.receiver = receiver;
         }
