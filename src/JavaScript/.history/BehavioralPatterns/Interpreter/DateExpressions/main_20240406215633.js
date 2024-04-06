@@ -1,4 +1,3 @@
-
 class Context {
     constructor(date) {
         this.date = date;

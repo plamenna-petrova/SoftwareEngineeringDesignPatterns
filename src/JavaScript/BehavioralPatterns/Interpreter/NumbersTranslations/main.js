@@ -22,7 +22,7 @@ class NumberExpression extends INumberExpression {
             numberContext.result += `${numberTranslations[parseInt(character)]}-`;
         }
 
-        numberContext.result = numberContext.result.slice(0, -1); // Remove the trailing hyphen
+        numberContext.result = numberContext.result.slice(0, -1);
     }
 }
 
