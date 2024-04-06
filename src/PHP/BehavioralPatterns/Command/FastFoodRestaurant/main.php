@@ -6,6 +6,7 @@ use BehavioralPatterns\Command\FastFoodRestaurant\Patron;
 require_once 'vendor/autoload.php';
 
 $patron = new Patron();
+
 $patron->setCommand(1);
 $patron->setMenuItem(new MenuItem("French Fries", 2, 1.99));
 $patron->executeFastFoodOrderCommand();

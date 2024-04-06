@@ -8,6 +8,7 @@ namespace FastFoodRestaurant
         static void Main(string[] args)
         {
             Patron patron = new Patron();
+
             patron.SetCommand(1);
             patron.SetMenuItem(new MenuItem("French Fries", 2, 1.99));
             patron.ExecuteFastFoodOrderCommand();
