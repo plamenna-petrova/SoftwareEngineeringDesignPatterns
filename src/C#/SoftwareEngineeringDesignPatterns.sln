@@ -253,27 +253,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodRestaurant", "Behav
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{34AD3C78-A35E-40B6-9AC8-3EDDF526ED60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Interpreter\StructuralCode\StructuralCode.csproj", "{CA1E882C-1E72-4177-8D5E-7DCB9631E540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Interpreter\StructuralCode\StructuralCode.csproj", "{CA1E882C-1E72-4177-8D5E-7DCB9631E540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersTranslations", "BehavioralPatterns\Interpreter\NumbersTranslations\NumbersTranslations.csproj", "{5BF3053D-9C37-449B-811E-6DD20FB942CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersTranslations", "BehavioralPatterns\Interpreter\NumbersTranslations\NumbersTranslations.csproj", "{5BF3053D-9C37-449B-811E-6DD20FB942CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateExpressions", "BehavioralPatterns\Interpreter\DateExpressions\DateExpressions.csproj", "{EE64A38A-150C-4924-AC9D-B8E067C0D509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateExpressions", "BehavioralPatterns\Interpreter\DateExpressions\DateExpressions.csproj", "{EE64A38A-150C-4924-AC9D-B8E067C0D509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralToDecimalConversion", "BehavioralPatterns\Interpreter\RomanNumeralToDecimalConversion\RomanNumeralToDecimalConversion.csproj", "{F2E55FA8-D225-4672-A915-FAD9244207ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumeralToDecimalConversion", "BehavioralPatterns\Interpreter\RomanNumeralToDecimalConversion\RomanNumeralToDecimalConversion.csproj", "{F2E55FA8-D225-4672-A915-FAD9244207ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandwichIngredients", "BehavioralPatterns\Interpreter\SandwichIngredients\SandwichIngredients.csproj", "{83562D91-6B66-430A-8E71-E7A05C5E26D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandwichIngredients", "BehavioralPatterns\Interpreter\SandwichIngredients\SandwichIngredients.csproj", "{83562D91-6B66-430A-8E71-E7A05C5E26D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Iterator\StructuralCode\StructuralCode.csproj", "{C3E76CB9-BD84-4551-BE22-CFEEDC5A838E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Iterator\StructuralCode\StructuralCode.csproj", "{C3E76CB9-BD84-4551-BE22-CFEEDC5A838E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationWithItemsSkip", "BehavioralPatterns\Iterator\IterationWithItemsSkip\IterationWithItemsSkip.csproj", "{740778EE-B9E3-41FB-9B2C-120D75DC8BB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterationWithItemsSkip", "BehavioralPatterns\Iterator\IterationWithItemsSkip\IterationWithItemsSkip.csproj", "{740778EE-B9E3-41FB-9B2C-120D75DC8BB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsIterator", "BehavioralPatterns\Iterator\CarsIterator\CarsIterator.csproj", "{9664FC45-F20D-4064-BF55-44D52352EA4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsIterator", "BehavioralPatterns\Iterator\CarsIterator\CarsIterator.csproj", "{9664FC45-F20D-4064-BF55-44D52352EA4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountantIterator", "BehavioralPatterns\Iterator\AccountantIterator\AccountantIterator.csproj", "{963075F4-158A-4D22-931F-630C00CB7130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountantIterator", "BehavioralPatterns\Iterator\AccountantIterator\AccountantIterator.csproj", "{963075F4-158A-4D22-931F-630C00CB7130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerableCollection", "BehavioralPatterns\Iterator\CustomEnumerableCollection\CustomEnumerableCollection.csproj", "{D11B9074-7F5A-45E6-977C-1847D3D3D499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumerableCollection", "BehavioralPatterns\Iterator\CustomEnumerableCollection\CustomEnumerableCollection.csproj", "{D11B9074-7F5A-45E6-977C-1847D3D3D499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIterator", "BehavioralPatterns\Iterator\LinqIterator\LinqIterator.csproj", "{F36E533D-A508-4887-ABD3-CCE9883D34D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTreeIterator", "BehavioralPatterns\Iterator\FamilyTreeIterator\FamilyTreeIterator.csproj", "{2208F387-DB55-4EED-BF65-57D14A1B1C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldExplanation", "BehavioralPatterns\Iterator\YieldExplanation\YieldExplanation.csproj", "{64D7289D-D4AC-470A-8D11-F8005A6CEED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -725,6 +731,18 @@ Global
 		{D11B9074-7F5A-45E6-977C-1847D3D3D499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11B9074-7F5A-45E6-977C-1847D3D3D499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11B9074-7F5A-45E6-977C-1847D3D3D499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36E533D-A508-4887-ABD3-CCE9883D34D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36E533D-A508-4887-ABD3-CCE9883D34D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36E533D-A508-4887-ABD3-CCE9883D34D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36E533D-A508-4887-ABD3-CCE9883D34D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2208F387-DB55-4EED-BF65-57D14A1B1C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2208F387-DB55-4EED-BF65-57D14A1B1C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2208F387-DB55-4EED-BF65-57D14A1B1C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2208F387-DB55-4EED-BF65-57D14A1B1C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D7289D-D4AC-470A-8D11-F8005A6CEED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D7289D-D4AC-470A-8D11-F8005A6CEED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D7289D-D4AC-470A-8D11-F8005A6CEED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D7289D-D4AC-470A-8D11-F8005A6CEED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -862,6 +880,9 @@ Global
 		{9664FC45-F20D-4064-BF55-44D52352EA4B} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
 		{963075F4-158A-4D22-931F-630C00CB7130} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
 		{D11B9074-7F5A-45E6-977C-1847D3D3D499} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
+		{F36E533D-A508-4887-ABD3-CCE9883D34D9} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
+		{2208F387-DB55-4EED-BF65-57D14A1B1C3E} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
+		{64D7289D-D4AC-470A-8D11-F8005A6CEED5} = {7BAC996F-814C-4FF1-8AE6-7BC2E1B4A619}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
