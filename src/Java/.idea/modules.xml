@@ -10,16 +10,20 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Apartments/Apartments.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/BridgeStructuralCode/BridgeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/BridgeStructuralCode/BridgeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/BuilderStructuralCode/BuilderStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/CQRS/CQRS.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/CQRS/CQRS.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Cars/Cars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Cars/Cars.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/CarsIterator/CarsIterator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/CarsIterator/CarsIterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/ChainOfResponsibilityStructuralCode/ChainOfResponsibilityStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/ChainOfResponsibilityStructuralCode/ChainOfResponsibilityStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/ChainReaction/ChainReaction.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/ChainReaction/ChainReaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/CharacterBuild/CharacterBuild.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/CharacterBuild/CharacterBuild.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Characters/Characters.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Characters/Characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/Chatroom/Chatroom.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/Chatroom/Chatroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ChemicalDatabank/ChemicalDatabank.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ChemicalDatabank/ChemicalDatabank.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/CloneablePrototype/CloneablePrototype.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/CloneablePrototype/CloneablePrototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/Colors/Colors.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/Colors/Colors.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/CommandStructuralCode/CommandStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/CommandStructuralCode/CommandStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" />
@@ -29,11 +33,13 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Customers/Customers.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/DateExpressions/DateExpressions.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/DateExpressions/DateExpressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/DecoratorStructuralCode/DecoratorStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/DepartmentMediator/DepartmentMediator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/DepartmentMediator/DepartmentMediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/FacadeStructuralCode/FacadeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/FacadeStructuralCode/FacadeStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/FacebookGroupMediator/FacebookGroupMediator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/FacebookGroupMediator/FacebookGroupMediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/FactoryMethodStructuralCode/FactoryMethodStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/FastFoodRestaurant/FastFoodRestaurant.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/FastFoodRestaurant/FastFoodRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/FlyweightStructuralCode/FlyweightStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/FlyweightStructuralCode/FlyweightStructuralCode.iml" />
@@ -57,6 +63,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/Loggers/Loggers.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/Loggers/Loggers.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/MathProxy/MathProxy.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/MathProxy/MathProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/MediatorStructuralCode/MediatorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/MediatorStructuralCode/MediatorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" />
