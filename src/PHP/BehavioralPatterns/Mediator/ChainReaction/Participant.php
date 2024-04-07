@@ -3,7 +3,7 @@
 namespace BehavioralPatterns\Mediator\ChainReaction;
 
 abstract class Participant {
-    protected $mediator;
+    protected Mediator $mediator;
 
     public function __construct(Mediator $mediator) {
         $this->mediator = $mediator;

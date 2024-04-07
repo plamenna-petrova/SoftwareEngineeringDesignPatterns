@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/communication_hub",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BehavioralPatterns\\Mediator\\CommunicationHub\\Mediators\\": "Mediators",
+      "BehavioralPatterns\\Mediator\\CommunicationHub\\Participants\\": "Participants"
+    }
+  }
+}
