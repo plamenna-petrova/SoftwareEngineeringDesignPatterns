@@ -133,7 +133,7 @@ namespace FamilyTreeIterator
                         orderby p.Name
                         select p;
 
-            Console.WriteLine("Born after 1980 1980 in alpha order");
+            Console.WriteLine("Born after 1980 1980 in alphabetical order");
 
             foreach (Person person in selection)
             {
