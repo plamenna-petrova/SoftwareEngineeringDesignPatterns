@@ -299,13 +299,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS", "BehavioralPatterns\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{693887D2-7A51-4726-9737-E471F5BAE99A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Memento\StructuralCode\StructuralCode.csproj", "{9D492FCD-DED5-4F30-B470-48CA87F54AD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Memento\StructuralCode\StructuralCode.csproj", "{9D492FCD-DED5-4F30-B470-48CA87F54AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesProspect", "BehavioralPatterns\Memento\SalesProspect\SalesProspect.csproj", "{7976192C-C299-4C67-998D-F958F28A184A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesProspect", "BehavioralPatterns\Memento\SalesProspect\SalesProspect.csproj", "{7976192C-C299-4C67-998D-F958F28A184A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEDTVs", "BehavioralPatterns\Memento\LEDTVs\LEDTVs.csproj", "{DE675CA9-FE75-4039-A38D-A4F83E73BF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LEDTVs", "BehavioralPatterns\Memento\LEDTVs\LEDTVs.csproj", "{DE675CA9-FE75-4039-A38D-A4F83E73BF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toys", "BehavioralPatterns\Memento\Toys\Toys.csproj", "{75052133-FB6B-4180-B530-48FFC1E0A4BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toys", "BehavioralPatterns\Memento\Toys\Toys.csproj", "{75052133-FB6B-4180-B530-48FFC1E0A4BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{83924AC4-9F32-417A-892D-8593735D4E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Observer\StructuralCode\StructuralCode.csproj", "{399AE881-AB1F-4888-BE4F-3E505315FB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investors", "BehavioralPatterns\Observer\Investors\Investors.csproj", "{665C4065-CA69-4F87-96B7-849B8EF152F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsInStock", "BehavioralPatterns\Observer\ProductsInStock\ProductsInStock.csproj", "{E47559B5-03C9-492E-A479-6AE2F4F87ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplications", "BehavioralPatterns\Observer\JobApplications\JobApplications.csproj", "{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -813,6 +823,22 @@ Global
 		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399AE881-AB1F-4888-BE4F-3E505315FB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399AE881-AB1F-4888-BE4F-3E505315FB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399AE881-AB1F-4888-BE4F-3E505315FB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399AE881-AB1F-4888-BE4F-3E505315FB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665C4065-CA69-4F87-96B7-849B8EF152F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665C4065-CA69-4F87-96B7-849B8EF152F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665C4065-CA69-4F87-96B7-849B8EF152F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665C4065-CA69-4F87-96B7-849B8EF152F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47559B5-03C9-492E-A479-6AE2F4F87ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47559B5-03C9-492E-A479-6AE2F4F87ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47559B5-03C9-492E-A479-6AE2F4F87ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47559B5-03C9-492E-A479-6AE2F4F87ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -966,6 +992,11 @@ Global
 		{7976192C-C299-4C67-998D-F958F28A184A} = {693887D2-7A51-4726-9737-E471F5BAE99A}
 		{DE675CA9-FE75-4039-A38D-A4F83E73BF55} = {693887D2-7A51-4726-9737-E471F5BAE99A}
 		{75052133-FB6B-4180-B530-48FFC1E0A4BE} = {693887D2-7A51-4726-9737-E471F5BAE99A}
+		{83924AC4-9F32-417A-892D-8593735D4E3C} = {DAF92B57-0D67-4B08-9221-650763F7C8C9}
+		{399AE881-AB1F-4888-BE4F-3E505315FB1C} = {83924AC4-9F32-417A-892D-8593735D4E3C}
+		{665C4065-CA69-4F87-96B7-849B8EF152F4} = {83924AC4-9F32-417A-892D-8593735D4E3C}
+		{E47559B5-03C9-492E-A479-6AE2F4F87ED5} = {83924AC4-9F32-417A-892D-8593735D4E3C}
+		{9F3694A8-C225-420E-BF4B-87A97EA0A7E7} = {83924AC4-9F32-417A-892D-8593735D4E3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
