@@ -19,7 +19,7 @@ namespace JobApplications
 
     public interface IObserver<T>
     {
-        void Subscribe(ApplicationHandler provider);
+        void Subscribe(ApplicationHandler applicationHandler);
 
         void Unsubscribe();
 
@@ -140,9 +140,9 @@ namespace JobApplications
 
     public class UnSubscriber : IDisposable
     {
-        private List<IObserver<Application>> applicationObservers;
+        private readonly List<IObserver<Application>> applicationObservers;
 
-        private IObserver<Application> applicationObserver;
+        private readonly IObserver<Application> applicationObserver;
 
         public UnSubscriber(List<IObserver<Application>> applicationObservers, IObserver<Application> applicationObserver)
         {
