@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AbstractFactoryStructuralCode/AbstractFactoryStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/AbstractFactoryStructuralCode/AbstractFactoryStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/AccountBalance/AccountBalance.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/AccountBalance/AccountBalance.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/AccountantIterator/AccountantIterator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/AccountantIterator/AccountantIterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/AdapterStructuralCode/AdapterStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/AdapterStructuralCode/AdapterStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/AirConditioners/AirConditioners.iml" />
@@ -26,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/ComputerState/ComputerState.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/ComputerState/ComputerState.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/CreditCards/CreditCards.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/CustomIterableCollection/CustomIterableCollection.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/CustomIterableCollection/CustomIterableCollection.iml" />
@@ -52,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/InterpreterStructuralCode/InterpreterStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/InterpreterStructuralCode/InterpreterStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Observer/Investors/Investors.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Observer/Investors/Investors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/Invoices/Invoices.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/Invoices/Invoices.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/IterationWithItemsSkip/IterationWithItemsSkip.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/IterationWithItemsSkip/IterationWithItemsSkip.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
@@ -97,12 +100,14 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/StateStructuralCode/StateStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/StateStructuralCode/StateStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/Toys/Toys.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/Toys/Toys.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/VendingMachine/VendingMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/WindowsFormsApplication/WindowsFormsApplication.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/WindowsFormsApplication/WindowsFormsApplication.iml" />
     </modules>
