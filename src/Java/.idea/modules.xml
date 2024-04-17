@@ -51,9 +51,11 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/GraphicalTreeStructure/GraphicalTreeStructure.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/GraphicalTreeStructure/GraphicalTreeStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Hamburgers/Hamburgers.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/InterpreterStructuralCode/InterpreterStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/InterpreterStructuralCode/InterpreterStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Observer/Investors/Investors.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Observer/Investors/Investors.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/IterationWithItemsSkip/IterationWithItemsSkip.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/IterationWithItemsSkip/IterationWithItemsSkip.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Observer/JobApplications/JobApplications.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Observer/JobApplications/JobApplications.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/LEDTVs/LEDTVs.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/LEDTVs/LEDTVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" />
@@ -70,12 +72,14 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/NumbersTranslations/NumbersTranslations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/NumbersTranslations/NumbersTranslations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Observer/ObserverStructuralCode/ObserverStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Observer/ObserverStructuralCode/ObserverStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Orders/Orders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Orders/Orders.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/OrdersApproval/OrdersApproval.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/OrdersApproval/OrdersApproval.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/PeopleIdentification/PeopleIdentification.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/PeopleIdentification/PeopleIdentification.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/PizzaSimpleFactory/PizzaSimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/PoliceCars/PoliceCars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/PoliceCars/PoliceCars.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/ProductPrices/ProductPrices.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/ProductPrices/ProductPrices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Observer/ProductsInStock/ProductsInStock.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Observer/ProductsInStock/ProductsInStock.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/ProductsStockReport/ProductsStockReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/PrototypeStructuralCode/PrototypeStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/PrototypeStructuralCode/PrototypeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/ProxyStructuralCode/ProxyStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/ProxyStructuralCode/ProxyStructuralCode.iml" />

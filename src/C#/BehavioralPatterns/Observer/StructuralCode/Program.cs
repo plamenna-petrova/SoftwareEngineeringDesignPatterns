@@ -81,8 +81,6 @@ namespace StructuralCode
 
             concreteSubject.SubjectState = "ABC";
             concreteSubject.Notify();
-
-            Console.ReadKey();
         }
     }
 }
