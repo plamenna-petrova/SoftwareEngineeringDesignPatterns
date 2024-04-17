@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/vending_machine",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "user",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BehavioralPatterns\\State\\VendingMachine\\": ""
+    }
+  }
+}
