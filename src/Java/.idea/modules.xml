@@ -55,6 +55,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Iterator/IteratorStructuralCode/IteratorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/Journals/Journals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/LEDTVs/LEDTVs.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/LEDTVs/LEDTVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Laptops/Laptops.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/LibraryForBorrowing/LibraryForBorrowing.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/LibraryForBorrowing/LibraryForBorrowing.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/LightsSwitch/LightsSwitch.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/LightsSwitch/LightsSwitch.iml" />
@@ -64,6 +65,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/MathProxy/MathProxy.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/MathProxy/MathProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/MeatCooking/MeatCooking.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/MediatorStructuralCode/MediatorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/MediatorStructuralCode/MediatorStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/MementoStructuralCode/MementoStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/MementoStructuralCode/MementoStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Mortgage/Mortgage.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Motorcycles/Motorcycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/Multimedia/Multimedia.iml" />
@@ -82,6 +84,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" />
@@ -93,6 +96,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/Toys/Toys.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/Toys/Toys.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" />
