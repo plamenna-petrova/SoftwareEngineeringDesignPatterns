@@ -275,27 +275,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountantIterator", "Behav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumerableCollection", "BehavioralPatterns\Iterator\CustomEnumerableCollection\CustomEnumerableCollection.csproj", "{D11B9074-7F5A-45E6-977C-1847D3D3D499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIterator", "BehavioralPatterns\Iterator\LinqIterator\LinqIterator.csproj", "{F36E533D-A508-4887-ABD3-CCE9883D34D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqIterator", "BehavioralPatterns\Iterator\LinqIterator\LinqIterator.csproj", "{F36E533D-A508-4887-ABD3-CCE9883D34D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTreeIterator", "BehavioralPatterns\Iterator\FamilyTreeIterator\FamilyTreeIterator.csproj", "{2208F387-DB55-4EED-BF65-57D14A1B1C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeIterator", "BehavioralPatterns\Iterator\FamilyTreeIterator\FamilyTreeIterator.csproj", "{2208F387-DB55-4EED-BF65-57D14A1B1C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldExplanation", "BehavioralPatterns\Iterator\YieldExplanation\YieldExplanation.csproj", "{64D7289D-D4AC-470A-8D11-F8005A6CEED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldExplanation", "BehavioralPatterns\Iterator\YieldExplanation\YieldExplanation.csproj", "{64D7289D-D4AC-470A-8D11-F8005A6CEED5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{4923E077-7E09-4D64-AF25-D3C88CCA96F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Mediator\StructuralCode\StructuralCode.csproj", "{EFC007D5-7193-41C4-BB1A-CE3CDEDCD105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Mediator\StructuralCode\StructuralCode.csproj", "{EFC007D5-7193-41C4-BB1A-CE3CDEDCD105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatroom", "BehavioralPatterns\Mediator\Chatroom\Chatroom.csproj", "{C82748F8-E063-47CB-8A04-AF2F78832BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chatroom", "BehavioralPatterns\Mediator\Chatroom\Chatroom.csproj", "{C82748F8-E063-47CB-8A04-AF2F78832BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentMediator", "BehavioralPatterns\Mediator\DepartmentMediator\DepartmentMediator.csproj", "{6D85D770-01E0-4691-8565-8E59B6A1F814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentMediator", "BehavioralPatterns\Mediator\DepartmentMediator\DepartmentMediator.csproj", "{6D85D770-01E0-4691-8565-8E59B6A1F814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookGroupMediator", "BehavioralPatterns\Mediator\FacebookGroupMediator\FacebookGroupMediator.csproj", "{9F3F24C8-C09D-453C-AB67-D1AD3356AEBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacebookGroupMediator", "BehavioralPatterns\Mediator\FacebookGroupMediator\FacebookGroupMediator.csproj", "{9F3F24C8-C09D-453C-AB67-D1AD3356AEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainReaction", "BehavioralPatterns\Mediator\ChainReaction\ChainReaction.csproj", "{F0107247-F901-4249-A792-771D013B0E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainReaction", "BehavioralPatterns\Mediator\ChainReaction\ChainReaction.csproj", "{F0107247-F901-4249-A792-771D013B0E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationHub", "BehavioralPatterns\Mediator\CommunicationHub\CommunicationHub.csproj", "{D1015BE6-36FD-43DB-AD06-C44A035EF679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunicationHub", "BehavioralPatterns\Mediator\CommunicationHub\CommunicationHub.csproj", "{D1015BE6-36FD-43DB-AD06-C44A035EF679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "BehavioralPatterns\Mediator\CQRS\CQRS.csproj", "{712B493E-ECF9-4A4D-83A7-EB8247B098BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS", "BehavioralPatterns\Mediator\CQRS\CQRS.csproj", "{712B493E-ECF9-4A4D-83A7-EB8247B098BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{693887D2-7A51-4726-9737-E471F5BAE99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Memento\StructuralCode\StructuralCode.csproj", "{9D492FCD-DED5-4F30-B470-48CA87F54AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesProspect", "BehavioralPatterns\Memento\SalesProspect\SalesProspect.csproj", "{7976192C-C299-4C67-998D-F958F28A184A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEDTVs", "BehavioralPatterns\Memento\LEDTVs\LEDTVs.csproj", "{DE675CA9-FE75-4039-A38D-A4F83E73BF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toys", "BehavioralPatterns\Memento\Toys\Toys.csproj", "{75052133-FB6B-4180-B530-48FFC1E0A4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -787,6 +797,22 @@ Global
 		{712B493E-ECF9-4A4D-83A7-EB8247B098BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{712B493E-ECF9-4A4D-83A7-EB8247B098BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{712B493E-ECF9-4A4D-83A7-EB8247B098BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D492FCD-DED5-4F30-B470-48CA87F54AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D492FCD-DED5-4F30-B470-48CA87F54AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D492FCD-DED5-4F30-B470-48CA87F54AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D492FCD-DED5-4F30-B470-48CA87F54AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7976192C-C299-4C67-998D-F958F28A184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7976192C-C299-4C67-998D-F958F28A184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7976192C-C299-4C67-998D-F958F28A184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7976192C-C299-4C67-998D-F958F28A184A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE675CA9-FE75-4039-A38D-A4F83E73BF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE675CA9-FE75-4039-A38D-A4F83E73BF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE675CA9-FE75-4039-A38D-A4F83E73BF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE675CA9-FE75-4039-A38D-A4F83E73BF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75052133-FB6B-4180-B530-48FFC1E0A4BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -935,6 +961,11 @@ Global
 		{F0107247-F901-4249-A792-771D013B0E0F} = {4923E077-7E09-4D64-AF25-D3C88CCA96F2}
 		{D1015BE6-36FD-43DB-AD06-C44A035EF679} = {4923E077-7E09-4D64-AF25-D3C88CCA96F2}
 		{712B493E-ECF9-4A4D-83A7-EB8247B098BF} = {4923E077-7E09-4D64-AF25-D3C88CCA96F2}
+		{693887D2-7A51-4726-9737-E471F5BAE99A} = {DAF92B57-0D67-4B08-9221-650763F7C8C9}
+		{9D492FCD-DED5-4F30-B470-48CA87F54AD0} = {693887D2-7A51-4726-9737-E471F5BAE99A}
+		{7976192C-C299-4C67-998D-F958F28A184A} = {693887D2-7A51-4726-9737-E471F5BAE99A}
+		{DE675CA9-FE75-4039-A38D-A4F83E73BF55} = {693887D2-7A51-4726-9737-E471F5BAE99A}
+		{75052133-FB6B-4180-B530-48FFC1E0A4BE} = {693887D2-7A51-4726-9737-E471F5BAE99A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
