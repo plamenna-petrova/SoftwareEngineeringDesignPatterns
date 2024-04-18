@@ -60,8 +60,6 @@ namespace StructuralCode
 
             context = new Context(new ConcreteStrategyC());
             context.ContextInterface();
-
-            Console.ReadKey();
         }
     }
 }

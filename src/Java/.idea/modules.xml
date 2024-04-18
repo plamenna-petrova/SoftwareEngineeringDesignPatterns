@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Command/CommandStructuralCode/CommandStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Command/CommandStructuralCode/CommandStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/CommunicationHub/CommunicationHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/CompositeStructuralCode/CompositeStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Strategy/Compression/Compression.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Strategy/Compression/Compression.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/Computer/Computer.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/ComputerState/ComputerState.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/ComputerState/ComputerState.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/ComputerSystem/ComputerSystem.iml" />
@@ -91,6 +92,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Strategy/SalaryCalculator/SalaryCalculator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Strategy/SalaryCalculator/SalaryCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" />
@@ -99,8 +101,10 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/SoftwareCompany/SoftwareCompany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Strategy/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Strategy/SortingAlgorithms/SortingAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Stars/Stars.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/StateStructuralCode/StateStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/StateStructuralCode/StateStructuralCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Strategy/StrategyStructuralCode/StrategyStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Strategy/StrategyStructuralCode/StrategyStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/TVs/TVs.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/TennisPlayers/TennisPlayers.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/ThirdPartyBillingSystem/ThirdPartyBillingSystem.iml" />
