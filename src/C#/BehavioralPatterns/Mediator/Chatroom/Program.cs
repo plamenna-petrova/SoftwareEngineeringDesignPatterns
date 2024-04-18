@@ -94,7 +94,7 @@ namespace Chatroom
             Participant Paul = new Beatle("Paul");
             Participant Ringo = new Beatle("Ringo");
             Participant John = new Beatle("John");
-            Participant Yoko = new Beatle("Yoko");
+            Participant Yoko = new NonBeatle("Yoko");
 
             List<Participant> participantsToRegisterInChatroom = new List<Participant>()
             {

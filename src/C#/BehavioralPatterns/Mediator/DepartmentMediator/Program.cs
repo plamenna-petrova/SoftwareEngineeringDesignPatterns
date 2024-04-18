@@ -111,11 +111,19 @@ namespace DepartmentMediator
             User firstExaminer = new SchoolMember(departmentMediator, "Philip", "Information Technologies", true);
             User secondExaminer = new SchoolMember(departmentMediator, "Sarah", "Mechanics", true);
 
-            departmentMediator.RegisterUser(firstStudent);
-            departmentMediator.RegisterUser(secondStudent);
-            departmentMediator.RegisterUser(thirdStudent);
-            departmentMediator.RegisterUser(firstExaminer);
-            departmentMediator.RegisterUser(secondExaminer);
+            List<User> usersToRegister = new List<User>
+            {
+                firstStudent,
+                secondStudent,
+                thirdStudent,
+                firstExaminer,
+                secondExaminer
+            };
+
+            foreach (var userToRegister in usersToRegister)
+            {
+                departmentMediator.RegisterUser(userToRegister);
+            }
 
             firstStudent.SendAcknowledgement("Hello sir, I would like to register my class subjects today", firstExaminer);
             Console.WriteLine();
