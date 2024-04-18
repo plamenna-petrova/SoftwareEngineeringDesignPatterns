@@ -13,7 +13,7 @@ class CaloriesCalculator implements IVisitor {
     private double totalCalories;
 
     public CaloriesCalculator() {
-        totalCalories = 0;
+
     }
 
     public double getTotalCalories() {
@@ -36,12 +36,15 @@ class CaloriesCalculator implements IVisitor {
     }
 
     public void visitFlour(Flour flour) {
-        double calories = switch (flour.getFlourType()) {
-            case "All-Purpose" -> 3.64 * flour.getQuantity();
-            case "Whole Wheat" -> 3.39 * flour.getQuantity();
-            default -> 0;
-        };
-
+        double calories = 0;
+        switch (flour.getFlourType()) {
+            case "All-Purpose":
+                calories = 3.64 * flour.getQuantity();
+                break;
+            case "Whole Wheat":
+                calories = 3.39 * flour.getQuantity();
+                break;
+        }
         totalCalories += calories;
     }
 
@@ -79,6 +82,12 @@ abstract class Ingredient extends Element {
 class Butter extends Ingredient {
     private double fatContent;
 
+    public Butter(String name, double quantity, double fatContent) {
+        this.setName(name);
+        this.setQuantity(quantity);
+        this.setFatContent(fatContent);
+    }
+
     public double getFatContent() {
         return fatContent;
     }
@@ -94,14 +103,20 @@ class Butter extends Ingredient {
 }
 
 class Salt extends Ingredient {
-    private boolean isIodized;
+    private boolean iodized;
+
+    public Salt(String name, double quantity, boolean iodized) {
+        this.setName(name);
+        this.setQuantity(quantity);
+        this.setIodized(iodized);
+    }
 
     public boolean isIodized() {
-        return isIodized;
+        return iodized;
     }
 
     public void setIodized(boolean iodized) {
-        isIodized = iodized;
+        this.iodized = iodized;
     }
 
     @Override
@@ -113,12 +128,17 @@ class Salt extends Ingredient {
 class Flour extends Ingredient {
     private String flourType;
 
+    public Flour(String name, double quantity, String flourType) {
+        this.setName(name);
+        this.setQuantity(quantity);
+        this.setFlourType(flourType);
+    }
+
     public String getFlourType() {
         return flourType;
     }
 
     public void setFlourType(String flourType) {
-        System.out.println("Setting flour type: " + flourType);
         this.flourType = flourType;
     }
 
@@ -130,6 +150,12 @@ class Flour extends Ingredient {
 
 class Sugar extends Ingredient {
     private double sweetnessLevel;
+
+    public Sugar(String name, double quantity, double sweetnessLevel) {
+        this.setName(name);
+        this.setQuantity(quantity);
+        this.setSweetnessLevel(sweetnessLevel);
+    }
 
     public double getSweetnessLevel() {
         return sweetnessLevel;
@@ -166,13 +192,10 @@ public class Main {
     public static void main(String[] args) {
         Recipe recipe = new Recipe();
         List<Ingredient> ingredients = new ArrayList<>();
-        ingredients.add(new Butter());
-        // Commenting out the addition of Salt
-        // ingredients.add(new Salt());
-        Flour flour = new Flour();
-        flour.setFlourType("All-Purpose");
-        ingredients.add(flour);
-        ingredients.add(new Sugar());
+        ingredients.add(new Butter("Butter", 100, 0.81));
+        ingredients.add(new Salt("Salt", 10, true));
+        ingredients.add(new Flour("Flour", 500, "All-Purpose"));
+        ingredients.add(new Sugar("Sugar", 200, 0.5));
         recipe.setIngredients(ingredients);
 
         CaloriesCalculator caloriesCalculator = new CaloriesCalculator();
