@@ -2,14 +2,14 @@
 
 namespace Compression
 {
-    public interface ICompressionStrategy
+public interface ICompressionStrategy
     {
         void CompressFolder(string compressedArchiveFileName);
     }
 
     public class RarCompressionStrategy : ICompressionStrategy
     {
-        public void CompressFolder(string compressedArchiveFileName)
+        public void CompressFolder(string compressedArchiveFileName) 
         {
             Console.WriteLine($"The folder is compressed using the RAR approach: {compressedArchiveFileName}.rar file is created");
         }
