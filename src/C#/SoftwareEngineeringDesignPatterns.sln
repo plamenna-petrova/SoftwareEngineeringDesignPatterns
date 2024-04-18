@@ -309,25 +309,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toys", "BehavioralPatterns\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{83924AC4-9F32-417A-892D-8593735D4E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Observer\StructuralCode\StructuralCode.csproj", "{399AE881-AB1F-4888-BE4F-3E505315FB1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Observer\StructuralCode\StructuralCode.csproj", "{399AE881-AB1F-4888-BE4F-3E505315FB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investors", "BehavioralPatterns\Observer\Investors\Investors.csproj", "{665C4065-CA69-4F87-96B7-849B8EF152F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investors", "BehavioralPatterns\Observer\Investors\Investors.csproj", "{665C4065-CA69-4F87-96B7-849B8EF152F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsInStock", "BehavioralPatterns\Observer\ProductsInStock\ProductsInStock.csproj", "{E47559B5-03C9-492E-A479-6AE2F4F87ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsInStock", "BehavioralPatterns\Observer\ProductsInStock\ProductsInStock.csproj", "{E47559B5-03C9-492E-A479-6AE2F4F87ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplications", "BehavioralPatterns\Observer\JobApplications\JobApplications.csproj", "{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobApplications", "BehavioralPatterns\Observer\JobApplications\JobApplications.csproj", "{9F3694A8-C225-420E-BF4B-87A97EA0A7E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{30944B45-F200-4F5B-90E2-4EBA83AFDA64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\State\StructuralCode\StructuralCode.csproj", "{CAFEFAE6-4FF5-4650-B2EC-BD45E5C5EAA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\State\StructuralCode\StructuralCode.csproj", "{CAFEFAE6-4FF5-4650-B2EC-BD45E5C5EAA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountBalance", "BehavioralPatterns\State\AccountBalance\AccountBalance.csproj", "{9F4C5953-5798-40D3-897A-58E080518301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountBalance", "BehavioralPatterns\State\AccountBalance\AccountBalance.csproj", "{9F4C5953-5798-40D3-897A-58E080518301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerState", "BehavioralPatterns\State\ComputerState\ComputerState.csproj", "{AD47B5C9-1056-415C-9432-A85AC6B65869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerState", "BehavioralPatterns\State\ComputerState\ComputerState.csproj", "{AD47B5C9-1056-415C-9432-A85AC6B65869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoices", "BehavioralPatterns\State\Invoices\Invoices.csproj", "{FEE9E5A5-B402-40DA-95AE-0CF747ADC7AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invoices", "BehavioralPatterns\State\Invoices\Invoices.csproj", "{FEE9E5A5-B402-40DA-95AE-0CF747ADC7AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine", "BehavioralPatterns\State\VendingMachine\VendingMachine.csproj", "{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine", "BehavioralPatterns\State\VendingMachine\VendingMachine.csproj", "{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{4DA8E0F3-525C-47F0-BF0F-3324F912F515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Strategy\StructuralCode\StructuralCode.csproj", "{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "BehavioralPatterns\Strategy\SortingAlgorithms\SortingAlgorithms.csproj", "{AEC7E6DF-1873-490F-B678-4BD5545DAC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "BehavioralPatterns\Strategy\SalaryCalculator\SalaryCalculator.csproj", "{1DFA541C-B104-4898-907B-3399ED7E4A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "BehavioralPatterns\Strategy\Compression\Compression.csproj", "{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -871,6 +881,22 @@ Global
 		{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC7E6DF-1873-490F-B678-4BD5545DAC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC7E6DF-1873-490F-B678-4BD5545DAC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC7E6DF-1873-490F-B678-4BD5545DAC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC7E6DF-1873-490F-B678-4BD5545DAC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFA541C-B104-4898-907B-3399ED7E4A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFA541C-B104-4898-907B-3399ED7E4A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFA541C-B104-4898-907B-3399ED7E4A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFA541C-B104-4898-907B-3399ED7E4A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1035,6 +1061,11 @@ Global
 		{AD47B5C9-1056-415C-9432-A85AC6B65869} = {30944B45-F200-4F5B-90E2-4EBA83AFDA64}
 		{FEE9E5A5-B402-40DA-95AE-0CF747ADC7AA} = {30944B45-F200-4F5B-90E2-4EBA83AFDA64}
 		{DC76EA07-0DF4-4144-A9A9-EEAA77BA37CD} = {30944B45-F200-4F5B-90E2-4EBA83AFDA64}
+		{4DA8E0F3-525C-47F0-BF0F-3324F912F515} = {DAF92B57-0D67-4B08-9221-650763F7C8C9}
+		{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
+		{AEC7E6DF-1873-490F-B678-4BD5545DAC67} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
+		{1DFA541C-B104-4898-907B-3399ED7E4A48} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
+		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
