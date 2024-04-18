@@ -146,6 +146,7 @@ namespace RecipesVisitor
             };
 
             var caloriesCalculator = new CaloriesCalculator();
+
             recipe.Accept(caloriesCalculator);
 
             Console.WriteLine(caloriesCalculator.TotalCalories);

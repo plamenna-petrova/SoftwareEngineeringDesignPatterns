@@ -41,6 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/Documents/Documents.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Decorator/Drinks/Drinks.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Prototype/Employees/Employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Visitor/EmployeesVisitor/EmployeesVisitor.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Visitor/EmployeesVisitor/EmployeesVisitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/EraStyles/EraStyles.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Facade/FacadeStructuralCode/FacadeStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Facade/FacadeStructuralCode/FacadeStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Mediator/FacebookGroupMediator/FacebookGroupMediator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Mediator/FacebookGroupMediator/FacebookGroupMediator.iml" />
@@ -91,6 +92,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/ProxyStructuralCode/ProxyStructuralCode.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/ProxyStructuralCode/ProxyStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/PurchaseRequestsApproval/PurchaseRequestsApproval.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/PurchaseRequestsApproval/PurchaseRequestsApproval.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" filepath="$PROJECT_DIR$/CreationalPatterns/AbstractFactory/Recipes/Recipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Visitor/RecipesVisitor/RecipesVisitor.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Visitor/RecipesVisitor/RecipesVisitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Bridge/RestaurantOrders/RestaurantOrders.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/RomanNumeralToDecimalConversion/RomanNumeralToDecimalConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/RoyalCourtServants/RoyalCourtServants.iml" />
@@ -115,6 +117,7 @@
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Adapter/TwoWayAdapter/TwoWayAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Builder/Vehicles/Vehicles.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/State/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/State/VendingMachine/VendingMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Visitor/VisitorStructuralCode/VisitorStructuralCode.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Visitor/VisitorStructuralCode/VisitorStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/VotingMachine/VotingMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Composite/WindowsFormsApplication/WindowsFormsApplication.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Composite/WindowsFormsApplication/WindowsFormsApplication.iml" />
     </modules>

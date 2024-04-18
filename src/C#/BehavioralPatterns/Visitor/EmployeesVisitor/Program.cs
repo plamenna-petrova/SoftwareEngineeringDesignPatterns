@@ -137,8 +137,6 @@ namespace EmployeesVisitor
 
             employees.Accept(new IncomeVisitor());
             employees.Accept(new VacationVisitor());
-
-            Console.ReadKey();
         }
     }
 }
