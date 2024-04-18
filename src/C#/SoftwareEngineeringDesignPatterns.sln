@@ -331,13 +331,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendingMachine", "Behaviora
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{4DA8E0F3-525C-47F0-BF0F-3324F912F515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Strategy\StructuralCode\StructuralCode.csproj", "{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Strategy\StructuralCode\StructuralCode.csproj", "{7F227C9D-A6CB-45A7-B3B5-3F23BDFAA27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "BehavioralPatterns\Strategy\SortingAlgorithms\SortingAlgorithms.csproj", "{AEC7E6DF-1873-490F-B678-4BD5545DAC67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "BehavioralPatterns\Strategy\SortingAlgorithms\SortingAlgorithms.csproj", "{AEC7E6DF-1873-490F-B678-4BD5545DAC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "BehavioralPatterns\Strategy\SalaryCalculator\SalaryCalculator.csproj", "{1DFA541C-B104-4898-907B-3399ED7E4A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator", "BehavioralPatterns\Strategy\SalaryCalculator\SalaryCalculator.csproj", "{1DFA541C-B104-4898-907B-3399ED7E4A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "BehavioralPatterns\Strategy\Compression\Compression.csproj", "{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compression", "BehavioralPatterns\Strategy\Compression\Compression.csproj", "{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Template\StructuralCode\StructuralCode.csproj", "{3298A96E-2A96-4AB3-95CA-54BBE131343D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "BehavioralPatterns\Template\House\House.csproj", "{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessor", "BehavioralPatterns\Template\DataAccessor\DataAccessor.csproj", "{153CB98F-EB89-479F-BC49-5040F39AB1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsTemplate", "BehavioralPatterns\Template\ReportsTemplate\ReportsTemplate.csproj", "{14E4BC82-87D8-417F-9968-B66CB55AC670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -897,6 +907,22 @@ Global
 		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3298A96E-2A96-4AB3-95CA-54BBE131343D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3298A96E-2A96-4AB3-95CA-54BBE131343D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3298A96E-2A96-4AB3-95CA-54BBE131343D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3298A96E-2A96-4AB3-95CA-54BBE131343D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153CB98F-EB89-479F-BC49-5040F39AB1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153CB98F-EB89-479F-BC49-5040F39AB1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153CB98F-EB89-479F-BC49-5040F39AB1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153CB98F-EB89-479F-BC49-5040F39AB1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E4BC82-87D8-417F-9968-B66CB55AC670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E4BC82-87D8-417F-9968-B66CB55AC670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E4BC82-87D8-417F-9968-B66CB55AC670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E4BC82-87D8-417F-9968-B66CB55AC670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1066,6 +1092,11 @@ Global
 		{AEC7E6DF-1873-490F-B678-4BD5545DAC67} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
 		{1DFA541C-B104-4898-907B-3399ED7E4A48} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
 		{6B8EF4E9-3A19-4F68-B7D1-45922CE4BAEF} = {4DA8E0F3-525C-47F0-BF0F-3324F912F515}
+		{5DA5EAEF-A704-4798-BA4E-A72DCF4A3643} = {DAF92B57-0D67-4B08-9221-650763F7C8C9}
+		{3298A96E-2A96-4AB3-95CA-54BBE131343D} = {5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}
+		{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A} = {5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}
+		{153CB98F-EB89-479F-BC49-5040F39AB1C7} = {5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}
+		{14E4BC82-87D8-417F-9968-B66CB55AC670} = {5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}

@@ -57,9 +57,11 @@ namespace SalaryCalculator
             this.salaryCalculatorStrategy = salaryCalculatorStrategy;
         }
 
-        public void SetSalaryCalculatorStrategy(ISalaryCalculatorStrategy salaryCalculatorStrategy) => this.salaryCalculatorStrategy = salaryCalculatorStrategy;
+        public void SetSalaryCalculatorStrategy(ISalaryCalculatorStrategy salaryCalculatorStrategy) 
+            => this.salaryCalculatorStrategy = salaryCalculatorStrategy;
 
-        public double Calculate(IEnumerable<DeveloperReport> developerReports) => salaryCalculatorStrategy.CalculateTotalSalary(developerReports);
+        public double Calculate(IEnumerable<DeveloperReport> developerReports) 
+            => salaryCalculatorStrategy.CalculateTotalSalary(developerReports);
     }
 
     public class Program

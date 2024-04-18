@@ -1,5 +1,4 @@
 
-// Define ICompressionStrategy interface
 class CompressionStrategy {
     compressFolder(compressedArchiveFileName) {}
 }
