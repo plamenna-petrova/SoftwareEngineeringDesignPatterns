@@ -1,7 +1,6 @@
+
 class State {
     constructor(account) {
-        console.log("account");
-        console.log(account);
         this.account = account;
         this.balance = 0;
         this.interest = 0;
@@ -90,8 +89,7 @@ class SilverState extends State {
     checkStateChange() {
         if (this.balance < this.lowerLimit) {
             this.account.setState(new RedState(this.account));
-        } else if (this.balance > this.upperLimit) {
-            console.log(this.account);       
+        } else if (this.balance > this.upperLimit) {     
             this.account.setState(new GoldState(this.account)); 
         }
     }
@@ -139,7 +137,7 @@ class Account {
     constructor(owner) {
         this.owner = owner;
         this.state = new SilverState(this);
-        console.log(this.state);
+        this.state.account = this;
     }
 
     get balance() {
@@ -148,6 +146,7 @@ class Account {
 
     setState(state) {
         this.state = state;
+        this.state.account = this;
     }
 
     deposit(amount) {
