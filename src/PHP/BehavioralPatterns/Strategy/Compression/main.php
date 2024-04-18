@@ -5,29 +5,33 @@ interface ICompressionStrategy {
 }
 
 class RarCompressionStrategy implements ICompressionStrategy {
-    public function compressFolder($compressedArchiveFileName) {
+    public function compressFolder($compressedArchiveFileName): void
+    {
         echo "The folder is compressed using the RAR approach: $compressedArchiveFileName.rar file is created\n";
     }
 }
 
 class ZipCompressionStrategy implements ICompressionStrategy {
-    public function compressFolder($compressedArchiveFileName) {
+    public function compressFolder($compressedArchiveFileName): void
+    {
         echo "The folder is compressed using the ZIP approach: $compressedArchiveFileName.zip file is created\n";
     }
 }
 
 class CompressionContext {
-    private $compressionStrategy;
+    private ICompressionStrategy $compressionStrategy;
 
     public function __construct(ICompressionStrategy $compressionStrategy) {
         $this->compressionStrategy = $compressionStrategy;
     }
 
-    public function setCompressionStrategy(ICompressionStrategy $compressionStrategy) {
+    public function setCompressionStrategy(ICompressionStrategy $compressionStrategy): void
+    {
         $this->compressionStrategy = $compressionStrategy;
     }
 
-    public function createArchive($compressedArchiveFileName) {
+    public function createArchive($compressedArchiveFileName): void
+    {
         $this->compressionStrategy->compressFolder($compressedArchiveFileName);
     }
 }
