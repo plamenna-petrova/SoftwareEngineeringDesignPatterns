@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Added Java examples for the Mediator pattern and adjusted some of the C# Mediator examples">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Visitor/RecipesVisitor/RecipesVisitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BehavioralPatterns/Visitor/RecipesVisitor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BehavioralPatterns/Visitor/RecipesVisitor/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+    <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Small fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712491776403</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Small fixes">
+      <option name="closed" value="true" />
+      <created>1713461103681</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713461103681</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,6 +251,7 @@
     <MESSAGE value="Added Java examples for the Interpreter pattern" />
     <MESSAGE value="Added Java examples for the Iterator pattern" />
     <MESSAGE value="Added Java examples for the Mediator pattern and adjusted some of the C# Mediator examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java examples for the Mediator pattern and adjusted some of the C# Mediator examples" />
+    <MESSAGE value="Small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fixes" />
   </component>
 </project>
