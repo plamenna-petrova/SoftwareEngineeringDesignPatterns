@@ -14,19 +14,13 @@ namespace StructuralCode
 
         private string observerState;
 
-        private ConcreteSubject concreteSubject;
-
         public ConcreteObserver(ConcreteSubject concreteSubject, string name)
         {
-            this.concreteSubject = concreteSubject;
+            ConcreteSubject = concreteSubject;
             this.name = name;
         }
 
-        public ConcreteSubject ConcreteSubject
-        {
-            get { return concreteSubject; }
-            set { concreteSubject = value; }
-        }
+        public ConcreteSubject ConcreteSubject { get; set; }
 
         public override void Update()
         {
@@ -60,13 +54,7 @@ namespace StructuralCode
 
     public class ConcreteSubject : Subject
     {
-        private string subjectState;
-
-        public string SubjectState
-        {
-            get { return subjectState; }
-            set { subjectState = value; }
-        }
+        public string SubjectState { get; set; }
     }
 
     public class Program

@@ -68,6 +68,7 @@ namespace ProductsInStock
         {
             ProductAvailability = productAvailability;
             Console.WriteLine($"Availability changed from Out of Stock to {productAvailability}");
+            NotifyObservers();
         }
 
         public void RegisterObserver(IObserver observer)
