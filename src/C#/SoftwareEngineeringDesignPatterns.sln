@@ -341,21 +341,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compression", "BehavioralPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{5DA5EAEF-A704-4798-BA4E-A72DCF4A3643}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Template\StructuralCode\StructuralCode.csproj", "{3298A96E-2A96-4AB3-95CA-54BBE131343D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Template\StructuralCode\StructuralCode.csproj", "{3298A96E-2A96-4AB3-95CA-54BBE131343D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "BehavioralPatterns\Template\House\House.csproj", "{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "House", "BehavioralPatterns\Template\House\House.csproj", "{9E0D5E7B-EC39-4AC3-9E79-F9BB2FD5492A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessor", "BehavioralPatterns\Template\DataAccessor\DataAccessor.csproj", "{153CB98F-EB89-479F-BC49-5040F39AB1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessor", "BehavioralPatterns\Template\DataAccessor\DataAccessor.csproj", "{153CB98F-EB89-479F-BC49-5040F39AB1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsTemplate", "BehavioralPatterns\Template\ReportsTemplate\ReportsTemplate.csproj", "{14E4BC82-87D8-417F-9968-B66CB55AC670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportsTemplate", "BehavioralPatterns\Template\ReportsTemplate\ReportsTemplate.csproj", "{14E4BC82-87D8-417F-9968-B66CB55AC670}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{5B24C491-F4C6-4F57-B4A3-25630C5BAD17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "BehavioralPatterns\Visitor\StructuralCode\StructuralCode.csproj", "{167070D2-8886-4E52-8F77-CB8E24900058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "BehavioralPatterns\Visitor\StructuralCode\StructuralCode.csproj", "{167070D2-8886-4E52-8F77-CB8E24900058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesVisitor", "BehavioralPatterns\Visitor\EmployeesVisitor\EmployeesVisitor.csproj", "{5CBDD082-9830-43A4-8C6A-1FB63324DF83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesVisitor", "BehavioralPatterns\Visitor\EmployeesVisitor\EmployeesVisitor.csproj", "{5CBDD082-9830-43A4-8C6A-1FB63324DF83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesVisitor", "BehavioralPatterns\Visitor\RecipesVisitor\RecipesVisitor.csproj", "{2029D430-08D7-4515-8E94-B212E0F27087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesVisitor", "BehavioralPatterns\Visitor\RecipesVisitor\RecipesVisitor.csproj", "{2029D430-08D7-4515-8E94-B212E0F27087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorExplanatoryCode", "BehavioralPatterns\Mediator\MediatorExplanatoryCode\MediatorExplanatoryCode.csproj", "{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -943,6 +945,10 @@ Global
 		{2029D430-08D7-4515-8E94-B212E0F27087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2029D430-08D7-4515-8E94-B212E0F27087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2029D430-08D7-4515-8E94-B212E0F27087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1121,6 +1127,7 @@ Global
 		{167070D2-8886-4E52-8F77-CB8E24900058} = {5B24C491-F4C6-4F57-B4A3-25630C5BAD17}
 		{5CBDD082-9830-43A4-8C6A-1FB63324DF83} = {5B24C491-F4C6-4F57-B4A3-25630C5BAD17}
 		{2029D430-08D7-4515-8E94-B212E0F27087} = {5B24C491-F4C6-4F57-B4A3-25630C5BAD17}
+		{E2ECB07E-EC38-41AC-9377-6CEB3236D72E} = {4923E077-7E09-4D64-AF25-D3C88CCA96F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {659EB950-595F-4AE8-870F-2F962CC0B845}
