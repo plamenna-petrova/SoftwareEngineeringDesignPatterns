@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Small fixes">
-      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/EmployeesVisitor/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/RecipesVisitor/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/StructuralCode/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/BehavioralPatterns/Visitor/EmployeesVisitor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/BehavioralPatterns/Visitor/EmployeesVisitor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Template/ShipsTemplate/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Template/ShipsTemplate/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/SoftwareEngineeringDesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/SoftwareEngineeringDesignPatterns.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +61,13 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Software Development/.NET/SoftwareEngineeringDesignPatterns/src/Java/BehavioralPatterns/Template",
+    "last_opened_file_path": "D:/Software Development/.NET/SoftwareEngineeringDesignPatterns/src/Java/BehavioralPatterns/Visitor",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DepartmentMediator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RecipesVisitor" />
@@ -90,6 +78,13 @@
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CommunicationHub" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="School" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>

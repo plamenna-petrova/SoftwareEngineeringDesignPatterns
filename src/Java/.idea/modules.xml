@@ -99,6 +99,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Strategy/SalaryCalculator/SalaryCalculator.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Strategy/SalaryCalculator/SalaryCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Memento/SalesProspect/SalesProspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Visitor/School/School.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Visitor/School/School.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/ShipsTemplate.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/ShipsTemplate.iml" />
