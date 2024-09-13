@@ -89,7 +89,7 @@ namespace ChemicalDatabank
                 "ethanol" => "C2H50H",
                 _ => "",
             };
-        }
+        } 
 
         public double GetMolecularWeight(string compound)
         {
