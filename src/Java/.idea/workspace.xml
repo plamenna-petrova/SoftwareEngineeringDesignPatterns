@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Small fixes" />
+    <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Java workspace.xml change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713461103681</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Java workspace.xml change">
+      <option name="closed" value="true" />
+      <created>1726256486151</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726256486151</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Java workspace.xml change">
+      <option name="closed" value="true" />
+      <created>1726256624000</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726256624000</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,6 +268,7 @@
     <MESSAGE value="Added Java examples for the Iterator pattern" />
     <MESSAGE value="Added Java examples for the Mediator pattern and adjusted some of the C# Mediator examples" />
     <MESSAGE value="Small fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small fixes" />
+    <MESSAGE value="Java workspace.xml change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java workspace.xml change" />
   </component>
 </project>

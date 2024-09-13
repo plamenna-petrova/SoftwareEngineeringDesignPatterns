@@ -359,9 +359,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesVisitor", "Behaviora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorExplanatoryCode", "BehavioralPatterns\Mediator\MediatorExplanatoryCode\MediatorExplanatoryCode.csproj", "{E2ECB07E-EC38-41AC-9377-6CEB3236D72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipsTemplate", "BehavioralPatterns\Template\ShipsTemplate\ShipsTemplate.csproj", "{D56A35D9-CFB8-4059-8E84-B462A74DB879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShipsTemplate", "BehavioralPatterns\Template\ShipsTemplate\ShipsTemplate.csproj", "{D56A35D9-CFB8-4059-8E84-B462A74DB879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "BehavioralPatterns\Visitor\School\School.csproj", "{F241F940-C037-40A6-880C-8C02C4387452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "BehavioralPatterns\Visitor\School\School.csproj", "{F241F940-C037-40A6-880C-8C02C4387452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
