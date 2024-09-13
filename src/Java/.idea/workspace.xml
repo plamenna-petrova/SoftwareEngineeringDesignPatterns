@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Small fixes">
+      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Visitor/School/School.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Visitor/School/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../C#/SoftwareEngineeringDesignPatterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/SoftwareEngineeringDesignPatterns.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -78,7 +78,7 @@ namespace School
         {
             foreach (var kid in elements)
             {
-                kid.Accept(visitor);
+                kid.Accept(visitor); 
             }
         }
     }

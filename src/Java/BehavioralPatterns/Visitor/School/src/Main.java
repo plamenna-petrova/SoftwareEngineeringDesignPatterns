@@ -73,7 +73,7 @@ class Teacher implements IVisitor {
     public void visit(IElement element) {
         if (element instanceof Kid) {
             Kid kid = (Kid) element;
-            System.out.println("Teacher: " + name + " assesses the daily work of the child: " + kid.getName());
+            System.out.println("Teacher: " + name + " assessed the daily work of the child: " + kid.getName());
         }
     }
 }

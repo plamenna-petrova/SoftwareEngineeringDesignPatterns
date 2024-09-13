@@ -67,7 +67,7 @@ class Teacher extends IVisitor {
 
     visit(element) {
         if (element instanceof Kid) {
-            console.log(`Teacher: ${this.name} assessed the daily work of the child: ${element.getName()}`);
+            console.log(`Teacher: ${this.name} assesses the daily work of the child: ${element.getName()}`);
         }
     }
 }

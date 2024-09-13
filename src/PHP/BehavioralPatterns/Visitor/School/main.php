@@ -77,7 +77,7 @@ class Teacher implements IVisitor {
     {
         if ($element instanceof Kid) {
             $kid = $element;
-            echo "Teacher: " . $this->name . " assesses the daily work of the child: " . $kid->getName() . PHP_EOL;
+            echo "Teacher: " . $this->name . " assessed the daily work of the child: " . $kid->getName() . PHP_EOL;
         }
     }
 }
