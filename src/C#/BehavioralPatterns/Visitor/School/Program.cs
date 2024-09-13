@@ -10,7 +10,7 @@ namespace School
 
     public class Kid : IElement
     {
-        public Kid(string name)
+        public Kid(string name) 
         {
             Name = name;
         }
