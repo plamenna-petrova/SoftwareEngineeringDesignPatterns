@@ -102,7 +102,7 @@ namespace EmployeesVisitor
 
     public class Employees
     {
-        private List<Employee> employees = new List<Employee>();
+        private readonly List<Employee> employees = new List<Employee>();
 
         public void Attach(Employee employee)
         {

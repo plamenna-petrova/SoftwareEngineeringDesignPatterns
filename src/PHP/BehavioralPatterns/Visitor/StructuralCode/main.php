@@ -6,7 +6,6 @@ abstract class Visitor {
     public abstract function visitConcreteElementB(ConcreteElementB $concreteElementB);
 }
 
-// Concrete Visitor A class
 class ConcreteVisitorA extends Visitor {
     public function visitConcreteElementA(ConcreteElementA $concreteElementA): void
     {
