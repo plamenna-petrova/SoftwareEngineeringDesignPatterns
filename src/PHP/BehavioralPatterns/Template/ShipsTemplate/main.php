@@ -1,8 +1,6 @@
 <?php
 
 abstract class MedievalShipTemplate {
-
-    // Template method
     public function buildMedievalShip(): void
     {
         $this->buildFoundation();
@@ -27,7 +25,6 @@ abstract class MedievalShipTemplate {
     protected abstract function buildExteriorDetails();
 }
 
-// Concrete class Cog
 class Cog extends MedievalShipTemplate {
 
     protected function buildFoundation(): void
@@ -61,9 +58,7 @@ class Cog extends MedievalShipTemplate {
     }
 }
 
-// Concrete class Caravel
 class Caravel extends MedievalShipTemplate {
-
     protected function buildFoundation(): void
     {
         echo "Building foundation, using caravel method of construction\n";

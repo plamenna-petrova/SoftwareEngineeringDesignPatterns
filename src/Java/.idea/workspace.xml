@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a2050-41fa-45f5-834d-126185a185cc" name="Changes" comment="Small fixes">
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/ShipsTemplate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/src/Caravel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/src/Cog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/src/MedievalShipTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Template/ShipsTemplate/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/EmployeesVisitor/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/RecipesVisitor/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Visitor/StructuralCode/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/BehavioralPatterns/Visitor/EmployeesVisitor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/BehavioralPatterns/Visitor/EmployeesVisitor/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Template/ShipsTemplate/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/BehavioralPatterns/Template/ShipsTemplate/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
