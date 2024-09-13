@@ -101,6 +101,7 @@
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Interpreter/SandwichIngredients/SandwichIngredients.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Proxy/Server/Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/StructuralPatterns/Flyweight/Shapes/Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/ShipsTemplate.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/Template/ShipsTemplate/ShipsTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Singleton/SingletonStructuralCode/SingletonStructuralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" filepath="$PROJECT_DIR$/CreationalPatterns/Factory/SmartDevices/SmartDevices.iml" />
       <module fileurl="file://$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" filepath="$PROJECT_DIR$/BehavioralPatterns/ChainOfResponsibility/SoftwareApplicationOperations/SoftwareApplicationOperations.iml" />

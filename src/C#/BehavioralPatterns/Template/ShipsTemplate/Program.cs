@@ -65,7 +65,7 @@ namespace ShipsTemplate
     {
         protected override void BuildFoundation()
         {
-            Console.WriteLine("Building foundation, using carvel method of construction");
+            Console.WriteLine("Building foundation, using caravel method of construction");
         }
 
         protected override void BuildHull()
@@ -89,7 +89,7 @@ namespace ShipsTemplate
         }
 
         protected override void BuildExteriorDetails()
-        {
+        { 
             Console.WriteLine("Building templar flags ornaments");
         }
     }
